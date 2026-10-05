@@ -1,40 +1,52 @@
 ---
-interface Props {
-  variant?: 'desktop' | 'mobile';
-}
-
+import hub from '../data/conditions-hub.json';
+interface Props { variant?: 'desktop' | 'mobile'; }
 const { variant = 'desktop' } = Astro.props;
-const navClass = variant === 'mobile' ? 'mobile-nav' : 'site-header__nav';
-const label = variant === 'mobile' ? 'Mobile' : 'Primary';
+const builtPaths = new Set([
+  ...Object.keys(import.meta.glob('/src/pages/**/index.astro')).map(p => p.replace(/^\/src\/pages/, '').replace(/index\.astro$/, '')),
+  ...Object.keys(import.meta.glob('/src/data/conditions/*.json')).map(p => `/conditions/${p.split('/').pop()?.replace('.json', '')}/`),
+]);
+const groups = hub.groups.map(group => ({ ...group, items: group.items.filter(item => builtPaths.has(item.href)) }));
+const services = [
+  { href: '/services/osteopathy/', title: 'Osteopathy' },
+  ...Object.keys(import.meta.glob('/src/data/services/*.json')).map(p => { const slug = p.split('/').pop()?.replace('.json', '') ?? ''; return { href: `/services/${slug}/`, title: slug.charAt(0).toUpperCase() + slug.slice(1) }; }),
+  { href: '/services/shockwave-therapy/', title: 'Shockwave Therapy' },
+];
 ---
-
-<nav class={navClass} aria-label={label}>
+<nav class={variant === 'mobile' ? 'mobile-nav' : 'site-header__nav'} aria-label={variant === 'mobile' ? 'Mobile' : 'Primary'}>
   <a href="/">Home</a>
-  <details class="nav-group">
-    <summary>Meet Us</summary>
-    <div class="nav-group__menu">
-      <a href="/about/">About Alpha</a>
-      <a href="/staff/dr-ashton-wilson/">Dr Ashton Wilson</a>
-    </div>
-  </details>
-  <details class="nav-group">
-    <summary>Conditions</summary>
-    <div class="nav-group__menu">
-      <a href="/services/osteopathy/">Osteopathy</a>
-      <a href="/services/shockwave-therapy/">Shockwave Therapy</a>
-      <a href="/conditions/">All conditions</a>
-      <a href="/conditions/back-pain/">Back Pain</a>
-      <a href="/conditions/neck-pain/">Neck Pain</a>
-      <a href="/conditions/shoulder-pain/">Shoulder Pain</a>
-      <a href="/conditions/knee-pain/">Knee Pain</a>
-    </div>
-  </details>
+  <details class="nav-group"><summary>Meet Us</summary><div class="nav-group__menu"><a href="/about/">About Alpha</a><a href="/#team">Meet the team</a><a href="/staff/dr-ashton-wilson/">Dr Ashton Wilson</a></div></details>
+  <details class="nav-group"><summary>Services</summary><div class="nav-group__menu">{services.map(item => <a href={item.href}>{item.title}</a>)}</div></details>
+  <details class="nav-group"><summary>Conditions</summary><div class="nav-group__menu nav-group__menu--conditions">
+    <a href="/conditions/">All conditions</a>
+    {groups.map(group => <div class="nav-condition-group"><a class="nav-condition-group__heading" href={`/conditions/#${group.id}`}>{group.title}</a>{group.items.map(item => <a href={item.href}>{item.title}</a>)}</div>)}
+  </div></details>
   <a href="/#getting-started">Getting Started</a>
-  <details class="nav-group">
-    <summary>Locations</summary>
-    <div class="nav-group__menu">
-      <a href="/locations/newport/">Newport</a>
-    </div>
-  </details>
-  <a href="/contact/">Contact Us</a>
+  <details class="nav-group"><summary>Locations</summary><div class="nav-group__menu"><a href="/#locations">Our four clinics</a><a href="/locations/newport/">Newport</a></div></details>
+  <a href="/book/">Book online</a>
 </nav>
+<style>
+  .nav-condition-group__heading { font-weight: 700; color: var(--color-primary); }
+  .nav-condition-group + .nav-condition-group { border-top: 1px solid rgba(255,255,255,.12); }
+  .nav-condition-group { display: grid; }
+  .nav-group__menu--conditions { max-height: 70vh; overflow-y: auto; }
+  @media (min-width: 1024px) { .nav-group__menu--conditions { width: 300px; } }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLElement>('nav[aria-label="Primary"], nav[aria-label="Mobile"]').forEach(nav => {
+    const groups = nav.querySelectorAll<HTMLDetailsElement>('details.nav-group');
+    groups.forEach(group => group.addEventListener('toggle', () => {
+      if (group.open) groups.forEach(other => { if (other !== group) other.open = false; });
+    }));
+    nav.addEventListener('keydown', event => {
+      if (event.key === 'Escape') {
+        const open = nav.querySelector<HTMLDetailsElement>('details[open]');
+        if (open) { open.open = false; open.querySelector('summary')?.focus(); }
+      }
+    });
+    document.addEventListener('click', event => {
+      if (event.target instanceof Node && !nav.contains(event.target)) groups.forEach(group => { group.open = false; });
+    });
+  });
+</script>

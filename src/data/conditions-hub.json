@@ -55,7 +55,12 @@
       "id": "womens-health",
       "title": "Women's Health",
       "items": [
-        { "title": "Pregnancy-Related Pain", "href": "/conditions/pregnancy-pain/", "copy": "Back, pelvic or hip pain as your body changes through pregnancy." },
+        { "title": "Pregnancy-Related Pain", "href": "/conditions/pregnancy-pain/", "copy": "Back, pelvic or hip pain as your body changes through pregnancy.",
+          "children": [
+            { "title": "First Trimester", "href": "/conditions/pregnancy-pain/first-trimester/" },
+            { "title": "Second Trimester", "href": "/conditions/pregnancy-pain/second-trimester/" },
+            { "title": "Third Trimester", "href": "/conditions/pregnancy-pain/third-trimester/" }
+          ] },
         { "title": "Postpartum Pain", "href": "/conditions/postpartum-pain/", "copy": "Aches that have hung around since having your baby." }
       ]
     },

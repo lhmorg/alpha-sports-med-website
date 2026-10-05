@@ -2,6 +2,7 @@
 // Reusable service page. Each page is driven by src/data/services/<slug>.json (schema in
 // src/data/services/README.md) and reuses the approved Osteopathy page's components.
 // Osteopathy and Shockwave Therapy keep their own hand-built files.
+import PractitionerVideo from '../../components/PractitionerVideo.astro';
 import home from '../../data/home.json';
 import FeaturedPractitioner from '../../components/FeaturedPractitioner.astro';
 import SiteNavigation from '../../components/SiteNavigation.astro';
@@ -50,7 +51,7 @@ const clinics = page.clinics.map((key) => ({ key, ...allClinics[key] }));
     <SiteNavigation variant="mobile" />
   </header>
   <main>
-    <section class="service-hero"><div class="service-hero__inner"><div><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/#services">Services</a><span>/</span><span>{page.breadcrumb}</span></nav><p class="eyebrow eyebrow--left">{page.hero.eyebrow}</p><h1>{page.hero.heading}</h1><p class="service-hero__subhead">{page.hero.subheading}</p><div class="btn-group"><a href={bookingUrl} class="btn btn--primary">Book an appointment <i class="fas fa-arrow-right" aria-hidden="true"></i></a><a href={home.site.phoneHref} class="btn btn--outline"><i class="fas fa-phone-alt" aria-hidden="true"></i> Call {home.site.phoneDisplay}</a></div></div><FeaturedPractitioner context="service" slug={slug} variant="hero" /></div></section>
+    <section class="service-hero"><div class="service-hero__inner"><div><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/#services">Services</a><span>/</span><span>{page.breadcrumb}</span></nav><p class="eyebrow eyebrow--left">{page.hero.eyebrow}</p><h1>{page.hero.heading}</h1><p class="service-hero__subhead">{page.hero.subheading}</p><div class="btn-group"><a href={bookingUrl} class="btn btn--primary">Book an appointment <i class="fas fa-arrow-right" aria-hidden="true"></i></a><a href={home.site.phoneHref} class="btn btn--outline"><i class="fas fa-phone-alt" aria-hidden="true"></i> Call {home.site.phoneDisplay}</a></div></div>{slug === "physiotherapy" ? <PractitionerVideo videoId="Yt07pXPzTT8" name="Anna Lawther" poster="/assets/images/team/anna-lawther.png" /> : <FeaturedPractitioner context="service" slug={slug} variant="hero" />}</div></section>
 
     <section class="section service-intro"><div><div class="section-head section-head--left"><span class="section-head__ghost">MOVE</span><p class="eyebrow eyebrow--left">{page.intro.eyebrow}</p><h2>{page.intro.heading}</h2></div>{page.intro.paragraphs.map((p) => <p set:html={p} />)}</div><figure><img src={page.intro.image || '/assets/images/locations/hawthorn-clinic.jpg'} alt={page.intro.imageAlt || 'Alpha Sports Medicine practitioner providing treatment'} loading="lazy" /><figcaption><i class="fas fa-check-circle"></i> {page.intro.caption}</figcaption></figure></section>
 
