@@ -2,42 +2,48 @@
 import hub from '../data/conditions-hub.json';
 interface Props { variant?: 'desktop' | 'mobile'; }
 const { variant = 'desktop' } = Astro.props;
-const builtPaths = new Set([
-  ...Object.keys(import.meta.glob('/src/pages/**/index.astro')).map(p => p.replace(/^\/src\/pages/, '').replace(/index\.astro$/, '')),
-  ...Object.keys(import.meta.glob('/src/data/conditions/*.json')).map(p => `/conditions/${p.split('/').pop()?.replace('.json', '')}/`),
-]);
-const groups = hub.groups.map(group => ({ ...group, items: group.items.filter(item => builtPaths.has(item.href)) }));
+const groups = hub.groups;
 const services = [
-  { href: '/services/osteopathy/', title: 'Osteopathy' },
-  ...Object.keys(import.meta.glob('/src/data/services/*.json')).map(p => { const slug = p.split('/').pop()?.replace('.json', '') ?? ''; return { href: `/services/${slug}/`, title: slug.charAt(0).toUpperCase() + slug.slice(1) }; }),
-  { href: '/services/shockwave-therapy/', title: 'Shockwave Therapy' },
+  ['All services', '/services/'],
+  ['Osteopathy', '/services/osteopathy/'],
+  ['Physiotherapy', '/services/physiotherapy/'],
+  ['Chiropractic', '/services/chiropractic/'],
+  ['Exercise Physiology', '/services/exercise-physiology/'],
+  ['Clinical Pilates', '/services/clinical-pilates/'],
+  ['Strength & Conditioning', '/services/strength-conditioning/'],
+  ['Myotherapy', '/services/myotherapy/'],
+  ['Dietetics', '/services/dietetics/'],
+  ['Paediatric Osteopathy', '/services/paediatric-osteopathy/'],
+  ['Online Consults', '/services/online-consults/'],
+  ['Manual Lymphatic Drainage', '/services/manual-lymphatic-drainage/'],
+  ['Shockwave Therapy', '/services/shockwave-therapy/'],
 ];
 ---
 <nav class={variant === 'mobile' ? 'mobile-nav' : 'site-header__nav'} aria-label={variant === 'mobile' ? 'Mobile' : 'Primary'}>
   <a href="/">Home</a>
-  <details class="nav-group"><summary>Meet Us</summary><div class="nav-group__menu"><a href="/about/">About Alpha</a><a href="/#team">Meet the team</a><a href="/staff/dr-ashton-wilson/">Dr Ashton Wilson</a></div></details>
-  <details class="nav-group"><summary>Services</summary><div class="nav-group__menu">{services.map(item => <a href={item.href}>{item.title}</a>)}</div></details>
-  <details class="nav-group"><summary>Conditions</summary><div class="nav-group__menu nav-group__menu--conditions">
+  <details class="nav-group"><summary>Meet Us</summary><div class="nav-group__menu"><a href="/about/">About Alpha</a><a href="/about/team/">Meet the team</a><a href="/about/qualifications/">Qualifications &amp; Training</a><a href="/about/community/">What We Support</a><a href="/staff/dr-ashton-wilson/">Dr Ashton Wilson</a></div></details>
+  <details class="nav-group"><summary>Services</summary><div class="nav-group__menu">{services.map(([title, href]) => <a href={href}>{title}</a>)}</div></details>
+  <details class="nav-group nav-group--conditions"><summary>Conditions</summary><div class="nav-group__menu nav-group__menu--conditions">
     <a href="/conditions/">All conditions</a>
-    {groups.map(group => <div class="nav-condition-group"><a class="nav-condition-group__heading" href={`/conditions/#${group.id}`}>{group.title}</a>{group.items.map(item => <a href={item.href}>{item.title}</a>)}</div>)}
+    {groups.map(group => <div class="nav-condition-group"><a class="nav-condition-group__heading" href={`/conditions/#${group.id}`}>{group.title}</a>{group.items.map(item => <div class="nav-condition-item"><a href={item.href}>{item.title}</a>{"children" in item && item.children && <ul>{item.children.map(child => <li><a href={child.href}>{child.title}</a></li>)}</ul>}</div>)}</div>)}
   </div></details>
-  <a href="/#getting-started">Getting Started</a>
-  <details class="nav-group"><summary>Locations</summary><div class="nav-group__menu"><a href="/#locations">Our four clinics</a><a href="/locations/newport/">Newport</a></div></details>
+  <a href="/running-assessment/">Running Assessment</a>
+  <details class="nav-group"><summary>Locations</summary><div class="nav-group__menu"><a href="/locations/">All locations</a><a href="/locations/ascot-vale/">Ascot Vale</a><a href="/locations/newport/">Newport</a><a href="/locations/bacchus-marsh/">Bacchus Marsh</a><a href="/locations/hawthorn/">Hawthorn</a></div></details>
+  <a href="/contact/">Contact Us</a>
   <a href="/book/">Book online</a>
 </nav>
 <style>
   .nav-condition-group__heading { font-weight: 700; color: var(--color-primary); }
-  .nav-condition-group + .nav-condition-group { border-top: 1px solid rgba(255,255,255,.12); }
-  .nav-condition-group { display: grid; }
-  .nav-group__menu--conditions { max-height: 70vh; overflow-y: auto; }
-  @media (min-width: 1024px) { .nav-group__menu--conditions { width: 300px; } }
+  .nav-condition-group { min-width: 0; }
+  .nav-condition-item ul { list-style: none; padding: 0 0 0 1rem; margin: 0; }
+  .nav-condition-item li a { font-size: .75rem; }
 </style>
 
 <script>
   document.querySelectorAll<HTMLElement>('nav[aria-label="Primary"], nav[aria-label="Mobile"]').forEach(nav => {
     const groups = nav.querySelectorAll<HTMLDetailsElement>('details.nav-group');
-    groups.forEach(group => group.addEventListener('toggle', () => {
-      if (group.open) groups.forEach(other => { if (other !== group) other.open = false; });
+    groups.forEach(group => group.querySelector('summary')?.addEventListener('click', () => {
+      groups.forEach(other => { if (other !== group) other.open = false; });
     }));
     nav.addEventListener('keydown', event => {
       if (event.key === 'Escape') {

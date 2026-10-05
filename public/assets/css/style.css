@@ -444,13 +444,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-group summary::-webkit-details-marker { display: none; }
 .nav-group summary::after {
-  content: '⌄';
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 1;
-  transform: translateY(-.08em);
-  color: var(--color-primary);
+  content: '';
+  display: block;
+  width: 6px;
+  height: 6px;
+  flex: 0 0 6px;
+  border-right: 1.5px solid var(--color-primary);
+  border-bottom: 1.5px solid var(--color-primary);
+  transform: translateY(-2px) rotate(45deg);
 }
 
 .nav-group__menu {
@@ -1837,4 +1838,20 @@ h1, h2, h3, h4, h5, h6 {
   clip: rect(0,0,0,0);
   white-space: nowrap;
   border: 0;
+}
+
+/* Shared dropdown baseline and full Conditions sitemap menu. */
+.nav-group__menu { max-height: min(70vh, 680px); overflow-y: auto; }
+.mobile-nav .nav-group summary { display: flex; width: 100%; justify-content: space-between; }
+.mobile-nav .nav-group__menu a { white-space: normal; }
+@media (min-width: 1024px) {
+  .site-header__nav { position: relative; align-items: center; gap: 1.5rem; }
+  .site-header__nav > a, .site-header__nav > .nav-group > summary { display: flex; align-items: center; height: 24px; line-height: 24px; }
+  .site-header__nav .nav-group__menu { top: calc(100% + 12px); text-align: left; }
+  .site-header__nav .nav-group__menu a { display: block; line-height: 1.4; }
+  .site-header__nav .nav-group--conditions { position: static; }
+  .site-header__nav .nav-group__menu--conditions { top: 100%; left: var(--gutter); right: var(--gutter); transform: none; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; padding: 1rem; }
+  .site-header__nav .nav-group__menu--conditions > a { grid-column: 1 / -1; }
+  .site-header__nav .nav-group__menu--conditions a { white-space: normal; padding: .6rem .5rem; }
+  .site-header__nav .nav-group__menu--conditions .nav-condition-group__heading { color: var(--color-primary); }
 }
