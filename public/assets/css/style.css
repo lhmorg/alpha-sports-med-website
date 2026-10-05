@@ -1847,10 +1847,10 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 1024px) {
   .site-header__nav { position: relative; align-items: center; gap: 1.5rem; }
   .site-header__nav > a, .site-header__nav > .nav-group > summary { display: flex; align-items: center; height: 24px; line-height: 24px; }
-  .site-header__nav .nav-group__menu { top: calc(100% + 12px); text-align: left; }
+  .site-header__nav .nav-group__menu { top: calc(100% + 12px); width: max-content; text-align: left; }
   .site-header__nav .nav-group__menu a { display: block; line-height: 1.4; }
   .site-header__nav .nav-group--wide { position: static; }
-  .site-header__nav .nav-group__menu--wide { top: 100%; left: var(--gutter); right: var(--gutter); transform: none; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; padding: 1rem; }
+  .site-header__nav .nav-group__menu--wide { width: auto; top: 100%; left: var(--gutter); right: var(--gutter); transform: none; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; padding: 1rem; }
   .site-header__nav .nav-group__menu--wide > a { grid-column: 1 / -1; }
   .site-header__nav .nav-group__menu--wide a { white-space: normal; padding: .6rem .5rem; }
   .site-header__nav .nav-group__menu--wide .nav-condition-group__heading { color: var(--color-primary); }
