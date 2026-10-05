@@ -1,42 +1,26 @@
 ---
-import hub from '../data/conditions-hub.json';
+// Menu authority: Alpha-Sports-Med-Proposed-Sitemap-Opportunity.html,
+// selected by Michael on 6 October 2026. Pending page routes remain visible.
+import menus from '../data/navigation.json';
 interface Props { variant?: 'desktop' | 'mobile'; }
 const { variant = 'desktop' } = Astro.props;
-const groups = hub.groups;
-const services = [
-  ['All services', '/services/'],
-  ['Osteopathy', '/services/osteopathy/'],
-  ['Physiotherapy', '/services/physiotherapy/'],
-  ['Chiropractic', '/services/chiropractic/'],
-  ['Exercise Physiology', '/services/exercise-physiology/'],
-  ['Clinical Pilates', '/services/clinical-pilates/'],
-  ['Strength & Conditioning', '/services/strength-conditioning/'],
-  ['Myotherapy', '/services/myotherapy/'],
-  ['Dietetics', '/services/dietetics/'],
-  ['Paediatric Osteopathy', '/services/paediatric-osteopathy/'],
-  ['Online Consults', '/services/online-consults/'],
-  ['Manual Lymphatic Drainage', '/services/manual-lymphatic-drainage/'],
-  ['Shockwave Therapy', '/services/shockwave-therapy/'],
-];
 ---
 <nav class={variant === 'mobile' ? 'mobile-nav' : 'site-header__nav'} aria-label={variant === 'mobile' ? 'Mobile' : 'Primary'}>
   <a href="/">Home</a>
-  <details class="nav-group"><summary>Meet Us</summary><div class="nav-group__menu"><a href="/about/">About Alpha</a><a href="/about/team/">Meet the team</a><a href="/about/qualifications/">Qualifications &amp; Training</a><a href="/about/community/">What We Support</a><a href="/staff/dr-ashton-wilson/">Dr Ashton Wilson</a></div></details>
-  <details class="nav-group"><summary>Services</summary><div class="nav-group__menu">{services.map(([title, href]) => <a href={href}>{title}</a>)}</div></details>
-  <details class="nav-group nav-group--conditions"><summary>Conditions</summary><div class="nav-group__menu nav-group__menu--conditions">
-    <a href="/conditions/">All conditions</a>
-    {groups.map(group => <div class="nav-condition-group"><a class="nav-condition-group__heading" href={`/conditions/#${group.id}`}>{group.title}</a>{group.items.map(item => <div class="nav-condition-item"><a href={item.href}>{item.title}</a>{"children" in item && item.children && <ul>{item.children.map(child => <li><a href={child.href}>{child.title}</a></li>)}</ul>}</div>)}</div>)}
-  </div></details>
-  <a href="/running-assessment/">Running Assessment</a>
-  <details class="nav-group"><summary>Locations</summary><div class="nav-group__menu"><a href="/locations/">All locations</a><a href="/locations/ascot-vale/">Ascot Vale</a><a href="/locations/newport/">Newport</a><a href="/locations/bacchus-marsh/">Bacchus Marsh</a><a href="/locations/hawthorn/">Hawthorn</a></div></details>
+  {menus.map(menu => <details class:list={['nav-group', {'nav-group--wide': 'wide' in menu && menu.wide}]}>
+    <summary>{menu.title}</summary>
+    <div class:list={['nav-group__menu', {'nav-group__menu--wide': 'wide' in menu && menu.wide}]}>
+      {menu.groups.map(group => <div class="nav-menu-column">
+        {group.title && <h3 class="nav-menu-heading">{group.title}</h3>}
+        {group.items.map(item => <a href={item.href}>{item.title}</a>)}
+      </div>)}
+    </div>
+  </details>)}
   <a href="/contact/">Contact Us</a>
-  <a href="/book/">Book online</a>
 </nav>
 <style>
-  .nav-condition-group__heading { font-weight: 700; color: var(--color-primary); }
-  .nav-condition-group { min-width: 0; }
-  .nav-condition-item ul { list-style: none; padding: 0 0 0 1rem; margin: 0; }
-  .nav-condition-item li a { font-size: .75rem; }
+  .nav-menu-column { min-width: 0; display: flex; flex-direction: column; }
+  .nav-menu-heading { font: inherit; font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--color-primary); padding: .6rem .5rem; margin: 0; }
 </style>
 
 <script>
