@@ -29,6 +29,27 @@ const { variant = 'desktop' } = Astro.props;
     groups.forEach(group => group.querySelector('summary')?.addEventListener('click', () => {
       groups.forEach(other => { if (other !== group) other.open = false; });
     }));
+    const desktopHover = window.matchMedia('(min-width: 1024px) and (hover: hover) and (pointer: fine)');
+    groups.forEach(group => {
+      let closeTimer: ReturnType<typeof setTimeout> | undefined;
+      const cancelClose = () => { if (closeTimer !== undefined) clearTimeout(closeTimer); };
+      group.addEventListener('pointerenter', event => {
+        if (!desktopHover.matches || nav.getAttribute('aria-label') !== 'Primary' || event.pointerType === 'touch') return;
+        cancelClose();
+        groups.forEach(other => { if (other !== group) other.open = false; });
+        group.open = true;
+      });
+      group.addEventListener('pointerleave', () => {
+        if (!desktopHover.matches || nav.getAttribute('aria-label') !== 'Primary') return;
+        cancelClose();
+        closeTimer = setTimeout(() => {
+          if (!group.querySelector('.nav-group__menu')?.contains(document.activeElement)) group.open = false;
+        }, 180);
+      });
+      group.addEventListener('focusout', () => {
+        setTimeout(() => { if (!group.contains(document.activeElement)) group.open = false; }, 0);
+      });
+    });
     nav.addEventListener('keydown', event => {
       if (event.key === 'Escape') {
         const open = nav.querySelector<HTMLDetailsElement>('details[open]');
