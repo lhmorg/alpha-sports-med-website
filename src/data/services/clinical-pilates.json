@@ -1,0 +1,183 @@
+{
+  "seo": {
+    "title": "Clinical Pilates Newport | Alpha Sports Medicine",
+    "description": "One-to-one Clinical Pilates on the reformer in Newport. Discuss your goals and exercise suitability with Alpha Sports Medicine. Book online."
+  },
+  "breadcrumb": "Clinical Pilates",
+  "hero": {
+    "eyebrow": "One-to-one in Newport",
+    "heading": "Clinical Pilates at your pace",
+    "subheading": "Individual reformer sessions with exercises adapted to your needs, following a discussion about your health and movement goals.",
+    "practitioner": {
+      "name": "Lara Trevorrow",
+      "role": "Osteopath with Pilates training",
+      "image": "/assets/images/team/lara-trevorrow.jpg",
+      "imageAlt": "Lara Trevorrow, osteopath with Pilates training"
+    }
+  },
+  "intro": {
+    "eyebrow": "A place to practise",
+    "heading": "Take time over the movements you are learning",
+    "paragraphs": [
+      "Starting exercise after a setback can bring plenty of questions. You may want to try a movement slowly, ask about resistance or work out what feels manageable on that day. A one-to-one session gives you time for that conversation.",
+      "Alpha offers individual reformer Clinical Pilates at our <a href=\"/locations/newport/\">Newport clinic</a>. The session is centred on your exercises, with guidance from a clinician and adjustments based on your needs.",
+      "Tell us what you would like to work towards and anything that has been difficult. Suitability needs to be considered before choosing exercises."
+    ],
+    "image": "/assets/images/locations/newport-storefront.jpg",
+    "imageAlt": "Alpha Sports Medicine Newport clinic entrance",
+    "caption": "One-to-one reformer Clinical Pilates is offered in Newport."
+  },
+  "explainer": {
+    "eyebrow": "The session format",
+    "heading": "What is Clinical Pilates?",
+    "paragraphs": [
+      "Pilates is a form of exercise that can use a mat or equipment. A reformer has a moving carriage and spring resistance, which can be adjusted for different exercises. You do not need to know the equipment before asking about a session.",
+      "Alpha offers one-to-one reformer sessions. Your health history and goals inform the exercises you practise. This individual appointment format gives you room to discuss symptoms, ask questions and change the pace.",
+      "The <a href=\"https://www.betterhealth.vic.gov.au/pilates-health-benefits\">Victorian Better Health Channel Pilates guide</a> explains the different formats and the value of advice when you have a health condition, are pregnant or have recently had surgery."
+    ]
+  },
+  "benefits": {
+    "heading": "Guidance as you practise",
+    "intro": "Tell the clinician how each exercise feels. That feedback helps them adjust the session.",
+    "items": [
+      {
+        "title": "A pace you can discuss",
+        "copy": "Take time to learn an exercise and tell the clinician how it feels. Repetitions and rest can be considered as part of the session.",
+        "icon": "clock"
+      },
+      {
+        "title": "Adjustable resistance",
+        "copy": "Reformer springs offer different resistance options. The clinician considers which setting and movement are suitable for you.",
+        "icon": "sliders-horizontal"
+      },
+      {
+        "title": "Feedback as you practise",
+        "copy": "Ask about the exercise and discuss any discomfort. Guidance can help you understand what you are being asked to do.",
+        "icon": "message-circle"
+      },
+      {
+        "title": "Review your exercises",
+        "copy": "The exercises can be revisited as your circumstances change. Your response and goals guide any changes.",
+        "icon": "clipboard-check"
+      }
+    ]
+  },
+  "conditions": {
+    "heading": "Talk about your circumstances first",
+    "intro": "A condition name alone does not decide whether Pilates is suitable. Let the clinician know about symptoms, medical advice and any restrictions.",
+    "items": [
+      {
+        "title": "Back pain",
+        "copy": "Discuss the movements that bother you and any assessment or advice you have received. Exercises may need changing before you try them.",
+        "icon": "activity",
+        "href": "/conditions/back-pain/"
+      },
+      {
+        "title": "Pregnancy-related pain",
+        "copy": "Your maternity team remains responsible for pregnancy care. Ask about exercise suitability and tell us about any advice or restrictions they have given you.",
+        "icon": "heart",
+        "href": "/conditions/pregnancy-pain/"
+      },
+      {
+        "title": "Hypermobility",
+        "copy": "Bring up joint symptoms and activities that have been difficult. Exercise choice and range need individual consideration.",
+        "icon": "move",
+        "href": "/conditions/hypermobility/"
+      }
+    ]
+  },
+  "visit": {
+    "heading": "Getting started with Clinical Pilates",
+    "intro": "Ask about an individual Pilates appointment through our booking flow or reception. We can help you check the available practitioner.",
+    "steps": [
+      {
+        "title": "Explain your goals",
+        "copy": "Talk about your exercise experience, health history and what you would like to practise. Include recent surgery or changes in symptoms."
+      },
+      {
+        "title": "Consider suitability",
+        "copy": "The clinician considers what is appropriate for you and whether further advice or assessment is needed before proceeding."
+      },
+      {
+        "title": "Practise with guidance",
+        "copy": "Work through selected exercises and discuss how they feel. The pace or resistance can be adjusted during the session."
+      },
+      {
+        "title": "Discuss the next step",
+        "copy": "Review the session and talk about ongoing exercise. Further appointments depend on your goals and response."
+      }
+    ],
+    "notes": [
+      {
+        "title": "What to wear",
+        "copy": "Choose comfortable clothing you can move in. Ask reception if you are unsure about any preparation or equipment requirements.",
+        "icon": "shirt"
+      },
+      {
+        "title": "Medical advice matters",
+        "copy": "Tell us about any restrictions from your treating team. Pregnancy or recent surgery calls for an individual suitability discussion.",
+        "icon": "file-text"
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Pilates and osteopathy",
+    "heading": "Guidance from Pilates-trained clinicians",
+    "copy": "Lara Trevorrow is an osteopath with a clinic-listed Certificate IV in Pilates and experience in one-to-one Pilates rehabilitation. Other Pilates-trained clinicians also work at Alpha. Check the current appointment options when booking; the available practitioner may vary.",
+    "image": "/assets/images/team/lara-trevorrow.jpg",
+    "imageAlt": "Lara Trevorrow, osteopath at Alpha Sports Medicine",
+    "links": [
+      {
+        "label": "Osteopathy at Alpha",
+        "href": "/services/osteopathy/"
+      }
+    ]
+  },
+  "clinics": [
+    "newport"
+  ],
+  "locationsHeading": "Visit us in Newport",
+  "locationsCopy": "",
+  "showLocationsOverview": false,
+  "faqHeading": "Clinical Pilates: your questions",
+  "faqs": [
+    {
+      "question": "Do I need Pilates experience?",
+      "answer": "You can ask about a session without having used a reformer before. Tell the clinician about your exercise experience so the guidance can start at an appropriate level."
+    },
+    {
+      "question": "Are these group classes?",
+      "answer": "Alpha offers one-to-one reformer Clinical Pilates sessions in Newport. Ask reception about the current appointment options."
+    },
+    {
+      "question": "How does it compare with a studio class?",
+      "answer": "Alpha offers an individual appointment informed by your health history and goals. Studio formats vary, so check what is included with the provider you are considering."
+    },
+    {
+      "question": "Can I do Clinical Pilates while pregnant?",
+      "answer": "Discuss exercise with your maternity team and tell the clinician about your pregnancy and any restrictions. Suitability and exercise choice need individual assessment; Pilates is not automatically appropriate for every pregnancy."
+    },
+    {
+      "question": "What if I have recently had surgery?",
+      "answer": "Follow your treating team’s instructions and let us know about the procedure and any restrictions. The clinician may need further information before deciding which exercises are appropriate."
+    },
+    {
+      "question": "Do I need a referral?",
+      "answer": "You can enquire about a private appointment without a referral. Bring relevant advice from your treating team. Funding arrangements can have separate requirements."
+    },
+    {
+      "question": "Can I use private health insurance?",
+      "answer": "Eligibility depends on your cover, the service and the practitioner providing it. Ask reception and your insurer before attending. A Pilates appointment does not automatically attract a rebate."
+    },
+    {
+      "question": "How many sessions will I need?",
+      "answer": "That depends on your goals and how you respond. Discuss a review point with the clinician rather than assuming a fixed number of sessions."
+    }
+  ],
+  "closing": {
+    "eyebrow": "Ask about a session",
+    "heading": "Find an appointment that fits",
+    "copy": "Look for a one-to-one Pilates appointment in <a href=\"/book/\">online booking</a>, or call <a href=\"tel:0399625539\">03 9962 5539</a> to discuss suitability and the available practitioner."
+  },
+  "clinicLinks": {}
+}

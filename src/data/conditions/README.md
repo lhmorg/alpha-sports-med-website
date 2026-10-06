@@ -56,3 +56,7 @@ Sections marked optional can be omitted; the template skips them.
 
 Font Awesome 5 free-solid icons only (e.g. fa-user-md, fa-hands, fa-heartbeat, fa-child, fa-dumbbell, fa-spa, fa-bone).
 Internal hrefs should follow the approved sitemap (`/services/<name>/`, `/conditions/<name>/`, `/locations/<name>/`), even if the page is not built yet.
+
+## Local rollout options
+
+Condition pages can set truthful hero.media (image/imageAlt/caption) or hero.practitioner (name/role/image/imageAlt), rendered statically against a neutral background. Explicit hero.trust: [] suppresses the trust strip. `clinics` supplies confirmed clinic subsets; [] displays enquiry copy without invented availability, while unset preserves legacy defaults. `locationsHeading`, `locationsCopy` and per-clinic `clinicLinks` href/label support existing booking destinations. New broad topic hubs use `medicalConditionName: null` to omit MedicalCondition schema; legacy unset values preserve existing schema. FAQ answers remain plaintext and must exactly match visible content. Public wording/media metadata changes require editorial and healthcare delta review.

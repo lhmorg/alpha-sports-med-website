@@ -1,0 +1,180 @@
+{
+  "seo": {
+    "title": "Paediatric Osteopathy Melbourne | Alpha Sports Medicine",
+    "description": "Discuss musculoskeletal concerns in children with osteopath Lara Trevorrow. Learn paediatric osteopathy’s limits and when to seek medical care."
+  },
+  "breadcrumb": "Paediatric Osteopathy",
+  "hero": {
+    "eyebrow": "Osteopathy for children",
+    "heading": "Paediatric osteopathy: understand your options",
+    "subheading": "A conversation about your child’s movement and musculoskeletal concerns, with a clear explanation of the limits of osteopathic care.",
+    "practitioner": {
+      "name": "Lara Trevorrow",
+      "role": "Osteopath with additional paediatric training",
+      "image": "/assets/images/team/lara-trevorrow.jpg",
+      "imageAlt": "Lara Trevorrow, osteopath at Alpha Sports Medicine"
+    }
+  },
+  "intro": {
+    "eyebrow": "Start with the right care",
+    "heading": "Your concerns deserve a careful assessment",
+    "paragraphs": [
+      "When a child seems uncomfortable or is finding movement difficult, it can be hard to know where to start. An older child may be able to explain what hurts; a baby cannot. The first step is to consider what kind of assessment they need.",
+      "If your baby is unwell, feeding poorly or you are concerned about their growth, contact your GP, paediatrician or maternal and child health nurse first. Osteopathy does not replace medical care or routine developmental checks.",
+      "Alpha offers paediatric osteopathy with Lara Trevorrow at our <a href=\"/locations/newport/\">Newport clinic</a>. She also offers paediatric appointments at Bacchus Marsh. Contact reception to check current availability and whether an appointment is appropriate for your child."
+    ],
+    "image": "/assets/images/locations/newport-storefront.jpg",
+    "imageAlt": "Alpha Sports Medicine clinic entrance in Newport",
+    "caption": "Speak with reception about paediatric appointment options."
+  },
+  "explainer": {
+    "eyebrow": "The scope of osteopathy",
+    "heading": "Understanding paediatric osteopathy",
+    "paragraphs": [
+      "Osteopathy focuses on musculoskeletal concerns, such as pain and how the body moves. A consultation considers your child’s history and whether the concern is within that scope. A symptom or head-turning preference does not establish a diagnosis on its own.",
+      "We do not claim osteopathy treats colic, reflux, feeding or sleep difficulties, or developmental conditions. Those concerns need appropriate medical or child-health advice. A discussion about movement must not delay that care.",
+      "<a href=\"https://osteopathy.org.au/Web/Advocacy/Position-Statement-pages/Osteopathic-Clinical-Management-for-Babies-Infants-and-Children.aspx\">Osteopathy Australia’s position on care for babies and children</a> recommends against spinal manipulative techniques for children under 12. It also sets out the need for age-appropriate assessment, consent and referral precautions.",
+      "Ask the osteopath to explain any proposed approach, its evidence and risks before you decide. Describing a technique as gentle does not establish that it is suitable, effective or risk-free."
+    ]
+  },
+  "benefits": {
+    "heading": "What to discuss in a consultation",
+    "intro": "You can ask questions before agreeing to an assessment or proposed care. The next step should make sense for your child.",
+    "items": [
+      {
+        "title": "Your child’s history",
+        "copy": "Describe the concern, when it began and any medical advice you have received. Include relevant health or developmental information.",
+        "icon": "file-text"
+      },
+      {
+        "title": "Movement and discomfort",
+        "copy": "The osteopath considers the musculoskeletal concern and what assessment is appropriate for your child’s age.",
+        "icon": "move"
+      },
+      {
+        "title": "Options and their limits",
+        "copy": "Ask what an option involves, what evidence supports it and what alternatives may be appropriate. You can decline a proposed approach.",
+        "icon": "message-circle"
+      },
+      {
+        "title": "The right next step",
+        "copy": "Some concerns call for another health professional. Discuss whether medical assessment, further information or a review is needed.",
+        "icon": "signpost"
+      }
+    ]
+  },
+  "conditions": {
+    "heading": "Information for older children and parents",
+    "intro": "These pages explain related musculoskeletal services. They do not replace a child-specific assessment.",
+    "items": [
+      {
+        "title": "Sporting injuries in older children",
+        "copy": "Pain after activity or an injury needs an assessment appropriate to the child and the situation.",
+        "icon": "activity",
+        "href": "/conditions/sports-injuries/"
+      },
+      {
+        "title": "Understanding osteopathy",
+        "copy": "Read about the musculoskeletal focus of general osteopathy at Alpha.",
+        "icon": "move",
+        "href": "/services/osteopathy/"
+      },
+      {
+        "title": "Pregnancy-related pain",
+        "copy": "Parents can also read about pregnancy-related musculoskeletal concerns and the role of maternity care.",
+        "icon": "heart",
+        "href": "/conditions/pregnancy-pain/"
+      }
+    ]
+  },
+  "visit": {
+    "heading": "Before and during an appointment",
+    "intro": "Tell reception your child’s age and the reason you are enquiring. Ask about suitability and appointment arrangements before booking.",
+    "steps": [
+      {
+        "title": "Explain what you have noticed",
+        "copy": "Bring up the concern and relevant medical history. Let the osteopath know about other professionals involved in your child’s care."
+      },
+      {
+        "title": "Consider the assessment",
+        "copy": "The osteopath discusses whether a musculoskeletal assessment is appropriate and explains what it would involve."
+      },
+      {
+        "title": "Discuss choices before consent",
+        "copy": "Ask about the proposed care, its risks and evidence. A parent or authorised carer is involved in consent where the child cannot provide it."
+      },
+      {
+        "title": "Agree on what happens next",
+        "copy": "Discuss review or referral as appropriate. Further appointments should have a reason that is explained to you."
+      }
+    ],
+    "notes": [
+      {
+        "title": "Bring relevant information",
+        "copy": "Existing medical letters or advice may be useful. Ask reception about anything else to bring and whether the appointment suits your child’s age.",
+        "icon": "file-text"
+      },
+      {
+        "title": "Medical concerns come first",
+        "copy": "If your child is unwell or you are worried about feeding, growth or development, seek medical or child-health advice rather than booking osteopathy first.",
+        "icon": "heart"
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Your osteopath",
+    "heading": "Lara Trevorrow",
+    "copy": "Lara is an osteopath who has undertaken additional paediatric training, including the Osteopathy Australia Paediatrics Course. Her interests include family healthcare and junior athletes.",
+    "image": "/assets/images/team/lara-trevorrow.jpg",
+    "imageAlt": "Lara Trevorrow, osteopath",
+    "links": [
+      {
+        "label": "Osteopathy at Alpha",
+        "href": "/services/osteopathy/"
+      }
+    ]
+  },
+  "clinics": [
+    "newport",
+    "bacchus-marsh"
+  ],
+  "locationsHeading": "Ask about paediatric appointments",
+  "locationsCopy": "Lara offers paediatric appointments at Newport and Bacchus Marsh. Tell reception your child’s age and ask about current availability.",
+  "showLocationsOverview": false,
+  "faqHeading": "Paediatric osteopathy: your questions",
+  "faqs": [
+    {
+      "question": "Does osteopathy treat colic or reflux?",
+      "answer": "We do not claim osteopathy treats colic or reflux. Feeding, sleep and digestive concerns should be discussed with your GP, paediatrician or maternal and child health nurse. Osteopathy must not delay that advice."
+    },
+    {
+      "question": "Is osteopathy safe for every baby?",
+      "answer": "No treatment can be described as automatically suitable or risk-free for every baby. The concern, age, health history and proposed approach need consideration. Ask about the evidence, risks and alternatives before consenting."
+    },
+    {
+      "question": "Will my child have spinal manipulation?",
+      "answer": "Osteopathy Australia recommends against spinal manipulative techniques in babies and children under 12. Ask the osteopath what they propose for your child and how it aligns with that guidance before agreeing to care."
+    },
+    {
+      "question": "How young can a child be seen?",
+      "answer": "Contact reception with your child’s age and the reason for your enquiry. Reception can help you check whether an appointment is appropriate."
+    },
+    {
+      "question": "Can I ask questions before agreeing to treatment?",
+      "answer": "Yes. Ask the osteopath to explain the assessment or proposed care, its risks and alternatives. A parent or authorised carer is involved in consent when a child cannot provide it."
+    },
+    {
+      "question": "How many appointments will my child need?",
+      "answer": "That depends on the assessment and whether osteopathic care is appropriate. Ask what would be reviewed and why another appointment is recommended."
+    },
+    {
+      "question": "Can I claim private health insurance?",
+      "answer": "Eligibility depends on your cover, the practitioner and the service. Confirm fees and any funding requirements with reception and your insurer before attending."
+    }
+  ],
+  "closing": {
+    "eyebrow": "Ask before booking",
+    "heading": "Tell us what you are concerned about",
+    "copy": "Call <a href=\"tel:0399625539\">03 9962 5539</a> to discuss paediatric appointment options, or view appointments in <a href=\"/book/\">online booking</a>. Medical, feeding or developmental concerns need medical or child-health advice first."
+  }
+}

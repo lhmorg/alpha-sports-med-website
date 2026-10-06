@@ -1,0 +1,182 @@
+{
+  "seo": {
+    "title": "Strength & Conditioning Newport | Alpha Sports Medicine",
+    "description": "Discuss strength and conditioning with Alpha in Newport. Plan exercise around your goals and current capacity. Ask which assessment suits you."
+  },
+  "breadcrumb": "Strength & Conditioning",
+  "hero": {
+    "eyebrow": "Exercise planning in Newport",
+    "heading": "Strength and conditioning for your next step",
+    "subheading": "Discuss exercise programming with your practitioner, taking your activity goals and current capacity into account.",
+    "practitioner": {
+      "name": "Dr Ashton Wilson",
+      "role": "Osteopath and strength and rehabilitation coach",
+      "image": "/assets/images/team/ashton-wilson.jpg",
+      "imageAlt": "Dr Ashton Wilson, osteopath and strength and rehabilitation coach"
+    }
+  },
+  "intro": {
+    "eyebrow": "Planning the work ahead",
+    "heading": "Plan the work around your training",
+    "paragraphs": [
+      "A busy training week can be hard to organise around pain or a recent injury. You may be wondering how much to do, which exercises to choose or how to fit strength work around the activity you enjoy. Those questions are worth discussing with your practitioner.",
+      "At our <a href=\"/locations/newport/\">Newport clinic</a>, Ashton Wilson combines her osteopathy background with training in strength and conditioning. You can ask her how exercise programming might fit your current care and training.",
+      "Start with your current situation. A plan needs to account for medical advice, your capacity and the time or equipment available to you."
+    ],
+    "image": "/assets/images/locations/newport-storefront.jpg",
+    "imageAlt": "The Newport entrance to Alpha Sports Medicine",
+    "caption": "Discuss assessment and exercise planning with Alpha in Newport."
+  },
+  "explainer": {
+    "eyebrow": "Making sense of the roles",
+    "heading": "What does strength and conditioning involve?",
+    "paragraphs": [
+      "Strength and conditioning involves planning exercise for the demands of an activity. That can include choosing strength exercises, deciding how much work to do and allowing for recovery in your week. The details depend on your goals and starting point.",
+      "Clinical rehabilitation considers symptoms and health needs. Coaching focuses on organising training. These roles can overlap. Your assessment helps determine which approach suits you.",
+      "If you need clinical exercise assessment, <a href=\"/services/exercise-physiology/\">exercise physiology</a> may also be relevant. Your practitioner can help you consider which appointment fits the question you are trying to answer."
+    ]
+  },
+  "benefits": {
+    "heading": "A plan that accounts for your week",
+    "intro": "Bring the practical details of your training. They help shape the conversation about what is manageable.",
+    "items": [
+      {
+        "title": "Choosing exercises",
+        "copy": "Discuss movements that relate to your activity and current capacity. Explain what you have tried and anything that causes concern.",
+        "icon": "dumbbell"
+      },
+      {
+        "title": "Fitting the work in",
+        "copy": "Look at strength work alongside your usual training and other commitments. A programme needs to be workable away from the clinic.",
+        "icon": "calendar"
+      },
+      {
+        "title": "Talking through technique",
+        "copy": "Ask about an exercise you are unsure of. The guidance depends on the movement and the context in which you are doing it.",
+        "icon": "activity"
+      },
+      {
+        "title": "Reviewing the response",
+        "copy": "Discuss how you felt after the work and what was difficult. Exercise selection or load can be reconsidered as circumstances change.",
+        "icon": "clipboard-check"
+      }
+    ]
+  },
+  "conditions": {
+    "heading": "Where the conversation can start",
+    "intro": "Different goals may call for different assessments. These pages explain some related options at Alpha.",
+    "items": [
+      {
+        "title": "Returning to sport",
+        "copy": "Discuss the demands of your sport and any restrictions from your treating team. Return decisions depend on individual assessment.",
+        "icon": "trophy",
+        "href": "/conditions/sports-injuries/"
+      },
+      {
+        "title": "Questions about running",
+        "copy": "A running assessment looks at your running pattern. It can be a separate starting point when your main questions relate to running.",
+        "icon": "footprints",
+        "href": "/running-assessment/"
+      },
+      {
+        "title": "Current rehabilitation",
+        "copy": "Physiotherapy focuses on assessment and care for movement and musculoskeletal concerns. Tell your clinician what you want to work towards.",
+        "icon": "activity",
+        "href": "/services/physiotherapy/"
+      },
+      {
+        "title": "Individual exercise practice",
+        "copy": "Clinical Pilates offers a one-to-one reformer format in Newport. Ask which kind of exercise appointment is suitable for your circumstances.",
+        "icon": "move",
+        "href": "/services/clinical-pilates/"
+      }
+    ]
+  },
+  "visit": {
+    "heading": "Discuss the next step with your practitioner",
+    "intro": "You can raise exercise-programming questions at an existing appointment. If you are new to Alpha, call reception for help choosing an assessment; online booking has no separate strength and conditioning appointment category.",
+    "steps": [
+      {
+        "title": "Describe your activity",
+        "copy": "Explain your sport or exercise routine, relevant injury history and what you would like to do. Mention advice from other treating clinicians."
+      },
+      {
+        "title": "Consider current capacity",
+        "copy": "Your practitioner considers your situation and what information is needed before planning exercise. Some concerns may need further assessment."
+      },
+      {
+        "title": "Agree on manageable work",
+        "copy": "Discuss exercise choices and how they could fit your week. Be clear about the equipment and time you have available."
+      },
+      {
+        "title": "Review and adjust",
+        "copy": "Talk about your response to the work and any change in symptoms. Agree when it would be useful to review the plan."
+      }
+    ],
+    "notes": [
+      {
+        "title": "Choosing an appointment",
+        "copy": "Call <a href=\"tel:0399625539\">03 9962 5539</a> or raise the question at an existing appointment. Reception can help you choose an appropriate assessment.",
+        "icon": "phone"
+      },
+      {
+        "title": "Working alongside medical care",
+        "copy": "Exercise programming does not replace medical care. Follow restrictions from your treating team and discuss changes in symptoms.",
+        "icon": "heart"
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Your practitioner",
+    "heading": "Ashton Wilson: osteopathy and exercise planning",
+    "copy": "Dr Ashton Wilson is an osteopath and strength and rehabilitation coach. Her clinic profile lists ASCA Level 1 and KLT training. Her background includes rehabilitation and sport, with appointments at Newport. Talk with her about the exercise questions you want to work through.",
+    "image": "/assets/images/team/ashton-wilson.jpg",
+    "imageAlt": "Dr Ashton Wilson, osteopath at Alpha Sports Medicine",
+    "links": [
+      {
+        "label": "Meet Ashton",
+        "href": "/staff/dr-ashton-wilson/"
+      }
+    ]
+  },
+  "clinics": [
+    "newport"
+  ],
+  "locationsHeading": "Visit us in Newport",
+  "locationsCopy": "Ask reception which assessment is appropriate for your exercise-planning questions. Availability depends on the appointment and practitioner.",
+  "showLocationsOverview": false,
+  "faqHeading": "Strength & Conditioning: your questions",
+  "faqs": [
+    {
+      "question": "How do I book strength and conditioning?",
+      "answer": "The current booking flow does not have a separate strength and conditioning category. Call reception on 03 9962 5539 to choose an appropriate assessment, or discuss exercise programming with your existing practitioner."
+    },
+    {
+      "question": "Do I have to be an existing patient?",
+      "answer": "Call reception to explain what you are looking for. The team can help you choose a starting assessment rather than assuming a particular programme or appointment is right for you."
+    },
+    {
+      "question": "How is this different from personal training?",
+      "answer": "The conversation at Alpha can take place in the context of musculoskeletal assessment and rehabilitation. Personal trainers offer varied services and qualifications. Check the role and scope of anyone you work with, particularly when you have symptoms or an injury."
+    },
+    {
+      "question": "Do I need access to a gym?",
+      "answer": "Tell your practitioner what space and equipment you have available. Exercise choices can be discussed in that context; the plan needs to fit what you have."
+    },
+    {
+      "question": "How soon can I return to sport?",
+      "answer": "That depends on your injury or health circumstances and the demands of the sport. Your treating team should guide return decisions. A return date needs to be discussed with them after assessment."
+    },
+    {
+      "question": "Can I claim a rebate for coaching?",
+      "answer": "Coaching does not automatically qualify for an allied health rebate. Eligibility depends on the actual service, practitioner and your cover or funding arrangements. Confirm the appointment and fee with reception and any insurer before attending."
+    }
+  ],
+  "closing": {
+    "eyebrow": "Start with an assessment",
+    "heading": "Talk through the training you want to do",
+    "copy": "Ask your practitioner about exercise programming, or call <a href=\"tel:0399625539\">03 9962 5539</a> for help choosing an assessment. You can also view the existing appointment options in <a href=\"/book/\">online booking</a>."
+  },
+  "schemaType": "WebPage",
+  "clinicLinks": {}
+}

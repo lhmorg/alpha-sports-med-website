@@ -1,0 +1,187 @@
+{
+  "seo": {
+    "title": "Running Assessment Melbourne | Alpha Sports Medicine",
+    "description": "Osteopathy-led running assessment with video analysis in Newport. Discuss your running concerns and ask Alpha about the right appointment."
+  },
+  "breadcrumb": "Running Assessment",
+  "hero": {
+    "eyebrow": "Running assessment in Newport",
+    "heading": "Take a closer look at how you run",
+    "subheading": "An osteopathy-led assessment using video analysis to discuss your running pattern and an individual plan.",
+    "media": {
+      "image": "/assets/images/locations/newport-storefront.jpg",
+      "imageAlt": "Alpha Sports Medicine Newport clinic",
+      "caption": "Running assessment enquiries at our Newport clinic."
+    }
+  },
+  "intro": {
+    "eyebrow": "Bring your running questions",
+    "heading": "Start with what is happening on your runs",
+    "paragraphs": [
+      "A niggle that appears partway through a run can raise a lot of questions. You may have changed your training or be wondering what your running pattern looks like. An assessment gives you a place to discuss those concerns.",
+      "Alpha offers osteopathy-led running assessments with video analysis at our <a href=\"/locations/newport/\">Newport clinic</a>. The assessment considers your running movement and can inform an individual treatment or rehabilitation plan.",
+      "You can also enquire without an injury. Explain your goal and ask which appointment is appropriate. Check the current format, fee and availability before booking."
+    ],
+    "image": "/assets/images/locations/newport-storefront.jpg",
+    "imageAlt": "The entrance to Alpha Sports Medicine in Newport",
+    "caption": "Confirm running assessment appointment details with reception."
+  },
+  "explainer": {
+    "eyebrow": "What the assessment looks at",
+    "heading": "Running assessment and video analysis",
+    "paragraphs": [
+      "Video analysis provides a way to look at running movement, including gait and technique. The osteopath can discuss observations with you and consider them alongside your symptoms and circumstances.",
+      "A video is one piece of information. It cannot establish every cause of pain or predict whether you will be injured. Your history and clinical assessment matter when considering what to do next.",
+      "The aim is an individual plan informed by the assessment. That may involve a discussion about exercise or treatment when appropriate. Ask what the appointment includes and how any follow-up would be arranged."
+    ]
+  },
+  "benefits": {
+    "heading": "Questions to work through",
+    "intro": "Tell the osteopath what you want to understand about your running and when any symptoms appear.",
+    "items": [
+      {
+        "title": "The context of your runs",
+        "copy": "Describe your usual running, recent changes and when symptoms appear. Bring any relevant advice or injury history.",
+        "icon": "footprints"
+      },
+      {
+        "title": "Your running movement",
+        "copy": "Video can be used to look at your gait and technique. Ask how any observation relates to the question you brought in.",
+        "icon": "video"
+      },
+      {
+        "title": "What findings mean",
+        "copy": "Discuss which findings are relevant and what remains uncertain. A running pattern alone does not provide every answer.",
+        "icon": "message-circle"
+      },
+      {
+        "title": "Your next step",
+        "copy": "Talk about an individual plan and when review or another assessment may be appropriate. Further appointments depend on what needs reviewing.",
+        "icon": "clipboard-list"
+      }
+    ]
+  },
+  "conditions": {
+    "heading": "Related care at Alpha",
+    "intro": "Some running questions concern an injury; others concern how you organise exercise. These pages explain relevant options.",
+    "items": [
+      {
+        "title": "Sporting injuries",
+        "copy": "Read about assessment and rehabilitation for injuries during activity.",
+        "icon": "activity",
+        "href": "/conditions/sports-injuries/"
+      },
+      {
+        "title": "Knee pain",
+        "copy": "Learn about knee-pain assessment and when to seek further advice.",
+        "icon": "move",
+        "href": "/conditions/knee-pain/"
+      },
+      {
+        "title": "Exercise physiology",
+        "copy": "Discuss clinical exercise assessment and planning when that is relevant to your needs.",
+        "icon": "dumbbell",
+        "href": "/services/exercise-physiology/"
+      },
+      {
+        "title": "Strength and conditioning",
+        "copy": "Ask about exercise programming in the context of your current capacity and activity goals.",
+        "icon": "dumbbell",
+        "href": "/services/strength-conditioning/"
+      }
+    ]
+  },
+  "visit": {
+    "heading": "Preparing for a running assessment",
+    "intro": "Call reception to explain that you are looking for a running assessment. We can help you choose an appropriate appointment through the booking flow.",
+    "steps": [
+      {
+        "title": "Discuss your running",
+        "copy": "Describe your concerns, relevant health history and current training. Mention symptoms and any restrictions from your treating team."
+      },
+      {
+        "title": "Consider appropriate assessment",
+        "copy": "The osteopath considers your situation and the running movement it is appropriate to assess. Tell them about pain before you start running."
+      },
+      {
+        "title": "Look at the findings",
+        "copy": "Discuss the video analysis and observations from the assessment. Ask what they mean for your individual circumstances."
+      },
+      {
+        "title": "Agree on a plan",
+        "copy": "Talk about appropriate treatment or rehabilitation options and whether a review is needed. Confirm what is included in the appointment."
+      }
+    ],
+    "notes": [
+      {
+        "title": "Useful things to bring",
+        "copy": "Your usual running shoes and information about recent training may help the discussion. Ask reception about clothing or any specific preparation.",
+        "icon": "footprints"
+      },
+      {
+        "title": "Check the format and fee",
+        "copy": "Call <a href=\"tel:0399625539\">03 9962 5539</a> to confirm duration, cost, location and what the appointment includes.",
+        "icon": "phone"
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Osteopathy-led assessment",
+    "heading": "Discuss your running with an osteopath",
+    "copy": "Alpha’s running assessment service is led by osteopaths and uses video analysis to inform an individual plan. Ask reception who is currently providing the assessment and which appointment to choose.",
+    "image": "/assets/images/locations/newport-storefront.jpg",
+    "imageAlt": "Alpha Sports Medicine Newport clinic frontage",
+    "links": [
+      {
+        "label": "Osteopathy at Alpha",
+        "href": "/services/osteopathy/"
+      }
+    ]
+  },
+  "clinics": [
+    "newport"
+  ],
+  "locationsHeading": "Running assessment in Newport",
+  "locationsCopy": "Confirm the current assessment format, fee and availability when booking.",
+  "showLocationsOverview": false,
+  "faqHeading": "Running assessment: your questions",
+  "faqs": [
+    {
+      "question": "Do I need to have an injury?",
+      "answer": "You can enquire about an assessment without an injury. Tell reception what you want to understand about your running so they can help you choose an appropriate appointment."
+    },
+    {
+      "question": "What can video analysis tell me?",
+      "answer": "It can show features of your running movement for discussion with the osteopath. It is considered alongside your history and assessment; it cannot identify every cause of symptoms or predict future injuries."
+    },
+    {
+      "question": "Do I need to run pain-free on the day?",
+      "answer": "Tell the osteopath about your symptoms before running. They can consider what assessment is appropriate. You should not assume you need to push through pain to complete an appointment."
+    },
+    {
+      "question": "Will I be told to stop running?",
+      "answer": "Advice depends on the assessment. Some situations call for modifying or stopping an activity. Ask the osteopath to explain any recommendation and how it fits your circumstances."
+    },
+    {
+      "question": "How long does it take and what does it cost?",
+      "answer": "Contact reception on 03 9962 5539 to confirm the current duration, fee and appointment format before booking."
+    },
+    {
+      "question": "Will I receive a report or a follow-up?",
+      "answer": "Ask what is included in the appointment and how the plan will be provided. Check with reception whether a written report or follow-up is included."
+    },
+    {
+      "question": "Can I claim a rebate?",
+      "answer": "Eligibility depends on the actual appointment, practitioner and your cover or funding arrangements. Check with reception and your insurer before attending."
+    },
+    {
+      "question": "What should I bring?",
+      "answer": "Your usual running shoes and recent training information may be useful. Ask reception about clothing and any specific preparation for the appointment."
+    }
+  ],
+  "closing": {
+    "eyebrow": "Choose the right starting point",
+    "heading": "Tell us what you want to understand",
+    "copy": "Call <a href=\"tel:0399625539\">03 9962 5539</a> to discuss a running assessment and choose an appropriate appointment. You can also view existing options in <a href=\"/book/\">online booking</a>."
+  }
+}

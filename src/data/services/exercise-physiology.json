@@ -1,0 +1,198 @@
+{
+  "breadcrumb": "Exercise physiology",
+  "hero": {
+    "eyebrow": "Exercise physiology at Newport",
+    "heading": "Exercise physiology in Melbourne",
+    "subheading": "Work out where to start with exercise, or how to return to it, with Jordan Tripodi, Exercise Physiologist at our Newport clinic.",
+    "practitioner": {
+      "name": "Jordan Tripodi",
+      "role": "Exercise Physiologist",
+      "image": "/assets/images/team/jordan-tripodi.jpg",
+      "imageAlt": "Jordan Tripodi, Exercise Physiologist at Alpha Sports Medicine"
+    }
+  },
+  "intro": {
+    "eyebrow": "Getting started with exercise",
+    "heading": "An exercise plan you can work with",
+    "paragraphs": [
+      "At our <a href=\"/locations/newport/\">Newport clinic</a>, you can discuss exercise after an injury or time away from activity. You can also ask about exercising alongside medical care for a long-term health concern.",
+      "Jordan asks about your health, activity history and what you want to work towards. That might be walking further or getting back to the gym. Together, you agree on a starting point that takes your current activity into account.",
+      "Newport has a gym space for one-to-one exercise rehabilitation. Your plan can include practising movements during appointments and discussing how to fit exercise into your week."
+    ],
+    "image": "/assets/images/locations/newport-storefront.jpg",
+    "imageAlt": "Alpha Sports Medicine Newport storefront",
+    "caption": "Exercise physiology appointments at our Newport clinic"
+  },
+  "explainer": {
+    "eyebrow": "Understanding the service",
+    "heading": "What does an exercise physiologist do?",
+    "paragraphs": [
+      "Exercise physiologists assess your exercise needs and prescribe a programme for your health and activity goals. They coach you through movements and review the exercises as your needs change. Relevant movement or functional tasks may form part of the assessment.",
+      "In Australia, Exercise & Sport Science Australia (ESSA) accredits exercise physiologists. Qualification pathways include an accredited undergraduate degree or exercise science study followed by postgraduate clinical training.",
+      "An exercise physiologist focuses on clinical exercise planning and supervision. A <a href=\"/services/physiotherapy/\">physiotherapist</a> assesses and treats movement problems using exercise and other approaches, including hands-on techniques where appropriate. Personal trainers generally work with fitness and training goals; their qualifications and experience vary.",
+      "The roles overlap, so the appointment you choose depends on the guidance you need and your health history. Reception can help you choose. Practitioners may work together where that suits your care."
+    ]
+  },
+  "team": {
+    "eyebrow": "Your exercise physiologist",
+    "heading": "Meet Jordan Tripodi",
+    "copy": "Jordan is an Exercise Physiologist at Newport. He completed a Master of Exercise Physiology at La Trobe University in 2020. He asks about your health history and the activities you want to work towards before planning exercises with you. Your care may involve other Alpha practitioners where appropriate.",
+    "image": "/assets/images/team/jordan-tripodi.jpg",
+    "imageAlt": "Jordan Tripodi, Exercise Physiologist at Alpha Sports Medicine",
+    "links": [
+      {
+        "label": "Meet Jordan",
+        "href": "/staff/jordan-tripodi/"
+      },
+      {
+        "label": "Book an appointment",
+        "href": "/book/"
+      }
+    ]
+  },
+  "closing": {
+    "eyebrow": "Exercise physiology at Newport",
+    "heading": "Arrange an exercise physiology appointment",
+    "copy": "<a href=\"/book/\">Book an exercise physiology appointment</a> with Jordan at Newport, or call <a href=\"tel:0399625539\">03 9962 5539</a>. Tell reception what you need help with so they can guide you through the appointment options."
+  },
+  "benefits": {
+    "eyebrow": "How we work",
+    "heading": "From assessment to an exercise plan",
+    "intro": "Your exercise physiologist explains why particular exercises have been chosen and discusses how to fit them into your week.",
+    "items": [
+      {
+        "icon": "fa-comments",
+        "title": "Tell us where you're starting",
+        "copy": "We discuss your health and activity history, including what you're doing now and what has been difficult."
+      },
+      {
+        "icon": "fa-search",
+        "title": "Assess what's relevant",
+        "copy": "Your exercise physiologist chooses movement or functional checks that are relevant to your needs."
+      },
+      {
+        "icon": "fa-bullseye",
+        "title": "Agree on practical goals",
+        "copy": "We discuss what you want to work towards and how your current health and activity affect that goal."
+      },
+      {
+        "icon": "fa-dumbbell",
+        "title": "Choose suitable exercises",
+        "copy": "Your exercise physiologist selects exercises for your starting point and explains how much to do and when to adjust them."
+      },
+      {
+        "icon": "fa-user-check",
+        "title": "Practise with guidance",
+        "copy": "Work through the movements with your exercise physiologist. Ask questions about technique or anything that feels unfamiliar."
+      },
+      {
+        "icon": "fa-chart-line",
+        "title": "Review the plan",
+        "copy": "Discuss how you've responded, what you've managed between appointments and what needs to change."
+      }
+    ]
+  },
+  "conditions": {
+    "heading": "When exercise needs a closer look",
+    "intro": "Pain can leave you unsure which exercises to try or how much to do. An assessment helps establish whether exercise physiology suits your situation. You can read more about common concerns below.",
+    "items": [
+      {
+        "title": "Knee pain",
+        "href": "/conditions/knee-pain/",
+        "icon": "fa-bone",
+        "copy": "Questions about walking, stairs or returning to lower-body exercise."
+      },
+      {
+        "title": "Back pain",
+        "href": "/conditions/back-pain/",
+        "icon": "fa-user-injured",
+        "copy": "Choosing activity when back symptoms interrupt your usual routine."
+      },
+      {
+        "title": "Shoulder pain",
+        "href": "/conditions/shoulder-pain/",
+        "icon": "fa-dumbbell",
+        "copy": "Working out an exercise approach when reaching or lifting is uncomfortable."
+      }
+    ]
+  },
+  "visit": {
+    "heading": "Your first exercise physiology appointment",
+    "intro": "Bring your questions. You don't need to arrive with an exercise programme or a clear idea of which exercises to choose.",
+    "steps": [
+      {
+        "title": "Talk through your history",
+        "copy": "Discuss your health, current activity and goals. Let us know about relevant medical advice and anything you're worried about."
+      },
+      {
+        "title": "Look at movement and function",
+        "copy": "Your exercise physiologist may check movement or function to understand your starting point. The checks depend on what you have come in for."
+      },
+      {
+        "title": "Discuss an initial approach",
+        "copy": "We explain the assessment in plain language and agree on suitable exercises with you, including how they fit around your current care."
+      },
+      {
+        "title": "Plan practice and review",
+        "copy": "Agree on what to practise between appointments and when to review it. Your exercise physiologist explains how to monitor your response."
+      }
+    ],
+    "notes": [
+      {
+        "icon": "fa-tshirt",
+        "title": "Wear comfortable clothing",
+        "copy": "Choose clothes and shoes that let you move comfortably."
+      },
+      {
+        "icon": "fa-clipboard-list",
+        "title": "Bring relevant information",
+        "copy": "Bring any referral, medication information or medical advice relevant to exercise, if you have it."
+      },
+      {
+        "icon": "fa-comments",
+        "title": "Ask before you book",
+        "copy": "Reception can help with appointment options and questions about suitability or funding. Call <a href=\"tel:0399625539\">03 9962 5539</a>."
+      }
+    ]
+  },
+  "faqHeading": "Exercise physiology FAQs",
+  "faqs": [
+    {
+      "question": "How is exercise physiology different from physiotherapy?",
+      "answer": "Exercise physiology centres on clinical exercise assessment, planning and review. Physiotherapists assess and treat movement problems using exercise and other approaches, which may include hands-on techniques. The roles overlap. Your needs help determine which appointment is suitable, and reception can help you choose."
+    },
+    {
+      "question": "How is an exercise physiologist different from a personal trainer?",
+      "answer": "An exercise physiologist has university training in clinical exercise for health, injury and activity needs. Personal trainers generally help with fitness and training goals; their qualifications and experience vary. If a health condition or injury affects your exercise choices, discuss what support you need before starting."
+    },
+    {
+      "question": "Do I need a referral, and can I claim a rebate?",
+      "answer": "Ask reception whether you need a referral for your appointment and whether Jordan accepts the funding arrangement you plan to use. Exercise physiology is eligible for Medicare subsidies under GP chronic condition management arrangements when you have the required plan and referral. The limited sessions are shared with other allied health services. Confirm your eligibility and the fees before booking. For private health benefits, check your policy with your insurer and the provider details with reception."
+    },
+    {
+      "question": "Can I book if I'm new to exercise?",
+      "answer": "Yes. You don't need a sporting background. Tell your exercise physiologist what you've done before and what you'd like to start doing. The assessment and initial programme take your starting point into account."
+    },
+    {
+      "question": "Can I exercise if I have pain or a health condition?",
+      "answer": "Your symptoms and health history guide whether an exercise approach is appropriate. Tell your exercise physiologist about changes in your symptoms, relevant medical advice and any restrictions you've been given. Exercise advice can sit alongside care from your GP or other treating practitioners."
+    },
+    {
+      "question": "What should I bring to my appointment?",
+      "answer": "Wear clothes and shoes you can move in. Bring relevant referrals or medical information if available, plus any questions about exercise. A rough idea of your usual activity and what you'd like to work towards is useful."
+    },
+    {
+      "question": "Where can I see an exercise physiologist at Alpha?",
+      "answer": "Exercise physiology appointments are available at Newport, 109 Blackshaws Road, Newport VIC 3015. Check available appointment times through our booking page or call reception on 03 9962 5539."
+    }
+  ],
+  "seo": {
+    "title": "Exercise Physiology Melbourne | Alpha Sports Medicine",
+    "description": "Exercise physiology in Melbourne at our Newport clinic. Discuss exercise assessment and a plan for your activity goals. Book an appointment."
+  },
+  "clinics": [
+    "newport"
+  ],
+  "locationsHeading": "Exercise physiology at Newport",
+  "showLocationsOverview": false
+}

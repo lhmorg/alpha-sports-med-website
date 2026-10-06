@@ -1,0 +1,519 @@
+[
+  {
+    "route": "/services/dietetics/",
+    "device": "desktop",
+    "h1": "Dietetics for the way you live",
+    "locationCols": "420px",
+    "media": [
+      {
+        "alt": "Alexandra Clay, dietitian at Alpha Sports Medicine",
+        "loaded": true,
+        "src": "/assets/images/team/alexandra-clay.png"
+      },
+      {
+        "alt": "The entrance to Alpha Sports Medicine in Newport",
+        "loaded": true,
+        "src": "/assets/images/locations/newport-storefront.jpg"
+      },
+      {
+        "alt": "Alexandra Clay, dietitian",
+        "loaded": false,
+        "src": "/assets/images/team/alexandra-clay.png"
+      }
+    ],
+    "missingIcons": [],
+    "overflow": 0,
+    "paragraphs": [
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "0px"
+      },
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "16px"
+      },
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "16px"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "route": "/services/clinical-pilates/",
+    "device": "desktop",
+    "h1": "Clinical Pilates at your pace",
+    "locationCols": "420px",
+    "media": [
+      {
+        "alt": "Lara Trevorrow, osteopath with Pilates training",
+        "loaded": true,
+        "src": "/assets/images/team/lara-trevorrow.jpg"
+      },
+      {
+        "alt": "Alpha Sports Medicine Newport clinic entrance",
+        "loaded": true,
+        "src": "/assets/images/locations/newport-storefront.jpg"
+      },
+      {
+        "alt": "Lara Trevorrow, osteopath at Alpha Sports Medicine",
+        "loaded": false,
+        "src": "/assets/images/team/lara-trevorrow.jpg"
+      }
+    ],
+    "missingIcons": [],
+    "overflow": 0,
+    "paragraphs": [
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "0px"
+      },
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "16px"
+      },
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "16px"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "route": "/services/strength-conditioning/",
+    "device": "desktop",
+    "h1": "Strength and conditioning for your next step",
+    "locationCols": "420px",
+    "media": [
+      {
+        "alt": "Dr Ashton Wilson, osteopath and strength and rehabilitation coach",
+        "loaded": true,
+        "src": "/assets/images/team/ashton-wilson.jpg"
+      },
+      {
+        "alt": "The Newport entrance to Alpha Sports Medicine",
+        "loaded": true,
+        "src": "/assets/images/locations/newport-storefront.jpg"
+      },
+      {
+        "alt": "Dr Ashton Wilson, osteopath at Alpha Sports Medicine",
+        "loaded": false,
+        "src": "/assets/images/team/ashton-wilson.jpg"
+      }
+    ],
+    "missingIcons": [],
+    "overflow": 0,
+    "paragraphs": [
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "0px"
+      },
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "16px"
+      },
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "16px"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "route": "/services/paediatric-osteopathy/",
+    "device": "desktop",
+    "emptyTrust": false,
+    "h1": "Paediatric osteopathy: understand your options",
+    "locationCols": "488px 488px",
+    "media": [
+      {
+        "alt": "Lara Trevorrow, osteopath at Alpha Sports Medicine",
+        "loaded": true,
+        "src": "/assets/images/team/lara-trevorrow.jpg"
+      },
+      {
+        "alt": "Alpha Sports Medicine clinic entrance in Newport",
+        "loaded": true,
+        "src": "/assets/images/locations/newport-storefront.jpg"
+      },
+      {
+        "alt": "Lara Trevorrow, osteopath",
+        "loaded": false,
+        "src": "/assets/images/team/lara-trevorrow.jpg"
+      }
+    ],
+    "missingIcons": [],
+    "overflow": 0,
+    "prose": [],
+    "width": 1440
+  },
+  {
+    "route": "/conditions/pregnancy-pain/",
+    "device": "desktop",
+    "emptyTrust": false,
+    "h1": "Pregnancy-related pain and everyday movement",
+    "locationCols": "488px 488px",
+    "media": [
+      {
+        "alt": "Lara Trevorrow, osteopath with an interest in pregnancy care",
+        "loaded": true,
+        "src": "/assets/images/team/lara-trevorrow.jpg"
+      },
+      {
+        "alt": "Lara Trevorrow, osteopath at Alpha Sports Medicine",
+        "loaded": true,
+        "src": "/assets/images/team/lara-trevorrow.jpg"
+      }
+    ],
+    "missingIcons": [],
+    "overflow": 0,
+    "prose": [
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "0px"
+      },
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "20px"
+      },
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "20px"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "route": "/running-assessment/",
+    "device": "desktop",
+    "emptyTrust": false,
+    "h1": "Take a closer look at how you run",
+    "locationCols": "420px",
+    "media": [
+      {
+        "alt": "Alpha Sports Medicine Newport clinic",
+        "loaded": true,
+        "src": "/assets/images/locations/newport-storefront.jpg"
+      },
+      {
+        "alt": "The entrance to Alpha Sports Medicine in Newport",
+        "loaded": true,
+        "src": "/assets/images/locations/newport-storefront.jpg"
+      },
+      {
+        "alt": "Alpha Sports Medicine Newport clinic frontage",
+        "loaded": false,
+        "src": "/assets/images/locations/newport-storefront.jpg"
+      }
+    ],
+    "missingIcons": [],
+    "overflow": 0,
+    "prose": [],
+    "width": 1440
+  },
+  {
+    "route": "/conditions/hypermobility/",
+    "device": "desktop",
+    "clinicCards": 4,
+    "h1": "Hypermobility and the movements that matter to you",
+    "media": [
+      {
+        "alt": "Dr Ashton Wilson, osteopath at Alpha Sports Medicine",
+        "loaded": true,
+        "src": "/assets/images/team/ashton-wilson.jpg"
+      },
+      {
+        "alt": "Dr Ashton Wilson, osteopath",
+        "loaded": false,
+        "src": "/assets/images/team/ashton-wilson.jpg"
+      }
+    ],
+    "missingIcons": [],
+    "overflow": 0,
+    "prose": [
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "0px"
+      },
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "20px"
+      },
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "20px"
+      }
+    ],
+    "trust": [],
+    "width": 1440
+  },
+  {
+    "route": "/conditions/sports-injuries/",
+    "device": "desktop",
+    "clinicCards": 0,
+    "h1": "Sports injuries: work out the next step",
+    "media": [
+      {
+        "alt": "Alpha Sports Medicine Newport clinic entrance",
+        "loaded": true,
+        "src": "/assets/images/locations/newport-storefront.jpg"
+      },
+      {
+        "alt": "Alpha Sports Medicine clinic frontage in Newport",
+        "loaded": false,
+        "src": "/assets/images/locations/newport-storefront.jpg"
+      }
+    ],
+    "missingIcons": [],
+    "overflow": 0,
+    "prose": [
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "0px"
+      },
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "20px"
+      },
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "20px"
+      }
+    ],
+    "trust": [],
+    "width": 1440
+  },
+  {
+    "route": "/conditions/invisible-illnesses/",
+    "device": "desktop",
+    "clinicCards": 0,
+    "h1": "Invisible illnesses and the care you need",
+    "media": [
+      {
+        "alt": "Alpha Sports Medicine Newport clinic frontage",
+        "loaded": true,
+        "src": "/assets/images/locations/newport-storefront.jpg"
+      },
+      {
+        "alt": "The Newport clinic entrance at Alpha Sports Medicine",
+        "loaded": false,
+        "src": "/assets/images/locations/newport-storefront.jpg"
+      }
+    ],
+    "missingIcons": [],
+    "overflow": 0,
+    "prose": [
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "0px"
+      },
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "20px"
+      },
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "20px"
+      }
+    ],
+    "trust": [],
+    "width": 1440
+  },
+  {
+    "route": "/services/dietetics/",
+    "device": "mobile",
+    "allMainImagesLoaded": true,
+    "h1": "Dietetics for the way you live",
+    "openFaq": 1,
+    "overflow": 0,
+    "paragraphSpacing": [
+      "16px",
+      "16px"
+    ],
+    "singleCenter": 24,
+    "width": 390
+  },
+  {
+    "route": "/services/clinical-pilates/",
+    "device": "mobile",
+    "allMainImagesLoaded": true,
+    "h1": "Clinical Pilates at your pace",
+    "openFaq": 1,
+    "overflow": 0,
+    "paragraphSpacing": [
+      "16px",
+      "16px"
+    ],
+    "singleCenter": 24,
+    "width": 390
+  },
+  {
+    "route": "/services/strength-conditioning/",
+    "device": "mobile",
+    "allMainImagesLoaded": true,
+    "h1": "Strength and conditioning for your next step",
+    "openFaq": 1,
+    "overflow": 0,
+    "paragraphSpacing": [
+      "16px",
+      "16px"
+    ],
+    "singleCenter": 24,
+    "width": 390
+  },
+  {
+    "route": "/services/paediatric-osteopathy/",
+    "device": "mobile",
+    "allMainImagesLoaded": true,
+    "clinicCards": 2,
+    "cols": "342px",
+    "h1": "Paediatric osteopathy: understand your options",
+    "openFaq": 1,
+    "overflow": 0,
+    "width": 390
+  },
+  {
+    "route": "/conditions/pregnancy-pain/",
+    "device": "mobile",
+    "allMainImagesLoaded": true,
+    "clinicCards": 2,
+    "cols": "342px",
+    "h1": "Pregnancy-related pain and everyday movement",
+    "openFaq": 1,
+    "overflow": 46,
+    "width": 390
+  },
+  {
+    "route": "/running-assessment/",
+    "device": "mobile",
+    "allMainImagesLoaded": true,
+    "clinicCards": 1,
+    "cols": "342px",
+    "h1": "Take a closer look at how you run",
+    "openFaq": 1,
+    "overflow": 0,
+    "width": 390
+  },
+  {
+    "route": "/conditions/hypermobility/",
+    "device": "mobile",
+    "allMainImagesLoaded": true,
+    "clinicCards": 4,
+    "h1": "Hypermobility and the movements that matter to you",
+    "openFaq": 1,
+    "overflow": 13,
+    "prose": [
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "0px"
+      },
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "20px"
+      },
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "20px"
+      }
+    ],
+    "width": 390
+  },
+  {
+    "route": "/conditions/sports-injuries/",
+    "device": "mobile",
+    "allMainImagesLoaded": true,
+    "clinicCards": 0,
+    "h1": "Sports injuries: work out the next step",
+    "openFaq": 1,
+    "overflow": 0,
+    "prose": [
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "0px"
+      },
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "20px"
+      },
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "20px"
+      }
+    ],
+    "width": 390
+  },
+  {
+    "route": "/conditions/invisible-illnesses/",
+    "device": "mobile",
+    "allMainImagesLoaded": true,
+    "clinicCards": 0,
+    "h1": "Invisible illnesses and the care you need",
+    "openFaq": 1,
+    "overflow": 0,
+    "prose": [
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "0px"
+      },
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "20px"
+      },
+      {
+        "color": "rgb(107, 114, 128)",
+        "margin": "20px"
+      }
+    ],
+    "width": 390
+  },
+  {
+    "route": "/conditions/pregnancy-pain/",
+    "device": "mobile-after-fix",
+    "buttonWidths": [
+      {
+        "text": "Royal Women’s Hospital physiotherapy resources",
+        "whiteSpace": "normal",
+        "width": 342
+      }
+    ],
+    "outside": [],
+    "overflow": 0,
+    "width": 390
+  },
+  {
+    "route": "/conditions/hypermobility/",
+    "device": "mobile-after-fix",
+    "buttonWidths": [
+      {
+        "text": "Ehlers-Danlos Society diagnosis information",
+        "whiteSpace": "normal",
+        "width": 342
+      }
+    ],
+    "outside": [],
+    "overflow": 0,
+    "width": 390
+  },
+  {
+    "route": "/conditions/sports-injuries/",
+    "device": "mobile-after-fix",
+    "buttonWidths": [
+      {
+        "text": "Victorian guidance on sprains and strains",
+        "whiteSpace": "normal",
+        "width": 342
+      }
+    ],
+    "outside": [],
+    "overflow": 0,
+    "width": 390
+  },
+  {
+    "route": "/conditions/invisible-illnesses/",
+    "device": "mobile-after-fix",
+    "buttonWidths": [],
+    "outside": [],
+    "overflow": 0,
+    "width": 390
+  }
+]

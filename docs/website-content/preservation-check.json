@@ -1,0 +1,17 @@
+{
+  "changed": [
+    "docs/website-content/project.md",
+    "docs/website-content/content-plan.json",
+    "src/pages/services/[slug].astro",
+    "src/pages/conditions/[slug].astro",
+    "docs/website-content/action-plan.md",
+    "src/data/conditions/README.md",
+    "src/data/services/types.ts",
+    "docs/website-content/content-plan.md",
+    "src/data/conditions/types.ts",
+    "src/data/services/README.md"
+  ],
+  "unrelatedPreserved": true,
+  "pilotDataPreserved": true,
+  "stashPreserved": true
+}

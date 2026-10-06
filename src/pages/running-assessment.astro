@@ -1,0 +1,6 @@
+---
+import ServicePage from '../components/ServicePage.astro';
+import page from '../data/running-assessment.json';
+import type { ServicePage as ServiceData } from '../data/services/types';
+---
+<ServicePage page={page as ServiceData} slug="running-assessment" route="/running-assessment/" />

@@ -1,0 +1,216 @@
+{
+  "seo": {
+    "title": "Hypermobility Support Melbourne | Alpha Sports Medicine",
+    "description": "Discuss joint movement and activity concerns with Alpha. Learn about hypermobility, HSD and hEDS, and the limits of our assessment and support."
+  },
+  "breadcrumb": "Hypermobility",
+  "hero": {
+    "eyebrow": "Hypermobility support",
+    "heading": "Hypermobility and the movements that matter to you",
+    "subheading": "Individual musculoskeletal assessment and movement support, alongside advice from your GP or specialist.",
+    "trust": [],
+    "practitioner": {
+      "name": "Dr Ashton Wilson",
+      "role": "Osteopath",
+      "image": "/assets/images/team/ashton-wilson.jpg",
+      "imageAlt": "Dr Ashton Wilson, osteopath at Alpha Sports Medicine"
+    }
+  },
+  "urgent": {
+    "eyebrow": "When symptoms change",
+    "heading": "Seek medical advice for a new concern",
+    "paragraphs": [
+      "Do not assume a new injury or symptom is explained by hypermobility. A suspected dislocation, significant injury or new concerning symptoms need appropriate medical assessment.",
+      "For a severe or life-threatening emergency, call 000. If you are unsure about a concerning symptom, seek medical advice."
+    ]
+  },
+  "pattern": {
+    "eyebrow": "Different experiences of flexibility",
+    "heading": "Flexibility alone does not mean a disorder",
+    "intro": "Some people have joints that move beyond the usual range without symptoms. Others have pain or movement concerns that affect their day.",
+    "items": [
+      {
+        "title": "Flexibility without symptoms",
+        "copy": "Joint hypermobility can be a physical trait. Being flexible on its own does not establish HSD or hEDS."
+      },
+      {
+        "title": "Pain or a feeling of instability",
+        "copy": "Describe what happens and which movements are difficult. These concerns deserve assessment rather than an assumption about their cause."
+      },
+      {
+        "title": "Activity that takes more effort",
+        "copy": "Tell your clinician about fatigue or other health concerns as well as joint symptoms. Coexisting conditions can change what support is appropriate."
+      },
+      {
+        "title": "Questions about a diagnosis",
+        "copy": "A screening score cannot provide the whole answer. Your GP or specialist can help you seek appropriate diagnostic assessment."
+      }
+    ]
+  },
+  "explainer": {
+    "eyebrow": "Understanding the terms",
+    "heading": "Hypermobility, HSD and hEDS",
+    "paragraphs": [
+      "Joint hypermobility describes a greater range of movement at one or more joints. Hypermobility spectrum disorders (HSD) involve symptomatic hypermobility after other explanations are considered. Hypermobile Ehlers-Danlos syndrome (hEDS) has clinical diagnostic criteria.",
+      "HSD is not simply a milder version of hEDS. Either can affect daily life and need support. Diagnosis considers history, examination and other possible explanations; it cannot be made from flexibility or a checklist alone.",
+      "Alpha can assess movement and provide musculoskeletal support. We do not formally diagnose hEDS or HSD. Discuss diagnostic questions with your GP or specialist; appropriate referral can be considered."
+    ],
+    "link": {
+      "label": "Ehlers-Danlos Society diagnosis information",
+      "href": "https://www.ehlers-danlos.com/diagnosis/",
+      "external": true
+    }
+  },
+  "focus": {
+    "eyebrow": "Movement support at Alpha",
+    "heading": "Work with your current tolerance",
+    "paragraphs": [
+      "Alpha’s hypermobility service is led clinically by Dr Ashton Wilson, an osteopath. At our <a href=\"/locations/newport/\">Newport clinic</a>, you can discuss joint symptoms and the activities you want support with. Ask reception about suitable practitioners and appointment options.",
+      "Strengthening and movement-control work can be considered individually. The exercise, range and amount of work need to suit your circumstances. Tell the clinician how you respond, including effects after an appointment.",
+      "Coexisting conditions matter. If you have ME/CFS or symptoms that worsen after exertion, general exercise progression may be inappropriate. Seek advice from your medical or specialist team; you should not be encouraged to push through those symptoms."
+    ],
+    "link": {
+      "label": "Meet Ashton",
+      "href": "/staff/dr-ashton-wilson/"
+    },
+    "caption": "Dr Ashton Wilson, osteopath and clinical lead for Alpha’s hypermobility service.",
+    "image": "/assets/images/team/ashton-wilson.jpg",
+    "imageAlt": "Dr Ashton Wilson, osteopath"
+  },
+  "process": {
+    "eyebrow": "Your assessment and plan",
+    "heading": "Build the plan around your daily activities",
+    "steps": [
+      {
+        "title": "Describe your experience",
+        "copy": "Talk about joint symptoms, health history and what you would like support with."
+      },
+      {
+        "title": "Share your medical context",
+        "copy": "Bring up diagnosed conditions, relevant investigations and advice from other treating professionals."
+      },
+      {
+        "title": "Consider movement",
+        "copy": "The clinician discusses appropriate assessment and how your symptoms affect movement."
+      },
+      {
+        "title": "Discuss suitable options",
+        "copy": "Ask about movement support, exercise or other musculoskeletal care, including its limits and alternatives."
+      },
+      {
+        "title": "Review how you respond",
+        "copy": "Describe how you respond to the plan, including any delayed worsening. Further changes depend on that response."
+      },
+      {
+        "title": "Keep care connected",
+        "copy": "Discuss communication with your GP or another treating professional where useful and with your consent."
+      }
+    ]
+  },
+  "note": {
+    "eyebrow": "Stretching and joint range",
+    "heading": "The answer depends on the joint and the person",
+    "paragraphs": [
+      "A blanket instruction never to stretch is not useful for everyone with hypermobility. Some tight muscles may need careful stretching; an already mobile joint may need a different approach.",
+      "The Ehlers-Danlos Society describes individual strengthening and movement-control support. Discuss exercise selection with a clinician who can consider your symptoms and other health needs."
+    ],
+    "icon": "move"
+  },
+  "servicesHeading": "Services that may be relevant",
+  "services": [
+    {
+      "title": "Osteopathy",
+      "href": "/services/osteopathy/",
+      "copy": "Musculoskeletal assessment and care can be discussed in the context of your joint symptoms.",
+      "icon": "activity"
+    },
+    {
+      "title": "Physiotherapy",
+      "href": "/services/physiotherapy/",
+      "copy": "Ask about individual movement assessment and rehabilitation options.",
+      "icon": "activity"
+    },
+    {
+      "title": "Exercise physiology",
+      "href": "/services/exercise-physiology/",
+      "copy": "Clinical exercise assessment may be appropriate for some people. Coexisting conditions and tolerance need individual consideration.",
+      "icon": "activity"
+    },
+    {
+      "title": "Clinical Pilates",
+      "href": "/services/clinical-pilates/",
+      "copy": "Ask about suitability before choosing a reformer session. The format and exercises need to suit your symptoms and tolerance.",
+      "icon": "activity"
+    }
+  ],
+  "related": [
+    {
+      "title": "Invisible illnesses",
+      "href": "/conditions/invisible-illnesses/"
+    },
+    {
+      "title": "Back pain",
+      "href": "/conditions/back-pain/"
+    }
+  ],
+  "clinics": [
+    "newport",
+    "ascot-vale",
+    "bacchus-marsh",
+    "hawthorn"
+  ],
+  "locationsEyebrow": "Hypermobility appointment options",
+  "locationsHeading": "Ask about your location and practitioner",
+  "locationsCopy": "Alpha offers hypermobility support at Newport, Ascot Vale, Bacchus Marsh and Hawthorn, and through telehealth. Confirm the current practitioner and appointment format with reception.",
+  "faqHeading": "Hypermobility: your questions",
+  "faqs": [
+    {
+      "question": "Does being flexible mean I have hEDS?",
+      "answer": "No. Joint hypermobility can occur without a disorder. hEDS has clinical diagnostic criteria and requires assessment of more than flexibility. Discuss diagnostic concerns with your GP or specialist."
+    },
+    {
+      "question": "Can Alpha diagnose HSD or hEDS?",
+      "answer": "No. Alpha can assess movement and offer musculoskeletal support, but does not formally diagnose hEDS or HSD. Your GP or specialist can help you seek appropriate diagnostic assessment."
+    },
+    {
+      "question": "Is HSD a milder form of hEDS?",
+      "answer": "No. They are distinct diagnostic categories. The name alone does not tell you how much someone’s symptoms affect daily life."
+    },
+    {
+      "question": "Should I avoid all stretching?",
+      "answer": "Not necessarily. Some tight muscles may benefit from careful stretching, and already mobile joints may need other approaches. Ask for advice that considers the joint, symptoms and your individual circumstances."
+    },
+    {
+      "question": "Should I keep increasing my exercise?",
+      "answer": "Exercise needs to be considered around your tolerance and other health conditions. Do not assume fixed increases suit you. If you have ME/CFS or worsening after exertion, seek medical or specialist guidance rather than pushing through."
+    },
+    {
+      "question": "Can I have an online appointment?",
+      "answer": "Alpha offers telehealth for hypermobility support. Contact reception to confirm current availability, suitability and what the appointment can cover."
+    },
+    {
+      "question": "Can I claim a rebate?",
+      "answer": "Funding depends on the practitioner, service and your cover or eligibility. Confirm requirements and fees with reception and your insurer before attending."
+    }
+  ],
+  "closing": {
+    "eyebrow": "Discuss an appropriate appointment",
+    "heading": "Tell us what you would like help with",
+    "copy": "Call 03 9962 5539 to discuss your joint concerns and appointment options, or view online booking. Bring your medical context into the conversation."
+  },
+  "medicalConditionName": null,
+  "clinicLinks": {
+    "ascot-vale": {
+      "href": "/book/",
+      "label": "Enquire about Ascot Vale appointments"
+    },
+    "bacchus-marsh": {
+      "href": "/book/",
+      "label": "Enquire about Bacchus Marsh appointments"
+    },
+    "hawthorn": {
+      "href": "/book/",
+      "label": "Enquire about Hawthorn appointments"
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "seo": {
+    "title": "Dietetics in Newport | Alpha Sports Medicine",
+    "description": "Practical nutrition advice with dietitian Alexandra Clay in Newport. Discuss food, training and everyday routines. Book a dietetics appointment."
+  },
+  "breadcrumb": "Dietetics",
+  "hero": {
+    "eyebrow": "Dietetics in Newport",
+    "heading": "Dietetics for the way you live",
+    "subheading": "Talk through food and nutrition with Alexandra Clay, with advice that takes your routine and preferences into account.",
+    "practitioner": {
+      "name": "Alexandra Clay",
+      "role": "Dietitian",
+      "image": "/assets/images/team/alexandra-clay.png",
+      "imageAlt": "Alexandra Clay, dietitian at Alpha Sports Medicine"
+    }
+  },
+  "intro": {
+    "eyebrow": "Food in everyday life",
+    "heading": "Food advice that fits your day",
+    "paragraphs": [
+      "Meals can become another thing to figure out in a busy week. Training adds its own questions, and a change in your health can make familiar advice feel less relevant. You can bring those questions to a dietetics appointment.",
+      "At our <a href=\"/locations/newport/\">Newport clinic</a>, Alexandra Clay offers nutrition support for adults. She takes a non-diet, weight-inclusive approach, making space to discuss your relationship with food as well as what you eat.",
+      "Work hours, food preferences and budget all affect which changes you can put into practice."
+    ],
+    "image": "/assets/images/locations/newport-storefront.jpg",
+    "imageAlt": "The entrance to Alpha Sports Medicine in Newport",
+    "caption": "Dietetics appointments at our Newport clinic."
+  },
+  "explainer": {
+    "eyebrow": "Understanding the role",
+    "heading": "What happens in dietetics?",
+    "paragraphs": [
+      "A dietitian uses nutrition knowledge to assess eating patterns and discuss food choices in the context of your health. An appointment can cover the meals you already eat, concerns about symptoms and changes you want to make. It is also a place to untangle advice that has become confusing.",
+      "Alexandra is an Accredited Practising Dietitian (APD). Dietitians Australia explains the <a href=\"https://dietitiansaustralia.org.au/working-dietetics/standards-and-scope/role-accredited-practising-dietitian\">APD role and professional standards</a>.",
+      "Advice should leave room for food you enjoy. The next step might be a small adjustment to meal timing or a discussion about getting enough food around activity. You can ask how a recommendation fits your circumstances."
+    ]
+  },
+  "benefits": {
+    "eyebrow": "What you can discuss",
+    "heading": "Bring the questions that matter to you",
+    "intro": "You do not need to arrive with a finished food diary or a particular sporting goal. These are some topics you can raise.",
+    "items": [
+      {
+        "title": "Eating around training",
+        "copy": "Discuss how meals and snacks fit around the exercise you do and the time you have to prepare food.",
+        "icon": "dumbbell"
+      },
+      {
+        "title": "Enough food for your day",
+        "copy": "Talk about appetite, busy schedules and food intake when your routine changes. Concerns about low energy availability can be discussed alongside appropriate medical care.",
+        "icon": "utensils"
+      },
+      {
+        "title": "Gut concerns",
+        "copy": "Describe symptoms and any dietary changes you have already tried. Your dietitian can consider nutrition advice in context; symptoms may also need medical assessment.",
+        "icon": "heart"
+      },
+      {
+        "title": "Advice you can use",
+        "copy": "Discuss shopping, meal preparation and options that suit your preferences and budget. You can also review what has been difficult to put into practice.",
+        "icon": "clipboard-list"
+      }
+    ]
+  },
+  "conditions": {
+    "heading": "Nutrition alongside your other care",
+    "intro": "Food questions sometimes arise during rehabilitation or a change in activity. Let your dietitian know who else is involved in your care.",
+    "items": [
+      {
+        "title": "During injury recovery",
+        "copy": "Discuss food needs when your usual activity changes. Nutrition support can sit alongside your rehabilitation.",
+        "icon": "activity",
+        "href": "/conditions/sports-injuries/"
+      },
+      {
+        "title": "Exercise and your routine",
+        "copy": "An exercise physiology appointment focuses on exercise assessment and planning. Dietetics focuses on food and nutrition; you may want to discuss both.",
+        "icon": "dumbbell",
+        "href": "/services/exercise-physiology/"
+      }
+    ]
+  },
+  "visit": {
+    "heading": "Your dietetics appointment",
+    "intro": "Start with what is happening now. You can say which parts of eating feel straightforward and which parts are taking more effort.",
+    "steps": [
+      {
+        "title": "Talk about your situation",
+        "copy": "Discuss your health history, food concerns and typical routine. Mention medicines, supplements or other care that may be relevant."
+      },
+      {
+        "title": "Look at eating patterns",
+        "copy": "Your dietitian considers how food fits into your day and the questions you want answered. There is room to explain what you have already tried."
+      },
+      {
+        "title": "Agree on practical changes",
+        "copy": "Work through suggestions you can try. Ask about alternatives if a recommendation does not fit your circumstances."
+      },
+      {
+        "title": "Review the changes",
+        "copy": "A follow-up can look at what happened between appointments and whether the plan needs adjusting. The number of visits depends on your needs."
+      }
+    ],
+    "notes": [
+      {
+        "title": "Bring what you have",
+        "copy": "Relevant medical information or existing test results can be useful. You do not need to buy supplements or arrange tests to prepare.",
+        "icon": "file-text"
+      },
+      {
+        "title": "Check appointment details",
+        "copy": "Call <a href=\"tel:0399625539\">03 9962 5539</a> to confirm fees, the appointment format and any funding requirements before attending.",
+        "icon": "phone"
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Your dietitian",
+    "heading": "Meet Alexandra Clay",
+    "copy": "Alexandra works with adults and takes a non-diet, weight-inclusive approach to nutrition. Her interests include fuelling for activity, gut concerns and nutrition through changes in health and routine. Bring your own priorities to the conversation.",
+    "image": "/assets/images/team/alexandra-clay.png",
+    "imageAlt": "Alexandra Clay, dietitian",
+    "links": [
+      {
+        "label": "About Alpha",
+        "href": "/about/"
+      }
+    ]
+  },
+  "clinics": [
+    "newport"
+  ],
+  "locationsHeading": "Visit us in Newport",
+  "locationsCopy": "",
+  "showLocationsOverview": false,
+  "faqHeading": "Dietetics: your questions",
+  "faqs": [
+    {
+      "question": "Do I need a referral?",
+      "answer": "You can book a private dietetics appointment without a referral. Funded care can have different requirements. If you have a GP referral or care plan, ask reception to confirm eligibility and provider acceptance before booking."
+    },
+    {
+      "question": "Is a dietitian the same as a nutritionist?",
+      "answer": "Dietitians have university training in nutrition and dietetics, including dietary care in a health setting. Nutritionist training can vary. Ask about the qualifications and scope of the person you are considering."
+    },
+    {
+      "question": "Will I be given a strict meal plan?",
+      "answer": "Alexandra takes a non-diet approach. You can discuss flexible advice that fits your preferences and circumstances. Tell her if meal plans or past food rules have been unhelpful."
+    },
+    {
+      "question": "Can I book if I am not an athlete?",
+      "answer": "Yes. Alpha offers adult nutrition support for everyday food and health concerns as well as questions about fuelling activity."
+    },
+    {
+      "question": "Can I claim a rebate?",
+      "answer": "Rebates depend on your fund, cover and the provider or service. Medicare-funded care also has eligibility and referral requirements. Check with your insurer and reception before your appointment; a rebate is not guaranteed."
+    },
+    {
+      "question": "What should I bring?",
+      "answer": "Bring relevant medical information or existing results if you have them, and any questions you would like to ask. A written food diary is not required to start the conversation."
+    },
+    {
+      "question": "Can dietetics replace medical care?",
+      "answer": "Nutrition advice can sit alongside medical care. Keep your GP or treating team involved in symptoms or health conditions that need medical assessment."
+    }
+  ],
+  "closing": {
+    "eyebrow": "Start with your questions",
+    "heading": "Book a dietetics appointment",
+    "copy": "Choose dietetics in <a href=\"/book/\">online booking</a>. If you want to check the appointment options first, call <a href=\"tel:0399625539\">03 9962 5539</a>."
+  },
+  "clinicLinks": {}
+}

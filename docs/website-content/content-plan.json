@@ -185,29 +185,138 @@
     "url": "/services/exercise-physiology/",
     "family": "service",
     "section": "What We Do",
-    "exists": false,
-    "stage": "planned",
-    "draftReady": false,
-    "revision": null,
+    "exists": true,
+    "stage": "ready-for-review",
+    "draftReady": true,
+    "revision": "sha256:bb0f3da298e3745fa4287441df9816c55bfeca980519345ac203647a39beeef2",
     "clientApproval": {
-      "status": "unknown",
+      "status": "pending",
       "revision": null,
       "by": null,
       "at": null,
       "evidence": null
     },
     "reviews": {
-      "editor": "pending",
-      "compliance": "pending",
-      "technical": "pending"
+      "editor": {
+        "status": "passed",
+        "revision": "sha256:bb0f3da298e3745fa4287441df9816c55bfeca980519345ac203647a39beeef2",
+        "artifact": "pages/services--exercise-physiology/editor-delta.md",
+        "scope": "delta; unchanged original review findings carried forward"
+      },
+      "compliance": {
+        "status": "passed",
+        "revision": "sha256:bb0f3da298e3745fa4287441df9816c55bfeca980519345ac203647a39beeef2",
+        "artifact": "pages/services--exercise-physiology/compliance-delta.md",
+        "scope": "delta; unchanged original review findings carried forward"
+      },
+      "technical": {
+        "status": "passed",
+        "revision": "sha256:bb0f3da298e3745fa4287441df9816c55bfeca980519345ac203647a39beeef2",
+        "artifact": "pages/services--exercise-physiology/integration.md",
+        "sourceHashes": {
+          "src/data/services/exercise-physiology.json": "d79f8a480dafdb97d165ab6b97178053434cee2d2b337e03d5b4c112db768996",
+          "src/data/services/types.ts": "c80446c58a4197953c18a4099fcfca408c0d7751a1124df6cae548b73409da37",
+          "src/pages/services/[slug].astro": "34d53eeb0353ce139381acd673a8023e3e2031285653d4ce39ffd03b2f4b7f42",
+          "public/assets/css/service.css": "c73cb0b318c6271dac7209aca02d80988e9f89fb5f68fef9f6acfcf526ae340f"
+        },
+        "plannedLinkExceptions": [
+          {
+            "url": "/staff/jordan-tripodi/",
+            "reason": "Michael explicitly requested Meet Jordan CTA before profile exists, 6 October 2026"
+          }
+        ]
+      }
     },
     "publication": {
-      "destination": null,
+      "destination": "cloudflare-prototype",
       "commit": null,
-      "status": "not-published",
-      "url": null
+      "status": "deployment-pending",
+      "url": "https://alpha-sports-med-prototype.pages.dev/services/exercise-physiology/"
     },
-    "blockers": []
+    "blockers": [],
+    "stageHistory": [
+      {
+        "stage": "researching",
+        "at": "2026-10-06",
+        "artifact": "pages/services--exercise-physiology/research.md"
+      },
+      {
+        "stage": "briefing",
+        "at": "2026-10-06",
+        "artifact": "pages/services--exercise-physiology/brief.md"
+      },
+      {
+        "stage": "writing",
+        "at": "2026-10-06",
+        "artifact": "pages/services--exercise-physiology/copy.md"
+      },
+      {
+        "stage": "editing",
+        "at": "2026-10-06",
+        "artifact": "pages/services--exercise-physiology/editor-review.md"
+      },
+      {
+        "stage": "compliance-review",
+        "at": "2026-10-06",
+        "artifact": "pages/services--exercise-physiology/compliance-review.md"
+      },
+      {
+        "stage": "integrating",
+        "at": "2026-10-06",
+        "artifact": "pages/services--exercise-physiology/integration.md"
+      },
+      {
+        "stage": "ready-for-review",
+        "at": "2026-10-06",
+        "artifact": "pages/services--exercise-physiology/integration.md"
+      },
+      {
+        "stage": "ready-for-review",
+        "at": "2026-10-06",
+        "artifact": "pages/services--exercise-physiology/integration.md",
+        "revision": "sha256:bb0f3da298e3745fa4287441df9816c55bfeca980519345ac203647a39beeef2",
+        "reason": "Michael pilot tidy-up applied and verified"
+      }
+    ],
+    "reviewHistory": [
+      {
+        "revision": "sha256:c66ed1bad2e2646c1dc0ba4074a7a399c9a816155e002bfbc55fd75d759d4700",
+        "reviews": {
+          "editor": {
+            "status": "passed",
+            "revision": "sha256:bb0f3da298e3745fa4287441df9816c55bfeca980519345ac203647a39beeef2",
+            "artifact": "pages/services--exercise-physiology/editor-delta.md",
+            "scope": "delta; unchanged original review findings carried forward"
+          },
+          "compliance": {
+            "status": "passed",
+            "revision": "sha256:bb0f3da298e3745fa4287441df9816c55bfeca980519345ac203647a39beeef2",
+            "artifact": "pages/services--exercise-physiology/compliance-delta.md",
+            "scope": "delta; unchanged original review findings carried forward"
+          },
+          "technical": {
+            "status": "passed",
+            "revision": "sha256:bb0f3da298e3745fa4287441df9816c55bfeca980519345ac203647a39beeef2",
+            "artifact": "pages/services--exercise-physiology/integration.md",
+            "sourceHashes": {
+              "src/data/services/exercise-physiology.json": "d79f8a480dafdb97d165ab6b97178053434cee2d2b337e03d5b4c112db768996",
+              "src/data/services/types.ts": "c80446c58a4197953c18a4099fcfca408c0d7751a1124df6cae548b73409da37",
+              "src/pages/services/[slug].astro": "34d53eeb0353ce139381acd673a8023e3e2031285653d4ce39ffd03b2f4b7f42",
+              "public/assets/css/service.css": "c73cb0b318c6271dac7209aca02d80988e9f89fb5f68fef9f6acfcf526ae340f"
+            },
+            "plannedLinkExceptions": [
+              {
+                "url": "/staff/jordan-tripodi/",
+                "reason": "Michael explicitly requested Meet Jordan CTA before profile exists, 6 October 2026"
+              }
+            ]
+          }
+        },
+        "feedbackBy": "Michael (internal project reviewer)",
+        "feedbackDate": "2026-10-06",
+        "feedback": "Tidy paragraph spacing and colour; link Newport; Meet Jordan planned profile CTA; centre single clinic. Other content looks good. Not end-client approval."
+      }
+    ]
   },
   {
     "id": "services--myotherapy",
@@ -245,29 +354,78 @@
     "url": "/services/dietetics/",
     "family": "service",
     "section": "What We Do",
-    "exists": false,
-    "stage": "planned",
-    "draftReady": false,
-    "revision": null,
+    "exists": true,
+    "stage": "ready-for-review",
+    "draftReady": true,
+    "revision": "sha256:efe9d417bfd70e12c3bcae0024282e44b18a8a66b44dd2530923fa2dcba1dfc2",
     "clientApproval": {
-      "status": "unknown",
+      "status": "pending",
       "revision": null,
       "by": null,
       "at": null,
       "evidence": null
     },
     "reviews": {
-      "editor": "pending",
-      "compliance": "pending",
-      "technical": "pending"
+      "editor": {
+        "status": "passed",
+        "revision": "sha256:efe9d417bfd70e12c3bcae0024282e44b18a8a66b44dd2530923fa2dcba1dfc2",
+        "artifact": "pages/services--dietetics/editor-review.md"
+      },
+      "compliance": {
+        "status": "passed",
+        "revision": "sha256:efe9d417bfd70e12c3bcae0024282e44b18a8a66b44dd2530923fa2dcba1dfc2",
+        "artifact": "pages/services--dietetics/compliance-review.md"
+      },
+      "technical": {
+        "status": "passed",
+        "revision": "sha256:efe9d417bfd70e12c3bcae0024282e44b18a8a66b44dd2530923fa2dcba1dfc2",
+        "artifact": "pages/services--dietetics/integration.md"
+      }
     },
     "publication": {
-      "destination": null,
+      "destination": "cloudflare-prototype",
       "commit": null,
-      "status": "not-published",
-      "url": null
+      "status": "deployment-pending",
+      "url": "https://alpha-sports-med-prototype.pages.dev/services/dietetics/"
     },
-    "blockers": []
+    "blockers": [],
+    "stageHistory": [
+      {
+        "stage": "researching",
+        "at": "2026-10-06",
+        "artifact": "pages/services--dietetics/research.md"
+      },
+      {
+        "stage": "briefing",
+        "at": "2026-10-06",
+        "artifact": "pages/services--dietetics/brief.md"
+      },
+      {
+        "stage": "writing",
+        "at": "2026-10-06",
+        "artifact": "pages/services--dietetics/copy.md"
+      },
+      {
+        "stage": "editing",
+        "at": "2026-10-06",
+        "artifact": "pages/services--dietetics/editor-review.md"
+      },
+      {
+        "stage": "compliance-review",
+        "at": "2026-10-06",
+        "artifact": "pages/services--dietetics/compliance-review.md"
+      },
+      {
+        "stage": "integrating",
+        "at": "2026-10-06",
+        "artifact": "pages/services--dietetics/integration.md"
+      },
+      {
+        "stage": "ready-for-review",
+        "at": "2026-10-06",
+        "artifact": "pages/services--dietetics/integration.md"
+      }
+    ]
   },
   {
     "id": "services--clinical-pilates",
@@ -275,29 +433,78 @@
     "url": "/services/clinical-pilates/",
     "family": "service",
     "section": "What We Do",
-    "exists": false,
-    "stage": "planned",
-    "draftReady": false,
-    "revision": null,
+    "exists": true,
+    "stage": "ready-for-review",
+    "draftReady": true,
+    "revision": "sha256:ab24d89c2932c1dd8e89f5c314fa2e8164ff6952dd69e23b40cc30ab9c1081e9",
     "clientApproval": {
-      "status": "unknown",
+      "status": "pending",
       "revision": null,
       "by": null,
       "at": null,
       "evidence": null
     },
     "reviews": {
-      "editor": "pending",
-      "compliance": "pending",
-      "technical": "pending"
+      "editor": {
+        "status": "passed",
+        "revision": "sha256:ab24d89c2932c1dd8e89f5c314fa2e8164ff6952dd69e23b40cc30ab9c1081e9",
+        "artifact": "pages/services--clinical-pilates/editor-review.md"
+      },
+      "compliance": {
+        "status": "passed",
+        "revision": "sha256:ab24d89c2932c1dd8e89f5c314fa2e8164ff6952dd69e23b40cc30ab9c1081e9",
+        "artifact": "pages/services--clinical-pilates/compliance-review.md"
+      },
+      "technical": {
+        "status": "passed",
+        "revision": "sha256:ab24d89c2932c1dd8e89f5c314fa2e8164ff6952dd69e23b40cc30ab9c1081e9",
+        "artifact": "pages/services--clinical-pilates/integration.md"
+      }
     },
     "publication": {
-      "destination": null,
+      "destination": "cloudflare-prototype",
       "commit": null,
-      "status": "not-published",
-      "url": null
+      "status": "deployment-pending",
+      "url": "https://alpha-sports-med-prototype.pages.dev/services/clinical-pilates/"
     },
-    "blockers": []
+    "blockers": [],
+    "stageHistory": [
+      {
+        "stage": "researching",
+        "at": "2026-10-06",
+        "artifact": "pages/services--clinical-pilates/research.md"
+      },
+      {
+        "stage": "briefing",
+        "at": "2026-10-06",
+        "artifact": "pages/services--clinical-pilates/brief.md"
+      },
+      {
+        "stage": "writing",
+        "at": "2026-10-06",
+        "artifact": "pages/services--clinical-pilates/copy.md"
+      },
+      {
+        "stage": "editing",
+        "at": "2026-10-06",
+        "artifact": "pages/services--clinical-pilates/editor-review.md"
+      },
+      {
+        "stage": "compliance-review",
+        "at": "2026-10-06",
+        "artifact": "pages/services--clinical-pilates/compliance-review.md"
+      },
+      {
+        "stage": "integrating",
+        "at": "2026-10-06",
+        "artifact": "pages/services--clinical-pilates/integration.md"
+      },
+      {
+        "stage": "ready-for-review",
+        "at": "2026-10-06",
+        "artifact": "pages/services--clinical-pilates/integration.md"
+      }
+    ]
   },
   {
     "id": "services--strength-conditioning",
@@ -305,29 +512,78 @@
     "url": "/services/strength-conditioning/",
     "family": "service",
     "section": "What We Do",
-    "exists": false,
-    "stage": "planned",
-    "draftReady": false,
-    "revision": null,
+    "exists": true,
+    "stage": "ready-for-review",
+    "draftReady": true,
+    "revision": "sha256:5b3db30c68ed5acf6ae30df037fc896987b93320588ef32f59a9997c7048195c",
     "clientApproval": {
-      "status": "unknown",
+      "status": "pending",
       "revision": null,
       "by": null,
       "at": null,
       "evidence": null
     },
     "reviews": {
-      "editor": "pending",
-      "compliance": "pending",
-      "technical": "pending"
+      "editor": {
+        "status": "passed",
+        "revision": "sha256:5b3db30c68ed5acf6ae30df037fc896987b93320588ef32f59a9997c7048195c",
+        "artifact": "pages/services--strength-conditioning/editor-review.md"
+      },
+      "compliance": {
+        "status": "passed",
+        "revision": "sha256:5b3db30c68ed5acf6ae30df037fc896987b93320588ef32f59a9997c7048195c",
+        "artifact": "pages/services--strength-conditioning/compliance-review.md"
+      },
+      "technical": {
+        "status": "passed",
+        "revision": "sha256:5b3db30c68ed5acf6ae30df037fc896987b93320588ef32f59a9997c7048195c",
+        "artifact": "pages/services--strength-conditioning/integration.md"
+      }
     },
     "publication": {
-      "destination": null,
+      "destination": "cloudflare-prototype",
       "commit": null,
-      "status": "not-published",
-      "url": null
+      "status": "deployment-pending",
+      "url": "https://alpha-sports-med-prototype.pages.dev/services/strength-conditioning/"
     },
-    "blockers": []
+    "blockers": [],
+    "stageHistory": [
+      {
+        "stage": "researching",
+        "at": "2026-10-06",
+        "artifact": "pages/services--strength-conditioning/research.md"
+      },
+      {
+        "stage": "briefing",
+        "at": "2026-10-06",
+        "artifact": "pages/services--strength-conditioning/brief.md"
+      },
+      {
+        "stage": "writing",
+        "at": "2026-10-06",
+        "artifact": "pages/services--strength-conditioning/copy.md"
+      },
+      {
+        "stage": "editing",
+        "at": "2026-10-06",
+        "artifact": "pages/services--strength-conditioning/editor-review.md"
+      },
+      {
+        "stage": "compliance-review",
+        "at": "2026-10-06",
+        "artifact": "pages/services--strength-conditioning/compliance-review.md"
+      },
+      {
+        "stage": "integrating",
+        "at": "2026-10-06",
+        "artifact": "pages/services--strength-conditioning/integration.md"
+      },
+      {
+        "stage": "ready-for-review",
+        "at": "2026-10-06",
+        "artifact": "pages/services--strength-conditioning/integration.md"
+      }
+    ]
   },
   {
     "id": "services--paediatric-osteopathy",
@@ -335,59 +591,157 @@
     "url": "/services/paediatric-osteopathy/",
     "family": "service",
     "section": "What We Do",
-    "exists": false,
-    "stage": "planned",
-    "draftReady": false,
-    "revision": null,
+    "exists": true,
+    "stage": "ready-for-review",
+    "draftReady": true,
+    "revision": "sha256:8df7a23fbef5e81aeb8054d466f697d4bfb94638b758213cf70ed399a0409125",
     "clientApproval": {
-      "status": "unknown",
+      "status": "pending",
       "revision": null,
       "by": null,
       "at": null,
       "evidence": null
     },
     "reviews": {
-      "editor": "pending",
-      "compliance": "pending",
-      "technical": "pending"
+      "editor": {
+        "status": "passed",
+        "revision": "sha256:8df7a23fbef5e81aeb8054d466f697d4bfb94638b758213cf70ed399a0409125",
+        "artifact": "pages/services--paediatric-osteopathy/editor-review.md"
+      },
+      "compliance": {
+        "status": "passed",
+        "revision": "sha256:8df7a23fbef5e81aeb8054d466f697d4bfb94638b758213cf70ed399a0409125",
+        "artifact": "pages/services--paediatric-osteopathy/compliance-review.md"
+      },
+      "technical": {
+        "status": "passed",
+        "revision": "sha256:8df7a23fbef5e81aeb8054d466f697d4bfb94638b758213cf70ed399a0409125",
+        "artifact": "pages/services--paediatric-osteopathy/integration.md"
+      }
     },
     "publication": {
-      "destination": null,
+      "destination": "cloudflare-prototype",
       "commit": null,
-      "status": "not-published",
-      "url": null
+      "status": "deployment-pending",
+      "url": "https://alpha-sports-med-prototype.pages.dev/services/paediatric-osteopathy/"
     },
-    "blockers": []
+    "blockers": [],
+    "stageHistory": [
+      {
+        "stage": "researching",
+        "at": "2026-10-06",
+        "artifact": "pages/services--paediatric-osteopathy/research.md"
+      },
+      {
+        "stage": "briefing",
+        "at": "2026-10-06",
+        "artifact": "pages/services--paediatric-osteopathy/brief.md"
+      },
+      {
+        "stage": "writing",
+        "at": "2026-10-06",
+        "artifact": "pages/services--paediatric-osteopathy/copy.md"
+      },
+      {
+        "stage": "editing",
+        "at": "2026-10-06",
+        "artifact": "pages/services--paediatric-osteopathy/editor-review.md"
+      },
+      {
+        "stage": "compliance-review",
+        "at": "2026-10-06",
+        "artifact": "pages/services--paediatric-osteopathy/compliance-review.md"
+      },
+      {
+        "stage": "integrating",
+        "at": "2026-10-06",
+        "artifact": "pages/services--paediatric-osteopathy/integration.md"
+      },
+      {
+        "stage": "ready-for-review",
+        "at": "2026-10-06",
+        "artifact": "pages/services--paediatric-osteopathy/integration.md"
+      }
+    ]
   },
   {
     "id": "conditions--pregnancy-pain",
-    "title": "Women\u2019s Health",
+    "title": "Women’s Health",
     "url": "/conditions/pregnancy-pain/",
     "family": "condition",
     "section": "What We Do",
-    "exists": false,
-    "stage": "planned",
-    "draftReady": false,
-    "revision": null,
+    "exists": true,
+    "stage": "ready-for-review",
+    "draftReady": true,
+    "revision": "sha256:4de3983ce070a36153af3bd5685850f9525feb39d858f3caa63690fdcc228076",
     "clientApproval": {
-      "status": "unknown",
+      "status": "pending",
       "revision": null,
       "by": null,
       "at": null,
       "evidence": null
     },
     "reviews": {
-      "editor": "pending",
-      "compliance": "pending",
-      "technical": "pending"
+      "editor": {
+        "status": "passed",
+        "revision": "sha256:4de3983ce070a36153af3bd5685850f9525feb39d858f3caa63690fdcc228076",
+        "artifact": "pages/conditions--pregnancy-pain/editor-review.md"
+      },
+      "compliance": {
+        "status": "passed",
+        "revision": "sha256:4de3983ce070a36153af3bd5685850f9525feb39d858f3caa63690fdcc228076",
+        "artifact": "pages/conditions--pregnancy-pain/compliance-review.md"
+      },
+      "technical": {
+        "status": "passed",
+        "revision": "sha256:4de3983ce070a36153af3bd5685850f9525feb39d858f3caa63690fdcc228076",
+        "artifact": "pages/conditions--pregnancy-pain/integration.md"
+      }
     },
     "publication": {
-      "destination": null,
+      "destination": "cloudflare-prototype",
       "commit": null,
-      "status": "not-published",
-      "url": null
+      "status": "deployment-pending",
+      "url": "https://alpha-sports-med-prototype.pages.dev/conditions/pregnancy-pain/"
     },
-    "blockers": []
+    "blockers": [],
+    "stageHistory": [
+      {
+        "stage": "researching",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--pregnancy-pain/research.md"
+      },
+      {
+        "stage": "briefing",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--pregnancy-pain/brief.md"
+      },
+      {
+        "stage": "writing",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--pregnancy-pain/copy.md"
+      },
+      {
+        "stage": "editing",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--pregnancy-pain/editor-review.md"
+      },
+      {
+        "stage": "compliance-review",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--pregnancy-pain/compliance-review.md"
+      },
+      {
+        "stage": "integrating",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--pregnancy-pain/integration.md"
+      },
+      {
+        "stage": "ready-for-review",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--pregnancy-pain/integration.md"
+      }
+    ]
   },
   {
     "id": "running-assessment",
@@ -395,29 +749,78 @@
     "url": "/running-assessment/",
     "family": "other",
     "section": "What We Do",
-    "exists": false,
-    "stage": "planned",
-    "draftReady": false,
-    "revision": null,
+    "exists": true,
+    "stage": "ready-for-review",
+    "draftReady": true,
+    "revision": "sha256:12f6557b4ac60185aeea6795de35b8585b96bf7bd3eb8180d2cd0b4d21f776c2",
     "clientApproval": {
-      "status": "unknown",
+      "status": "pending",
       "revision": null,
       "by": null,
       "at": null,
       "evidence": null
     },
     "reviews": {
-      "editor": "pending",
-      "compliance": "pending",
-      "technical": "pending"
+      "editor": {
+        "status": "passed",
+        "revision": "sha256:12f6557b4ac60185aeea6795de35b8585b96bf7bd3eb8180d2cd0b4d21f776c2",
+        "artifact": "pages/running-assessment/editor-review.md"
+      },
+      "compliance": {
+        "status": "passed",
+        "revision": "sha256:12f6557b4ac60185aeea6795de35b8585b96bf7bd3eb8180d2cd0b4d21f776c2",
+        "artifact": "pages/running-assessment/compliance-review.md"
+      },
+      "technical": {
+        "status": "passed",
+        "revision": "sha256:12f6557b4ac60185aeea6795de35b8585b96bf7bd3eb8180d2cd0b4d21f776c2",
+        "artifact": "pages/running-assessment/integration.md"
+      }
     },
     "publication": {
-      "destination": null,
+      "destination": "cloudflare-prototype",
       "commit": null,
-      "status": "not-published",
-      "url": null
+      "status": "deployment-pending",
+      "url": "https://alpha-sports-med-prototype.pages.dev/running-assessment/"
     },
-    "blockers": []
+    "blockers": [],
+    "stageHistory": [
+      {
+        "stage": "researching",
+        "at": "2026-10-06",
+        "artifact": "pages/running-assessment/research.md"
+      },
+      {
+        "stage": "briefing",
+        "at": "2026-10-06",
+        "artifact": "pages/running-assessment/brief.md"
+      },
+      {
+        "stage": "writing",
+        "at": "2026-10-06",
+        "artifact": "pages/running-assessment/copy.md"
+      },
+      {
+        "stage": "editing",
+        "at": "2026-10-06",
+        "artifact": "pages/running-assessment/editor-review.md"
+      },
+      {
+        "stage": "compliance-review",
+        "at": "2026-10-06",
+        "artifact": "pages/running-assessment/compliance-review.md"
+      },
+      {
+        "stage": "integrating",
+        "at": "2026-10-06",
+        "artifact": "pages/running-assessment/integration.md"
+      },
+      {
+        "stage": "ready-for-review",
+        "at": "2026-10-06",
+        "artifact": "pages/running-assessment/integration.md"
+      }
+    ]
   },
   {
     "id": "conditions--hypermobility",
@@ -425,29 +828,78 @@
     "url": "/conditions/hypermobility/",
     "family": "condition",
     "section": "What We Do",
-    "exists": false,
-    "stage": "planned",
-    "draftReady": false,
-    "revision": null,
+    "exists": true,
+    "stage": "ready-for-review",
+    "draftReady": true,
+    "revision": "sha256:478fdf008d70ab961daa17947df9f63b5f246fb7cc01a451799a8622b1ec24ff",
     "clientApproval": {
-      "status": "unknown",
+      "status": "pending",
       "revision": null,
       "by": null,
       "at": null,
       "evidence": null
     },
     "reviews": {
-      "editor": "pending",
-      "compliance": "pending",
-      "technical": "pending"
+      "editor": {
+        "status": "passed",
+        "revision": "sha256:478fdf008d70ab961daa17947df9f63b5f246fb7cc01a451799a8622b1ec24ff",
+        "artifact": "pages/conditions--hypermobility/editor-review.md"
+      },
+      "compliance": {
+        "status": "passed",
+        "revision": "sha256:478fdf008d70ab961daa17947df9f63b5f246fb7cc01a451799a8622b1ec24ff",
+        "artifact": "pages/conditions--hypermobility/compliance-review.md"
+      },
+      "technical": {
+        "status": "passed",
+        "revision": "sha256:478fdf008d70ab961daa17947df9f63b5f246fb7cc01a451799a8622b1ec24ff",
+        "artifact": "pages/conditions--hypermobility/integration.md"
+      }
     },
     "publication": {
-      "destination": null,
+      "destination": "cloudflare-prototype",
       "commit": null,
-      "status": "not-published",
-      "url": null
+      "status": "deployment-pending",
+      "url": "https://alpha-sports-med-prototype.pages.dev/conditions/hypermobility/"
     },
-    "blockers": []
+    "blockers": [],
+    "stageHistory": [
+      {
+        "stage": "researching",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--hypermobility/research.md"
+      },
+      {
+        "stage": "briefing",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--hypermobility/brief.md"
+      },
+      {
+        "stage": "writing",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--hypermobility/copy.md"
+      },
+      {
+        "stage": "editing",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--hypermobility/editor-review.md"
+      },
+      {
+        "stage": "compliance-review",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--hypermobility/compliance-review.md"
+      },
+      {
+        "stage": "integrating",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--hypermobility/integration.md"
+      },
+      {
+        "stage": "ready-for-review",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--hypermobility/integration.md"
+      }
+    ]
   },
   {
     "id": "conditions--sports-injuries",
@@ -455,29 +907,78 @@
     "url": "/conditions/sports-injuries/",
     "family": "condition",
     "section": "What We Do",
-    "exists": false,
-    "stage": "planned",
-    "draftReady": false,
-    "revision": null,
+    "exists": true,
+    "stage": "ready-for-review",
+    "draftReady": true,
+    "revision": "sha256:4878feabfc334b9b6f50a6fad67f90c9893285f7be24b2227cafa361bb313afe",
     "clientApproval": {
-      "status": "unknown",
+      "status": "pending",
       "revision": null,
       "by": null,
       "at": null,
       "evidence": null
     },
     "reviews": {
-      "editor": "pending",
-      "compliance": "pending",
-      "technical": "pending"
+      "editor": {
+        "status": "passed",
+        "revision": "sha256:4878feabfc334b9b6f50a6fad67f90c9893285f7be24b2227cafa361bb313afe",
+        "artifact": "pages/conditions--sports-injuries/editor-review.md"
+      },
+      "compliance": {
+        "status": "passed",
+        "revision": "sha256:4878feabfc334b9b6f50a6fad67f90c9893285f7be24b2227cafa361bb313afe",
+        "artifact": "pages/conditions--sports-injuries/compliance-review.md"
+      },
+      "technical": {
+        "status": "passed",
+        "revision": "sha256:4878feabfc334b9b6f50a6fad67f90c9893285f7be24b2227cafa361bb313afe",
+        "artifact": "pages/conditions--sports-injuries/integration.md"
+      }
     },
     "publication": {
-      "destination": null,
+      "destination": "cloudflare-prototype",
       "commit": null,
-      "status": "not-published",
-      "url": null
+      "status": "deployment-pending",
+      "url": "https://alpha-sports-med-prototype.pages.dev/conditions/sports-injuries/"
     },
-    "blockers": []
+    "blockers": [],
+    "stageHistory": [
+      {
+        "stage": "researching",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--sports-injuries/research.md"
+      },
+      {
+        "stage": "briefing",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--sports-injuries/brief.md"
+      },
+      {
+        "stage": "writing",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--sports-injuries/copy.md"
+      },
+      {
+        "stage": "editing",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--sports-injuries/editor-review.md"
+      },
+      {
+        "stage": "compliance-review",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--sports-injuries/compliance-review.md"
+      },
+      {
+        "stage": "integrating",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--sports-injuries/integration.md"
+      },
+      {
+        "stage": "ready-for-review",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--sports-injuries/integration.md"
+      }
+    ]
   },
   {
     "id": "conditions--invisible-illnesses",
@@ -485,29 +986,78 @@
     "url": "/conditions/invisible-illnesses/",
     "family": "condition",
     "section": "What We Do",
-    "exists": false,
-    "stage": "planned",
-    "draftReady": false,
-    "revision": null,
+    "exists": true,
+    "stage": "ready-for-review",
+    "draftReady": true,
+    "revision": "sha256:c5ebe52925b681e5edb004fc60dcdae960ad952f26b542bc70545e8323a24920",
     "clientApproval": {
-      "status": "unknown",
+      "status": "pending",
       "revision": null,
       "by": null,
       "at": null,
       "evidence": null
     },
     "reviews": {
-      "editor": "pending",
-      "compliance": "pending",
-      "technical": "pending"
+      "editor": {
+        "status": "passed",
+        "revision": "sha256:c5ebe52925b681e5edb004fc60dcdae960ad952f26b542bc70545e8323a24920",
+        "artifact": "pages/conditions--invisible-illnesses/editor-review.md"
+      },
+      "compliance": {
+        "status": "passed",
+        "revision": "sha256:c5ebe52925b681e5edb004fc60dcdae960ad952f26b542bc70545e8323a24920",
+        "artifact": "pages/conditions--invisible-illnesses/compliance-review.md"
+      },
+      "technical": {
+        "status": "passed",
+        "revision": "sha256:c5ebe52925b681e5edb004fc60dcdae960ad952f26b542bc70545e8323a24920",
+        "artifact": "pages/conditions--invisible-illnesses/integration.md"
+      }
     },
     "publication": {
-      "destination": null,
+      "destination": "cloudflare-prototype",
       "commit": null,
-      "status": "not-published",
-      "url": null
+      "status": "deployment-pending",
+      "url": "https://alpha-sports-med-prototype.pages.dev/conditions/invisible-illnesses/"
     },
-    "blockers": []
+    "blockers": [],
+    "stageHistory": [
+      {
+        "stage": "researching",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--invisible-illnesses/research.md"
+      },
+      {
+        "stage": "briefing",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--invisible-illnesses/brief.md"
+      },
+      {
+        "stage": "writing",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--invisible-illnesses/copy.md"
+      },
+      {
+        "stage": "editing",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--invisible-illnesses/editor-review.md"
+      },
+      {
+        "stage": "compliance-review",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--invisible-illnesses/compliance-review.md"
+      },
+      {
+        "stage": "integrating",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--invisible-illnesses/integration.md"
+      },
+      {
+        "stage": "ready-for-review",
+        "at": "2026-10-06",
+        "artifact": "pages/conditions--invisible-illnesses/integration.md"
+      }
+    ]
   },
   {
     "id": "who-we-support--athletes",

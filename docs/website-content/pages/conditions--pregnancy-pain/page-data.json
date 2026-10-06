@@ -1,0 +1,195 @@
+{
+  "seo": {
+    "title": "Pregnancy-Related Pain | Alpha Sports Medicine",
+    "description": "Musculoskeletal support for pregnancy-related back and pelvic pain. Learn when to contact maternity care and ask about an appointment at Alpha."
+  },
+  "breadcrumb": "Pregnancy-Related Pain",
+  "hero": {
+    "eyebrow": "Pregnancy-related musculoskeletal care",
+    "heading": "Pregnancy-related pain and everyday movement",
+    "subheading": "Discuss back or pelvic discomfort that affects your day, with care considered around your pregnancy and maternity team’s advice.",
+    "trust": [],
+    "practitioner": {
+      "name": "Lara Trevorrow",
+      "role": "Osteopath",
+      "image": "/assets/images/team/lara-trevorrow.jpg",
+      "imageAlt": "Lara Trevorrow, osteopath with an interest in pregnancy care"
+    }
+  },
+  "urgent": {
+    "eyebrow": "Maternity care comes first",
+    "heading": "Get medical advice for warning symptoms",
+    "paragraphs": [
+      "Contact your maternity team immediately about vaginal bleeding, fluid loss, reduced or changed baby movements, severe headache or vision changes, or severe abdominal pain. Do not book a musculoskeletal appointment first for these symptoms.",
+      "If symptoms are severe or life-threatening, call 000. If you are unsure about a new symptom in pregnancy, contact your midwife, doctor or maternity service for advice."
+    ],
+    "linkLabel": "Pregnancy warning signs",
+    "linkUrl": "https://www.pregnancybirthbaby.org.au/pregnancy/health-conditions-and-complications/warning-signs-during-pregnancy"
+  },
+  "pattern": {
+    "eyebrow": "The daily tasks that have changed",
+    "heading": "Tell us which movements are difficult",
+    "intro": "Pregnancy-related musculoskeletal pain can affect ordinary tasks. Describe what you feel rather than trying to decide on a diagnosis yourself.",
+    "items": [
+      {
+        "title": "Turning in bed",
+        "copy": "Back or pelvic discomfort may make it difficult to change position or settle comfortably."
+      },
+      {
+        "title": "Using stairs",
+        "copy": "Stepping up or standing on one leg may bring on discomfort around the pelvis."
+      },
+      {
+        "title": "Getting out of the car",
+        "copy": "Movements you used to make without thinking may now take more time or feel painful."
+      },
+      {
+        "title": "Managing a full day",
+        "copy": "Standing, work or caring for another child can change what you are asking your body to do."
+      }
+    ]
+  },
+  "explainer": {
+    "eyebrow": "Understanding the scope",
+    "heading": "Back and pelvic pain during pregnancy",
+    "paragraphs": [
+      "Pregnancy-related pelvic girdle pain concerns the joints around the pelvis and can affect everyday movement. Back pain can also arise during pregnancy. An assessment considers the symptoms and whether they fit a musculoskeletal concern.",
+      "Pain at the front of the pelvis is sometimes called pubic symphysis pain. A description of pain does not tell you its cause; new or worrying symptoms need medical advice rather than online reassurance.",
+      "The Royal Women’s Hospital provides information about pregnancy-related pelvic girdle pain and practical support. Individual advice should take your pregnancy and medical care into account."
+    ],
+    "link": {
+      "label": "Royal Women’s Hospital physiotherapy resources",
+      "href": "https://www.thewomens.org.au/patients-visitors/clinics-and-services/support-services/physiotherapy",
+      "external": true
+    }
+  },
+  "focus": {
+    "eyebrow": "Your osteopathy appointment",
+    "heading": "Care around your pregnancy",
+    "paragraphs": [
+      "Lara Trevorrow is an osteopath with pregnancy and postpartum interests and additional training in this area. She offers pregnancy consultations at Newport and Bacchus Marsh. Ask reception about current availability.",
+      "Bring up your stage of pregnancy, symptoms and any advice from your maternity team. The clinician can consider suitable assessment, comfortable positioning and options for musculoskeletal support. Ask about the evidence and risks of any proposed care.",
+      "This care does not replace your GP, midwife or obstetrician. Medical concerns about the pregnancy remain with your maternity team."
+    ],
+    "link": {
+      "label": "Osteopathy at Alpha",
+      "href": "/services/osteopathy/"
+    },
+    "caption": "Lara Trevorrow, osteopath with an interest in pregnancy care.",
+    "image": "/assets/images/team/lara-trevorrow.jpg",
+    "imageAlt": "Lara Trevorrow, osteopath at Alpha Sports Medicine"
+  },
+  "process": {
+    "eyebrow": "Working through your concerns",
+    "heading": "What to discuss at an appointment",
+    "steps": [
+      {
+        "title": "Explain what has changed",
+        "copy": "Describe the pain, activities that have become difficult and relevant health or pregnancy history."
+      },
+      {
+        "title": "Share maternity advice",
+        "copy": "Tell the clinician about restrictions or concerns raised by your maternity team. Further advice may be needed before musculoskeletal care."
+      },
+      {
+        "title": "Consider movement",
+        "copy": "Discuss what assessment is appropriate and which positions you can tolerate. Speak up about discomfort."
+      },
+      {
+        "title": "Talk through options",
+        "copy": "Ask about proposed care and practical adjustments to daily activities. Decide on the next step after discussing the options."
+      },
+      {
+        "title": "Review your response",
+        "copy": "Discuss whether the approach needs changing and whether further medical advice is needed."
+      },
+      {
+        "title": "Keep your care team involved",
+        "copy": "Where communication with another treating professional would be useful, discuss it and your consent."
+      }
+    ]
+  },
+  "note": {
+    "eyebrow": "Exercise during pregnancy",
+    "heading": "Let maternity advice guide the plan",
+    "paragraphs": [
+      "If you want to keep exercising, bring up what you do and any changes in symptoms. Suitable exercise depends on your pregnancy and individual circumstances.",
+      "Follow advice and restrictions from your maternity team. Alpha does not clear you medically for exercise, and new worrying symptoms need medical advice."
+    ],
+    "icon": "heart"
+  },
+  "servicesHeading": "Related services to discuss",
+  "services": [
+    {
+      "title": "Osteopathy",
+      "copy": "Musculoskeletal assessment and care can be considered around your pregnancy and maternity advice.",
+      "icon": "move",
+      "href": "/services/osteopathy/"
+    },
+    {
+      "title": "Clinical Pilates",
+      "copy": "Ask about individual exercise suitability. Exercise choice depends on your symptoms and maternity-team advice.",
+      "icon": "activity",
+      "href": "/services/clinical-pilates/"
+    },
+    {
+      "title": "Exercise physiology",
+      "copy": "This service focuses on clinical exercise assessment and planning. Ask which practitioner or appointment is suitable for your needs.",
+      "icon": "dumbbell",
+      "href": "/services/exercise-physiology/"
+    }
+  ],
+  "related": [
+    {
+      "title": "Back pain",
+      "href": "/conditions/back-pain/"
+    },
+    {
+      "title": "Paediatric osteopathy",
+      "href": "/services/paediatric-osteopathy/"
+    }
+  ],
+  "clinics": [
+    "newport",
+    "bacchus-marsh"
+  ],
+  "locationsEyebrow": "Pregnancy consultation enquiries",
+  "locationsHeading": "Ask about Lara’s pregnancy appointments",
+  "locationsCopy": "Lara offers pregnancy consultations at Newport and Bacchus Marsh. Contact reception to check current appointment options.",
+  "faqHeading": "Pregnancy-related pain: your questions",
+  "faqs": [
+    {
+      "question": "What kind of pregnancy pain can I ask about?",
+      "answer": "You can ask about musculoskeletal concerns, such as back or pelvic pain affecting movement. It does not cover diagnosis or treatment of obstetric complications. New or worrying pregnancy symptoms need advice from your maternity team."
+    },
+    {
+      "question": "Is treatment automatically safe during pregnancy?",
+      "answer": "No approach is automatically appropriate for every pregnancy. Your health history, pregnancy circumstances and proposed care need consideration. Ask about the options, evidence and risks, and share any maternity-team restrictions."
+    },
+    {
+      "question": "Do you provide internal pelvic-floor assessments?",
+      "answer": "For an internal pelvic-floor assessment, ask your GP or maternity team about an appropriately trained pelvic-health provider. The appointments described here focus on musculoskeletal concerns."
+    },
+    {
+      "question": "Can I book in the first trimester?",
+      "answer": "Tell reception how many weeks pregnant you are and why you are enquiring. Suitability and the available practitioner need to be confirmed. Bleeding or abdominal pain in early pregnancy needs medical advice first."
+    },
+    {
+      "question": "Do I need a referral?",
+      "answer": "You can enquire about a private appointment without a referral. Tell the clinician who provides your maternity care and bring relevant advice. Funded care can have separate requirements."
+    },
+    {
+      "question": "Can I keep exercising?",
+      "answer": "That depends on your pregnancy and individual circumstances. Follow maternity-team advice and restrictions. A clinician can discuss suitable musculoskeletal exercise support within those limits."
+    },
+    {
+      "question": "How many appointments will I need?",
+      "answer": "That depends on your assessment and response. Discuss a review point and what would make further care useful."
+    }
+  ],
+  "closing": {
+    "eyebrow": "Discuss your appointment options",
+    "heading": "Tell us what movement has become difficult",
+    "copy": "Call 03 9962 5539 or use online booking to ask about an appropriate appointment. For new or worrying pregnancy symptoms, contact your maternity team first."
+  }
+}

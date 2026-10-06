@@ -1,0 +1,16 @@
+{
+  "clinicCards": 1,
+  "introLinks": [
+    "/locations/newport/"
+  ],
+  "jordan": [
+    "/staff/jordan-tripodi/"
+  ],
+  "overflow": 0,
+  "paragraphMargins": [
+    "16px",
+    "16px"
+  ],
+  "portrait": "/assets/images/team/jordan-tripodi.jpg",
+  "width": 390
+}

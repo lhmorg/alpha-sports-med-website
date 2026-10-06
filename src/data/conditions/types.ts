@@ -1,3 +1,5 @@
+import type { ClinicSlug } from "../services/types";
+
 // Types for condition page data (see README.md in this folder) and the conditions hub.
 
 export interface Link { label: string; href: string; external?: boolean }
@@ -7,7 +9,7 @@ export interface Step { title: string; copy: string }
 export interface ConditionPage {
   seo: { title: string; description: string };
   breadcrumb: string;
-  hero: { eyebrow: string; heading: string; subheading: string; trust?: string[] };
+  hero: { eyebrow: string; heading: string; subheading: string; trust?: string[]; media?: { image: string; imageAlt: string; caption: string }; practitioner?: { name: string; role: string; image: string; imageAlt: string } };
   urgent: { eyebrow: string; heading: string; paragraphs?: string[]; copy?: string; linkLabel?: string; linkUrl?: string };
   pattern?: { ghost?: string; eyebrow: string; heading: string; intro?: string; items: { title: string; kicker?: string; copy: string; link?: Link }[] };
   explainer?: { ghost?: string; eyebrow: string; heading: string; paragraphs: string[]; link?: Link };
@@ -18,6 +20,11 @@ export interface ConditionPage {
   services: { title: string; copy: string; href: string; icon: string }[];
   related: { title: string; href: string }[];
   locationsEyebrow: string;
+  clinics?: ClinicSlug[];
+  locationsHeading?: string;
+  locationsCopy?: string;
+  clinicLinks?: Partial<Record<ClinicSlug, { href: string; label: string }>>;
+  medicalConditionName?: string | null;
   faqHeading: string;
   faqs: Faq[];
   closing: { eyebrow: string; heading: string; copy: string };

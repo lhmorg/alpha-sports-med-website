@@ -10,3 +10,8 @@ These are Michael’s internal project instructions, not recorded end-client app
 - L006, workflow, confirmed by Michael: each page follows source comparison, family brief, copy, independent anti-AI editing, independent AHPRA review and Astro integration. Read prior feedback before later sections.
 
 Playbook direction: active people, validation, collaborative care, education and goals. Its claim/testimonial guidance must be checked against current official rules; internal positioning is not clinical substantiation.
+
+- L007, service family, confirmed by Michael from Exercise Physiology pilot feedback, 6 October 2026: give successive prose paragraphs clear spacing and use a consistent explainer body colour. Shared service stylesheet corrected; keep link styling recognisable.
+- L008, Exercise Physiology pilot, confirmed by Michael, 6 October 2026: link the opening Newport clinic mention to /locations/newport/; replace About Alpha with Meet Jordan linking to planned /staff/jordan-tripodi/ even though the profile is not built; centre the single clinic card. This explicit planned-profile link supersedes the pilot’s earlier built-body-links-only rule for this CTA. Other prose stays unchanged. Michael said the remainder looks good; this records internal review feedback, not end-client approval.
+
+- L009, batch scope, confirmed by Michael 6 October 2026: after the Exercise Physiology pilot, roll out the rest of What We Do. Includes the nine missing destinations and expanded condition hubs; existing service references are preserved. Local review status continues; no end-client approval or publication instruction inferred.

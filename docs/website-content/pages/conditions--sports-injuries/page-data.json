@@ -1,0 +1,197 @@
+{
+  "seo": {
+    "title": "Sports Injury Assessment | Alpha Sports Medicine",
+    "description": "Discuss sport and gym injuries with Alpha. Learn when medical care comes first and explore individual assessment and rehabilitation options."
+  },
+  "breadcrumb": "Sports Injuries",
+  "hero": {
+    "eyebrow": "Sport and gym injuries",
+    "heading": "Sports injuries: work out the next step",
+    "subheading": "Musculoskeletal assessment and rehabilitation planning around your injury, current activity and goals.",
+    "trust": [],
+    "media": {
+      "image": "/assets/images/locations/newport-storefront.jpg",
+      "imageAlt": "Alpha Sports Medicine Newport clinic entrance",
+      "caption": "Ask reception about an appropriate injury assessment."
+    }
+  },
+  "urgent": {
+    "eyebrow": "Medical assessment comes first",
+    "heading": "Get help for a significant injury",
+    "paragraphs": [
+      "Seek medical assessment for severe pain, a visible deformity or an inability to bear weight after an injury. A suspected fracture or dislocation needs appropriate medical care. If an injured limb is numb, pale or cold, call 000.",
+      "After a head knock or suspected concussion, stop sport and seek medical assessment. Do not return to play that day. Alpha’s musculoskeletal appointments do not replace emergency or concussion care."
+    ],
+    "linkLabel": "Healthdirect limb injury advice",
+    "linkUrl": "https://www.healthdirect.gov.au/limb-injuries"
+  },
+  "pattern": {
+    "eyebrow": "How symptoms can begin",
+    "heading": "Describe what happened and what changed",
+    "intro": "An injury may follow one incident or develop over time. Your account helps guide assessment, but a symptom list cannot diagnose the problem.",
+    "items": [
+      {
+        "title": "A sudden incident",
+        "copy": "A twist, fall or collision can leave pain or difficulty moving. The severity and type of injury determine whether medical care is needed first."
+      },
+      {
+        "title": "Symptoms building over time",
+        "copy": "Discomfort may appear during repeated activity. Discuss when it starts and any recent changes in training."
+      },
+      {
+        "title": "Pain during gym work",
+        "copy": "Explain which movement brings on symptoms and what you have changed. Your clinician considers technique alongside your history and symptoms."
+      },
+      {
+        "title": "Returning after an injury",
+        "copy": "Talk about your current activity, any medical restrictions and the demands of the sport you want to return to."
+      }
+    ]
+  },
+  "explainer": {
+    "eyebrow": "Understanding injury terms",
+    "heading": "Sprains, strains and other sports injuries",
+    "paragraphs": [
+      "A sprain involves a ligament. A strain involves muscle or tendon. These terms cover different degrees of injury; the name alone does not tell you the appropriate treatment or return date.",
+      "Assessment considers your symptoms, injury history and what your activity asks of you. The clinician can discuss care within their scope and whether medical assessment or further investigation is needed.",
+      "Rest or activity modification can be necessary. Rehabilitation advice should account for the injury and your circumstances, rather than a blanket instruction to keep training."
+    ],
+    "link": {
+      "label": "Victorian guidance on sprains and strains",
+      "href": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/sprains-and-strains/",
+      "external": true
+    }
+  },
+  "focus": {
+    "eyebrow": "Rehabilitation and activity",
+    "heading": "Make the plan specific to the injury",
+    "paragraphs": [
+      "Exercise rehabilitation can be considered when appropriate to your assessment. Manual treatment may be one option for some musculoskeletal concerns; it is not required for every injury. Ask how a proposed approach relates to your situation.",
+      "Discuss the work you need to do outside the clinic and what would be reviewed. Your response, the demands of your sport and any medical advice all matter when considering progression.",
+      "Return decisions depend on your injury and response to rehabilitation. Some decisions require advice or clearance from your treating medical team."
+    ],
+    "caption": "Our Newport clinic. Confirm the appropriate practitioner and appointment when enquiring.",
+    "image": "/assets/images/locations/newport-storefront.jpg",
+    "imageAlt": "Alpha Sports Medicine clinic frontage in Newport"
+  },
+  "process": {
+    "eyebrow": "From concern to a plan",
+    "heading": "What to discuss in an assessment",
+    "steps": [
+      {
+        "title": "Explain the injury",
+        "copy": "Describe the incident or how symptoms developed, along with your health history and usual activity."
+      },
+      {
+        "title": "Consider medical needs",
+        "copy": "The clinician considers whether the concern is within scope or needs medical assessment first."
+      },
+      {
+        "title": "Assess appropriate movement",
+        "copy": "Discuss what assessment is suitable and tell the clinician about pain or difficulty."
+      },
+      {
+        "title": "Understand the options",
+        "copy": "Ask what proposed care involves, its evidence and its limits."
+      },
+      {
+        "title": "Agree on manageable work",
+        "copy": "Discuss suitable changes to activity and any exercise or rehabilitation plan."
+      },
+      {
+        "title": "Review your activity goals",
+        "copy": "Consider your response and the demands of your sport before discussing the next step."
+      }
+    ]
+  },
+  "note": {
+    "eyebrow": "After an acute injury",
+    "heading": "Early care depends on the injury",
+    "paragraphs": [
+      "Early care depends on the injury. Protection and relative rest may be appropriate after a soft-tissue injury, followed by activity that suits the assessment.",
+      "Severe or worsening symptoms need medical advice. A general exercise programme or someone else’s return timeline may not fit your circumstances."
+    ],
+    "icon": "heart"
+  },
+  "servicesHeading": "Assessment and rehabilitation options",
+  "services": [
+    {
+      "title": "Physiotherapy",
+      "href": "/services/physiotherapy/",
+      "copy": "Discuss musculoskeletal assessment and rehabilitation for your symptoms.",
+      "icon": "activity"
+    },
+    {
+      "title": "Osteopathy",
+      "href": "/services/osteopathy/",
+      "copy": "Ask about assessment and care for movement or musculoskeletal concerns.",
+      "icon": "activity"
+    },
+    {
+      "title": "Exercise physiology",
+      "href": "/services/exercise-physiology/",
+      "copy": "Clinical exercise assessment may be relevant when planning rehabilitation.",
+      "icon": "activity"
+    },
+    {
+      "title": "Strength and conditioning",
+      "href": "/services/strength-conditioning/",
+      "copy": "Exercise programming can be discussed when appropriate to your current capacity and treating-team advice.",
+      "icon": "activity"
+    }
+  ],
+  "related": [
+    {
+      "title": "Knee pain",
+      "href": "/conditions/knee-pain/"
+    },
+    {
+      "title": "Shoulder pain",
+      "href": "/conditions/shoulder-pain/"
+    },
+    {
+      "title": "Running assessment",
+      "href": "/running-assessment/"
+    }
+  ],
+  "clinics": [],
+  "locationsEyebrow": "Choose an appropriate assessment",
+  "locationsHeading": "Confirm the practitioner and location",
+  "locationsCopy": "Call 03 9962 5539 to describe your concern and check the relevant appointment and location. Significant injuries need medical assessment first.",
+  "faqHeading": "Sports injuries: your questions",
+  "faqs": [
+    {
+      "question": "Should I book Alpha after a major injury?",
+      "answer": "Significant injuries may need medical care first. Seek medical assessment for severe pain, deformity, inability to bear weight or a suspected fracture or dislocation. An injured limb that is numb, pale or cold needs an ambulance on 000."
+    },
+    {
+      "question": "What should I do after a head knock?",
+      "answer": "Stop sport and seek medical assessment for a head knock or suspected concussion. Do not return to play that day. Follow medical guidance; concussion assessment and return-to-play clearance need appropriate medical care."
+    },
+    {
+      "question": "What is the difference between a sprain and a strain?",
+      "answer": "A sprain involves a ligament. A strain involves muscle or tendon. Both vary in severity and need assessment appropriate to the symptoms and injury."
+    },
+    {
+      "question": "Do I need to stop all training?",
+      "answer": "That depends on the injury and your medical advice. Activity may need changing or stopping. Ask the treating clinician which activities are appropriate rather than assuming you should train through symptoms."
+    },
+    {
+      "question": "When can I return to sport?",
+      "answer": "There is no universal timeline. The injury, your response and the demands of the sport matter, and some situations require medical clearance. Discuss readiness with your treating team."
+    },
+    {
+      "question": "Will I need a scan?",
+      "answer": "Not every injury needs imaging. The appropriate clinician can consider your symptoms and whether investigation or medical assessment is indicated."
+    },
+    {
+      "question": "Do I need a referral?",
+      "answer": "You can enquire about a private musculoskeletal appointment without a referral. Funding arrangements can have separate requirements. Confirm the service, fee and any eligibility conditions before attending."
+    }
+  ],
+  "closing": {
+    "eyebrow": "Choose your starting assessment",
+    "heading": "Tell us about the injury and your activity",
+    "copy": "Call 03 9962 5539 for help choosing an appointment, or view online booking. Seek medical care first for significant injuries or warning symptoms."
+  }
+}
