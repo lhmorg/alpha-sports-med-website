@@ -33,3 +33,5 @@ What We Do rollout completed locally: nine new drafts ready-for-review, all14 me
 
 ## Publication authorisation — 6 October 2026
 Michael explicitly requested pushing these reviewed pages to main. This supersedes the earlier local-only instruction and authorises Cloudflare prototype deployment. End-client clinical approval remains pending; no deployment to alphasportsmed.com.au requested. Remote and rendered deployment verification follows the push.
+
+Publication verified: source commit140846b7db416791cde92f06c10673e52f1d96da pushed to main. GitHub deployment37403205666 succeeded; nine new routes and EP pilot rendered correctly on Cloudflare prototype. Browser verification used because direct HTTP checks returned403. Client approval remains pending.

@@ -229,8 +229,8 @@
     },
     "publication": {
       "destination": "cloudflare-prototype",
-      "commit": null,
-      "status": "deployment-pending",
+      "commit": "140846b7db416791cde92f06c10673e52f1d96da",
+      "status": "deployed",
       "url": "https://alpha-sports-med-prototype.pages.dev/services/exercise-physiology/"
     },
     "blockers": [],
@@ -384,8 +384,8 @@
     },
     "publication": {
       "destination": "cloudflare-prototype",
-      "commit": null,
-      "status": "deployment-pending",
+      "commit": "140846b7db416791cde92f06c10673e52f1d96da",
+      "status": "deployed",
       "url": "https://alpha-sports-med-prototype.pages.dev/services/dietetics/"
     },
     "blockers": [],
@@ -463,8 +463,8 @@
     },
     "publication": {
       "destination": "cloudflare-prototype",
-      "commit": null,
-      "status": "deployment-pending",
+      "commit": "140846b7db416791cde92f06c10673e52f1d96da",
+      "status": "deployed",
       "url": "https://alpha-sports-med-prototype.pages.dev/services/clinical-pilates/"
     },
     "blockers": [],
@@ -542,8 +542,8 @@
     },
     "publication": {
       "destination": "cloudflare-prototype",
-      "commit": null,
-      "status": "deployment-pending",
+      "commit": "140846b7db416791cde92f06c10673e52f1d96da",
+      "status": "deployed",
       "url": "https://alpha-sports-med-prototype.pages.dev/services/strength-conditioning/"
     },
     "blockers": [],
@@ -621,8 +621,8 @@
     },
     "publication": {
       "destination": "cloudflare-prototype",
-      "commit": null,
-      "status": "deployment-pending",
+      "commit": "140846b7db416791cde92f06c10673e52f1d96da",
+      "status": "deployed",
       "url": "https://alpha-sports-med-prototype.pages.dev/services/paediatric-osteopathy/"
     },
     "blockers": [],
@@ -700,8 +700,8 @@
     },
     "publication": {
       "destination": "cloudflare-prototype",
-      "commit": null,
-      "status": "deployment-pending",
+      "commit": "140846b7db416791cde92f06c10673e52f1d96da",
+      "status": "deployed",
       "url": "https://alpha-sports-med-prototype.pages.dev/conditions/pregnancy-pain/"
     },
     "blockers": [],
@@ -779,8 +779,8 @@
     },
     "publication": {
       "destination": "cloudflare-prototype",
-      "commit": null,
-      "status": "deployment-pending",
+      "commit": "140846b7db416791cde92f06c10673e52f1d96da",
+      "status": "deployed",
       "url": "https://alpha-sports-med-prototype.pages.dev/running-assessment/"
     },
     "blockers": [],
@@ -858,8 +858,8 @@
     },
     "publication": {
       "destination": "cloudflare-prototype",
-      "commit": null,
-      "status": "deployment-pending",
+      "commit": "140846b7db416791cde92f06c10673e52f1d96da",
+      "status": "deployed",
       "url": "https://alpha-sports-med-prototype.pages.dev/conditions/hypermobility/"
     },
     "blockers": [],
@@ -937,8 +937,8 @@
     },
     "publication": {
       "destination": "cloudflare-prototype",
-      "commit": null,
-      "status": "deployment-pending",
+      "commit": "140846b7db416791cde92f06c10673e52f1d96da",
+      "status": "deployed",
       "url": "https://alpha-sports-med-prototype.pages.dev/conditions/sports-injuries/"
     },
     "blockers": [],
@@ -1016,8 +1016,8 @@
     },
     "publication": {
       "destination": "cloudflare-prototype",
-      "commit": null,
-      "status": "deployment-pending",
+      "commit": "140846b7db416791cde92f06c10673e52f1d96da",
+      "status": "deployed",
       "url": "https://alpha-sports-med-prototype.pages.dev/conditions/invisible-illnesses/"
     },
     "blockers": [],

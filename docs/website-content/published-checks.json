@@ -1,0 +1,65 @@
+[
+  {
+    "route": "/services/dietetics/",
+    "canonical": "https://alpha-sports-med-prototype.pages.dev/services/dietetics/",
+    "faqs": 7,
+    "h1": "Dietetics for the way you live",
+    "title": "Dietetics in Newport | Alpha Sports Medicine"
+  },
+  {
+    "route": "/services/strength-conditioning/",
+    "canonical": "https://alpha-sports-med-prototype.pages.dev/services/strength-conditioning/",
+    "faqs": 6,
+    "h1": "Strength and conditioning for your next step",
+    "title": "Strength & Conditioning Newport | Alpha Sports Medicine"
+  },
+  {
+    "route": "/services/paediatric-osteopathy/",
+    "canonical": "https://alpha-sports-med-prototype.pages.dev/services/paediatric-osteopathy/",
+    "faqs": 7,
+    "h1": "Paediatric osteopathy: understand your options",
+    "title": "Paediatric Osteopathy Melbourne | Alpha Sports Medicine"
+  },
+  {
+    "route": "/conditions/pregnancy-pain/",
+    "canonical": "https://alpha-sports-med-prototype.pages.dev/conditions/pregnancy-pain/",
+    "faqs": 7,
+    "h1": "Pregnancy-related pain and everyday movement",
+    "title": "Pregnancy-Related Pain | Alpha Sports Medicine"
+  },
+  {
+    "route": "/running-assessment/",
+    "canonical": "https://alpha-sports-med-prototype.pages.dev/running-assessment/",
+    "faqs": 8,
+    "h1": "Take a closer look at how you run",
+    "title": "Running Assessment Melbourne | Alpha Sports Medicine"
+  },
+  {
+    "route": "/conditions/hypermobility/",
+    "canonical": "https://alpha-sports-med-prototype.pages.dev/conditions/hypermobility/",
+    "faqs": 7,
+    "h1": "Hypermobility and the movements that matter to you",
+    "title": "Hypermobility Support Melbourne | Alpha Sports Medicine"
+  },
+  {
+    "route": "/conditions/sports-injuries/",
+    "canonical": "https://alpha-sports-med-prototype.pages.dev/conditions/sports-injuries/",
+    "faqs": 7,
+    "h1": "Sports injuries: work out the next step",
+    "title": "Sports Injury Assessment | Alpha Sports Medicine"
+  },
+  {
+    "route": "/conditions/invisible-illnesses/",
+    "canonical": "https://alpha-sports-med-prototype.pages.dev/conditions/invisible-illnesses/",
+    "faqs": 6,
+    "h1": "Invisible illnesses and the care you need",
+    "title": "Invisible Illnesses & Musculoskeletal Care | Alpha"
+  },
+  {
+    "route": "/services/exercise-physiology/",
+    "canonical": "https://alpha-sports-med-prototype.pages.dev/services/exercise-physiology/",
+    "faqs": 7,
+    "h1": "Exercise physiology in Melbourne",
+    "title": "Exercise Physiology Melbourne | Alpha Sports Medicine"
+  }
+]
