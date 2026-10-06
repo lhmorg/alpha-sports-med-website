@@ -1,18 +1,24 @@
 ---
-interface Props { videoId: string; name: string; poster: string; }
-const { videoId, name, poster } = Astro.props;
+interface Props { videoId: string; name: string; poster: string; variant?: 'card' | 'hero'; role?: string; }
+const { videoId, name, poster, variant = 'card', role } = Astro.props;
 const youtubeUrl = `https://www.youtube.com/watch?v=${videoId}`;
 ---
-<div class="practitioner-video" data-introduction data-video-id={videoId} data-video-name={name}>
+<div class:list={['practitioner-video', { 'practitioner-video--hero': variant === 'hero' }]} data-introduction data-video-id={videoId} data-video-name={name}>
   <div class="practitioner-video__frame">
     <button type="button" class="practitioner-video__open" aria-label={`Watch introduction from ${name}`}>
-      <img src={poster} alt="" loading="lazy" />
-      <span class="practitioner-video__label"><span aria-hidden="true">▶</span> Meet {name.replace(/^Dr\s+/, '')}</span>
+      <img src={poster} alt="" loading={variant === 'hero' ? 'eager' : 'lazy'} />
+      <span class="practitioner-video__label"><span aria-hidden="true">▶</span> Meet {name.replace(/^Dr\s+/, '')}{role && <small>{role}</small>}</span>
     </button>
   </div>
   <a class="practitioner-video__fallback" href={youtubeUrl} target="_blank" rel="noopener noreferrer">Watch on YouTube <span class="sr-only">(opens a new tab)</span></a>
 </div>
 <style>
+  .practitioner-video--hero { max-width: 420px !important; }
+  .practitioner-video--hero .practitioner-video__frame { height: 460px; aspect-ratio: auto; border-radius: 28px; }
+  .practitioner-video--hero .practitioner-video__label { padding: 24px 20px; text-align: left; color: var(--color-primary); font-family: var(--font-heading); font-size: 1.4rem; background: linear-gradient(transparent, rgba(23,43,55,.96)); }
+  .practitioner-video__label small { display: block; margin-top: 2px; color: white; font-size: .8rem; }
+  .practitioner-video--hero .practitioner-video__open img { object-position: center 25%; }
+  @media (max-width: 1023px) { .practitioner-video--hero .practitioner-video__frame { height: 400px; } }
   .practitioner-video { width: 100%; max-width: 300px; margin-inline: auto; min-width: 0; }
   .practitioner-video__frame { aspect-ratio: 9 / 16; overflow: hidden; border-radius: var(--radius-md); background: var(--color-navy); }
   .practitioner-video__open { position: relative; display: block; width: 100%; height: 100%; padding: 0; border: 0; background: transparent; color: white; cursor: pointer; }

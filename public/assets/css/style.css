@@ -1861,3 +1861,7 @@ h1, h2, h3, h4, h5, h6 {
   .site-header__nav .nav-group__menu a:hover, .site-header__nav .nav-group__menu a:focus-visible { color: #fff; background: rgba(242,95,45,.15); }
   .site-header__nav .nav-group[open] > summary { color: var(--color-primary); }
 }
+
+.founder-card--linked { display: block; color: inherit; text-decoration: none; border-radius: var(--radius-md); }
+.founder-card--linked:hover h4 { color: var(--color-primary); }
+.founder-card--linked:focus-visible { outline: 3px solid var(--color-primary); outline-offset: 6px; }

@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import home from '../data/home.json';
+import PractitionerVideo from './PractitionerVideo.astro';
 
 interface Props {
   context: 'service' | 'condition' | 'location';
@@ -15,6 +16,9 @@ const matches = practitioners
   .filter(({ data }) => data.featureOnLinkedPages && data[relationshipKey].includes(slug))
   .sort((a, b) => a.data.featurePriority - b.data.featurePriority);
 const practitioner = matches[0]?.data;
+const heroName = slug === 'physiotherapy' ? 'Anna Lawther' : practitioner?.name || (slug === 'chiropractic' ? 'Dr Ashton Wilson' : 'the Alpha team');
+const heroRole = slug === 'physiotherapy' ? 'Physiotherapist' : practitioner?.role || (slug === 'chiropractic' ? 'Osteopath and Alpha co-founder' : 'Care matched to your goals');
+const heroPortrait = slug === 'physiotherapy' ? '/assets/images/team/anna-lawther.png' : practitioner?.portrait || '/assets/images/hero-cutout-2-cropped.png';
 const bookingUrl = practitioner?.bookingUrl && practitioner.bookingUrl !== '#book'
   ? practitioner.bookingUrl
   : home.site.bookingUrl.startsWith('#') ? `/${home.site.bookingUrl}` : home.site.bookingUrl;
@@ -25,27 +29,27 @@ const isHero = variant === 'hero';
 <section class:list={['practitioner-feature', `practitioner-feature--${variant}`, { section: !isHero, 'section--alt': !isHero }]} aria-label={practitioner ? `Meet ${practitioner.name}` : 'Meet the Alpha Sports Medicine team'}>
   <div class="practitioner-feature__inner">
     <div class="practitioner-feature__media">
+      {isHero && slug === 'physiotherapy' ? <PractitionerVideo videoId="Yt07pXPzTT8" name={heroName} poster={heroPortrait} variant="hero" role={heroRole} /> : <>
       {practitioner?.videoUrl ? (
         <video controls preload="metadata" playsinline poster={practitioner.videoPoster || practitioner.portrait} aria-label={`Introduction from ${practitioner.name}`}>
           <source src={practitioner.videoUrl} />
           Your browser does not support embedded video.
         </video>
       ) : (
-        <img src={practitioner?.portrait || '/assets/images/hero-bg-2.webp'} alt={practitioner?.portraitAlt || "Dr Ashton Wilson from Alpha Sports Medicine"} loading={isHero ? 'eager' : 'lazy'} fetchpriority={isHero ? 'high' : 'auto'} />
+        <img src={isHero ? heroPortrait : practitioner?.portrait || '/assets/images/hero-bg-2.webp'} alt={practitioner?.portraitAlt || "Dr Ashton Wilson from Alpha Sports Medicine"} loading={isHero ? 'eager' : 'lazy'} fetchpriority={isHero ? 'high' : 'auto'} />
       )}
       {isHero && (
         <>
           <span class="practitioner-feature__caption">
-            <span class="practitioner-feature__caption-name">{practitioner ? `Meet ${practitioner.name.replace(/^Dr\s+/, '')}` : 'Meet the Alpha team'}</span>
-            <span class="practitioner-feature__caption-title">{practitioner ? practitioner.role : 'Care matched to your goals'}</span>
+            <span class="practitioner-feature__caption-name">{`Meet ${heroName.replace(/^Dr\s+/, '')}`}</span>
+            <span class="practitioner-feature__caption-title">{heroRole}</span>
           </span>
           {practitioner?.videoUrl ? (
             <button type="button" class="practitioner-feature__play" data-practitioner-play aria-label={`Play introduction from ${practitioner.name}`}><i class="fas fa-play" aria-hidden="true"></i></button>
-          ) : (
-            <span class="practitioner-feature__play" aria-hidden="true"><i class="fas fa-play"></i></span>
-          )}
+          ) : null}
         </>
       )}
+      </>}
       {practitioner && !isHero && <span class="practitioner-feature__media-label"><i class="fas fa-user-md" aria-hidden="true"></i> Your care team</span>}
     </div>
     {!isHero && <div class="practitioner-feature__copy">

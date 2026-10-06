@@ -6,7 +6,7 @@
   "site": {
     "phoneDisplay": "(03) 9962 5539",
     "phoneHref": "tel:0399625539",
-    "bookingUrl": "#book"
+    "bookingUrl": "/book/"
   },
   "hero": {
     "eyebrow": "Alpha Sports",

@@ -70,7 +70,7 @@
             "href": "/services/paediatric-osteopathy/"
           },
           {
-            "title": "Women’s Health",
+            "title": "Women\u2019s Health",
             "href": "/conditions/pregnancy-pain/"
           },
           {
@@ -233,27 +233,14 @@
     "title": "Getting Started",
     "groups": [
       {
-        "title": "Before you book",
+        "title": "",
         "items": [
           {
-            "title": "New Patient / First Appointment",
+            "title": "New Patient",
             "href": "/#getting-started"
           },
           {
-            "title": "What to Expect (FAQ)",
-            "href": "/#faq"
-          },
-          {
-            "title": "Referrals & Health Fund Rebates",
-            "href": "/#faq"
-          }
-        ]
-      },
-      {
-        "title": "Ways to start",
-        "items": [
-          {
-            "title": "Telehealth / Online Consults",
+            "title": "Telehealth Consults",
             "href": "/services/online-consults/"
           }
         ]

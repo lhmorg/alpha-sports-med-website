@@ -264,18 +264,18 @@ import SiteNavigation from "../components/SiteNavigation.astro";
 
     <!-- WP-LAYOUT: grid, columnCount: 5 -->
     <div class="founder-grid">
-      <div class="founder-card">
+      <a class="founder-card founder-card--linked" href="/staff/dr-ashton-wilson/">
         <div class="founder-card__photo"><img src="./assets/images/team/ashton-wilson.jpg" alt="Dr Ashton Wilson"></div>
         <h4>Dr Ashton Wilson</h4>
         <span>Newport Osteopath, Hypermobility &amp; EDS/HSD Expert, Founder</span>
-      </div>
+      </a>
       <div class="founder-card">
         <div class="founder-card__photo"><img src="./assets/images/team/will-krithararis-2026.jpg" alt="Dr Will Krithararis"></div>
         <h4>Dr Will Krithararis</h4>
         <span>Osteopath &amp; Running Expert</span>
       </div>
       <div class="founder-card">
-        <PractitionerVideo videoId="Yt07pXPzTT8" name="Anna Lawther" poster="/assets/images/team/anna-lawther.png" />
+        <div class="founder-card__photo"><img src="/assets/images/team/anna-lawther.png" alt="Anna Lawther" loading="lazy" /></div>
         <h4>Anna Lawther</h4>
         <span>Physiotherapist &amp; Triathlete Expert</span>
       </div>
@@ -300,7 +300,7 @@ import SiteNavigation from "../components/SiteNavigation.astro";
         <span>Osteopath</span>
       </div>
       <div class="founder-card">
-        <PractitionerVideo videoId="xep3KTKmpg4" name="Dr Disha Ganglani" poster="/assets/images/team/disha-ganglani.jpg" />
+        <div class="founder-card__photo"><img src="/assets/images/team/disha-ganglani.jpg" alt="Dr Disha Ganglani" loading="lazy" /></div>
         <h4>Dr Disha Ganglani</h4>
         <span>Osteopath &amp; MLD Practitioner</span>
       </div>
@@ -320,7 +320,7 @@ import SiteNavigation from "../components/SiteNavigation.astro";
         <span>Osteopath</span>
       </div>
       <div class="founder-card">
-        <PractitionerVideo videoId="ferA_F07Ur4" name="Dr Christina Kripintiris" poster="/assets/images/team/christina-kripintiris.jpg" />
+        <div class="founder-card__photo"><img src="/assets/images/team/christina-kripintiris.jpg" alt="Dr Christina Kripintiris" loading="lazy" /></div>
         <h4>Dr Christina Kripintiris</h4>
         <span>Osteopath</span>
       </div>
@@ -454,7 +454,7 @@ import SiteNavigation from "../components/SiteNavigation.astro";
           <ul>
             <li><a href={home.site.phoneHref}><i class="fas fa-phone-alt" aria-hidden="true"></i> {home.site.phoneDisplay}</a></li>
             <li><a href="/contact/">Contact us</a></li>
-            <li><a href="#book">Book online</a></li>
+            <li><a href={home.site.bookingUrl}>Book online</a></li>
           </ul>
         </div>
       </div>
