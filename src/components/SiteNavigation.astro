@@ -4,16 +4,29 @@
 import menus from '../data/navigation.json';
 interface Props { variant?: 'desktop' | 'mobile'; }
 const { variant = 'desktop' } = Astro.props;
+// Feature cards (EHP-style) show in the desktop dropdowns only.
+const showFeature = (menu: (typeof menus)[number]) => variant === 'desktop' && !!menu.feature;
 ---
 <nav class={variant === 'mobile' ? 'mobile-nav' : 'site-header__nav'} aria-label={variant === 'mobile' ? 'Mobile' : 'Primary'}>
   <a href="/">Home</a>
   {menus.map(menu => <details class:list={['nav-group', {'nav-group--wide': 'wide' in menu && menu.wide}]}>
     <summary>{menu.title}</summary>
-    <div class:list={['nav-group__menu', {'nav-group__menu--wide': 'wide' in menu && menu.wide}]}>
-      {menu.groups.map(group => <div class="nav-menu-column">
-        {group.title && <h3 class="nav-menu-heading">{group.title}</h3>}
-        {group.items.map(item => <a href={item.href}>{item.title}</a>)}
-      </div>)}
+    <div class:list={['nav-group__menu', {'nav-group__menu--wide': 'wide' in menu && menu.wide, 'nav-group__menu--featured': showFeature(menu)}]}>
+      {showFeature(menu) && <a class="nav-feature" href={menu.feature.href}>
+        <img src={menu.feature.image} alt="" loading="lazy" />
+        <span class="nav-feature__copy">
+          <span class="nav-feature__eyebrow">{menu.feature.eyebrow}</span>
+          <strong class="nav-feature__title">{menu.feature.title}</strong>
+          <span class="nav-feature__intro">{menu.feature.intro}</span>
+          <span class="nav-feature__cta">{menu.feature.cta} <span aria-hidden="true">→</span></span>
+        </span>
+      </a>}
+      <div class="nav-menu-columns">
+        {menu.groups.map(group => <div class="nav-menu-column">
+          {group.title && <h3 class="nav-menu-heading">{group.title}</h3>}
+          {group.items.map(item => <a href={item.href}>{item.title}</a>)}
+        </div>)}
+      </div>
     </div>
   </details>)}
   <a href="/contact/">Contact Us</a>

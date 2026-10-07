@@ -1865,3 +1865,139 @@ h1, h2, h3, h4, h5, h6 {
 .founder-card--linked { display: block; color: inherit; text-decoration: none; border-radius: var(--radius-md); }
 .founder-card--linked:hover h4 { color: var(--color-primary); }
 .founder-card--linked:focus-visible { outline: 3px solid var(--color-primary); outline-offset: 6px; }
+
+/* --- Navigation polish (Aiya, Oct 2026) ---
+   Bigger sentence-case top-level links with a pill highlight, and light
+   dropdown panels with an orange top accent so menus stand out from the
+   dark header and hero (EHP navigation as reference). Desktop only. */
+@media (min-width: 1024px) {
+  .site-header__nav-row { background: rgba(0,0,0,.12); }
+  .site-header__nav { gap: .25rem; padding: .5rem var(--gutter); }
+  .site-header__nav > a,
+  .site-header__nav > .nav-group > summary {
+    height: auto;
+    padding: .55rem .9rem;
+    border-radius: var(--radius-full);
+    font-family: var(--font-heading);
+    font-size: .95rem;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: .01em;
+    text-transform: none;
+    color: var(--color-white);
+    transition: background-color var(--transition), color var(--transition);
+  }
+  .site-header__nav > a:hover,
+  .site-header__nav > a:focus-visible,
+  .site-header__nav > .nav-group > summary:hover,
+  .site-header__nav > .nav-group > summary:focus-visible,
+  .site-header__nav .nav-group[open] > summary {
+    color: var(--color-white);
+    background: rgba(255,255,255,.1);
+  }
+  .site-header__nav .nav-group summary::after { transition: transform var(--transition); }
+  .site-header__nav .nav-group[open] > summary::after { transform: translateY(2px) rotate(-135deg); }
+
+  /* Dropdown panels */
+  .site-header__nav .nav-group__menu {
+    top: calc(100% + .6rem);
+    min-width: 240px;
+    padding: .75rem;
+    background: var(--color-white);
+    border: 0;
+    border-top: 3px solid var(--color-primary);
+    border-radius: 0 0 var(--radius-xl) var(--radius-xl);
+    box-shadow: 0 24px 56px rgba(23,43,55,.28);
+  }
+  .site-header__nav .nav-group__menu--wide {
+    top: calc(100% - .1rem);
+    width: min(720px, calc(100% - 2 * var(--gutter)));
+    gap: 0 2rem;
+    padding: 1.5rem 1.75rem;
+  }
+  .site-header__nav .nav-group__menu .nav-menu-heading {
+    font-family: var(--font-heading);
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .08em;
+    color: var(--color-primary-dark);
+    padding: 0 .6rem .6rem;
+    margin: 0 0 .4rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .site-header__nav .nav-group__menu a,
+  .site-header__nav .nav-group__menu--wide a {
+    font-family: var(--font-heading);
+    font-size: .92rem;
+    font-weight: 500;
+    color: var(--color-navy);
+    padding: .5rem .6rem;
+    border-radius: var(--radius-md);
+  }
+  .site-header__nav .nav-group__menu a:hover,
+  .site-header__nav .nav-group__menu a:focus-visible {
+    color: var(--color-primary-dark);
+    background: var(--color-primary-tint);
+  }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .site-header__nav { gap: 0; padding-inline: 1rem; }
+  .site-header__nav > a,
+  .site-header__nav > .nav-group > summary { font-size: .875rem; padding: .5rem .6rem; }
+}
+
+/* --- Navigation feature cards (EHP-style) --- */
+.nav-menu-columns { display: contents; }
+@media (min-width: 1024px) {
+  .site-header__nav .nav-group:has(> .nav-group__menu--featured) { position: static; }
+  .site-header__nav .nav-group__menu--featured,
+  .site-header__nav .nav-group__menu--wide.nav-group__menu--featured {
+    display: grid;
+    grid-template-columns: 230px minmax(0, 1fr);
+    gap: 1.75rem;
+    top: calc(100% - .1rem);
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    width: min(600px, calc(100% - 2 * var(--gutter)));
+    padding: 1.25rem;
+    max-height: none;
+  }
+  .site-header__nav .nav-group__menu--wide.nav-group__menu--featured {
+    grid-template-columns: 250px minmax(0, 1fr);
+    width: min(960px, calc(100% - 2 * var(--gutter)));
+    padding: 1.5rem;
+  }
+  .site-header__nav .nav-group__menu--featured .nav-menu-columns {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    align-content: start;
+    gap: 0 2rem;
+  }
+  .site-header__nav .nav-group__menu--wide.nav-group__menu--featured .nav-menu-columns {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .site-header__nav .nav-group__menu--featured > a.nav-feature {
+    grid-column: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    overflow: hidden;
+    white-space: normal;
+    color: var(--color-white);
+    background: var(--color-navy);
+    border-radius: var(--radius-lg);
+  }
+  .site-header__nav .nav-group__menu--featured > a.nav-feature:hover,
+  .site-header__nav .nav-group__menu--featured > a.nav-feature:focus-visible {
+    color: var(--color-white);
+    background: var(--color-navy);
+  }
+  .nav-feature img { width: 100%; height: 130px; object-fit: cover; object-position: center 30%; }
+  .nav-feature__copy { display: flex; flex-direction: column; gap: .4rem; padding: 1rem 1.1rem 1.15rem; }
+  .nav-feature__eyebrow { font-size: .68rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--color-primary); }
+  .nav-feature__title { font-family: var(--font-heading); font-size: 1.05rem; font-weight: 700; line-height: 1.25; color: var(--color-white); }
+  .nav-feature__intro { font-family: var(--font-body); font-size: .85rem; line-height: 1.45; color: rgba(255,255,255,.75); }
+  .nav-feature__cta { margin-top: .2rem; font-size: .85rem; font-weight: 600; color: var(--color-primary); }
+  .nav-feature:hover .nav-feature__cta { text-decoration: underline; text-underline-offset: 3px; }
+}

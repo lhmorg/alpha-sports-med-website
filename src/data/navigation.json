@@ -1,6 +1,14 @@
 [
   {
     "title": "Meet Us",
+    "feature": {
+      "eyebrow": "Meet the people",
+      "title": "Real people, real energy",
+      "intro": "Alpha started in 2017 to build the clinic that actually gets to the bottom of things.",
+      "image": "/assets/images/team/alpha-team-group.jpg",
+      "href": "/#team",
+      "cta": "Meet the team"
+    },
     "groups": [
       {
         "title": "",
@@ -24,6 +32,14 @@
   {
     "title": "What We Do",
     "wide": true,
+    "feature": {
+      "eyebrow": "One team, every discipline",
+      "title": "Ten disciplines, one plan",
+      "intro": "Hands-on treatment and exercise rehab in the same building, working as one plan.",
+      "image": "/assets/images/locations/hawthorn-clinic.jpg",
+      "href": "/#services",
+      "cta": "Explore our disciplines"
+    },
     "groups": [
       {
         "title": "Core disciplines",
@@ -70,7 +86,7 @@
             "href": "/services/paediatric-osteopathy/"
           },
           {
-            "title": "Women\u2019s Health",
+            "title": "Women’s Health",
             "href": "/conditions/pregnancy-pain/"
           },
           {
@@ -96,6 +112,14 @@
   {
     "title": "Who We Support",
     "wide": true,
+    "feature": {
+      "eyebrow": "Sound familiar?",
+      "title": "Been somewhere before?",
+      "intro": "If the pain settles, then comes straight back once you get going, you're in the right place.",
+      "image": "/assets/images/hero-bg-2.webp",
+      "href": "/#who-we-support",
+      "cta": "Find your starting point"
+    },
     "groups": [
       {
         "title": "Who we treat",
@@ -148,6 +172,14 @@
   {
     "title": "Conditions",
     "wide": true,
+    "feature": {
+      "eyebrow": "If you're not sure what's wrong",
+      "title": "Start with what you're feeling",
+      "intro": "You don't need a diagnosis, or to know which practitioner to book.",
+      "image": "/assets/images/hero-bg.jpg",
+      "href": "/conditions/",
+      "cta": "Browse all conditions"
+    },
     "groups": [
       {
         "title": "Running & sports injuries",
@@ -231,6 +263,14 @@
   },
   {
     "title": "Getting Started",
+    "feature": {
+      "eyebrow": "How we work",
+      "title": "A clear, collaborative care experience",
+      "intro": "Your first consult is 45–60 minutes, spent understanding you, not just the sore spot.",
+      "image": "/assets/images/team/ashton-wilson.jpg",
+      "href": "/#getting-started",
+      "cta": "See how it works"
+    },
     "groups": [
       {
         "title": "",
@@ -249,6 +289,14 @@
   },
   {
     "title": "Locations",
+    "feature": {
+      "eyebrow": "Across Melbourne",
+      "title": "Four clinics across Melbourne",
+      "intro": "Find the clinic closest to you in Ascot Vale, Newport, Bacchus Marsh or Hawthorn.",
+      "image": "/assets/images/locations/newport-storefront.jpg",
+      "href": "/#locations",
+      "cta": "See all locations"
+    },
     "groups": [
       {
         "title": "",
