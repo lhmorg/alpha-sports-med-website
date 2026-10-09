@@ -5,14 +5,17 @@
   },
   "breadcrumb": "Strength & Conditioning",
   "hero": {
+    "background": "/assets/images/services/banners/strength-conditioning.webp",
     "eyebrow": "Exercise planning in Newport",
     "heading": "Strength and conditioning for your next step",
     "subheading": "Discuss exercise programming with your practitioner, taking your activity goals and current capacity into account.",
     "practitioner": {
       "name": "Dr Ashton Wilson",
       "role": "Osteopath and strength and rehabilitation coach",
-      "image": "/assets/images/team/ashton-wilson.jpg",
-      "imageAlt": "Dr Ashton Wilson, osteopath and strength and rehabilitation coach"
+      "image": "/assets/images/team/heroes/ashton-wilson-original.webp",
+      "imageAlt": "Dr Ashton Wilson, osteopath and strength and rehabilitation coach",
+      "cutout": true,
+      "videoPending": true
     }
   },
   "intro": {

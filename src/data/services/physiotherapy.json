@@ -5,9 +5,18 @@
   },
   "breadcrumb": "Physiotherapy",
   "hero": {
+    "background": "/assets/images/services/banners/physiotherapy.webp",
     "eyebrow": "Alpha Sports Medicine · Physiotherapy",
     "heading": "Sports physiotherapy in Melbourne",
-    "subheading": "Our first move isn't to stop you training. It's to work out what your body can handle right now, then build from there with a plan around your week."
+    "subheading": "Our first move isn't to stop you training. It's to work out what your body can handle right now, then build from there with a plan around your week.",
+    "practitioner": {
+      "name": "Anna Lawther",
+      "role": "Physiotherapist",
+      "image": "/assets/images/team/heroes/anna-lawther-studio.webp",
+      "imageAlt": "Anna Lawther, physiotherapist at Alpha Sports Medicine",
+      "cutout": true,
+      "videoId": "Yt07pXPzTT8"
+    }
   },
   "intro": {
     "eyebrow": "The rest question",

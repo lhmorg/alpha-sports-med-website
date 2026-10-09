@@ -5,14 +5,17 @@
   },
   "breadcrumb": "Dietetics",
   "hero": {
+    "background": "/assets/images/services/banners/dietetics.webp",
     "eyebrow": "Dietetics in Newport",
     "heading": "Dietetics for the way you live",
     "subheading": "Talk through food and nutrition with Alexandra Clay, with advice that takes your routine and preferences into account.",
     "practitioner": {
       "name": "Alexandra Clay",
       "role": "Dietitian",
-      "image": "/assets/images/team/alexandra-clay.png",
-      "imageAlt": "Alexandra Clay, dietitian at Alpha Sports Medicine"
+      "image": "/assets/images/team/heroes/alexandra-clay-studio.webp",
+      "imageAlt": "Alexandra Clay, dietitian at Alpha Sports Medicine",
+      "cutout": true,
+      "videoPending": true
     }
   },
   "intro": {

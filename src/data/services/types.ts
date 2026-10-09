@@ -6,7 +6,7 @@ export interface ServicePage {
   seo: { title: string; description: string };
   breadcrumb: string;
   schemaType?: "MedicalWebPage" | "WebPage" | "Service";
-  hero: { eyebrow: string; heading: string; subheading: string; media?: { image: string; imageAlt: string; caption: string }; practitioner?: { name: string; role: string; image: string; imageAlt: string } };
+  hero: { eyebrow: string; heading: string; subheading: string; background?: string; media?: { image: string; imageAlt: string; caption: string }; practitioner?: { name: string; role: string; image: string; imageAlt: string; cutout?: boolean; videoId?: string; videoPending?: boolean } };
   intro: { eyebrow: string; heading: string; paragraphs: string[]; image?: string; imageAlt?: string; caption: string };
   explainer: { eyebrow: string; heading: string; paragraphs: string[]; concept?: { icon: string; title: string; copy: string } };
   benefits: { eyebrow?: string; heading: string; intro: string; items: { icon: string; title: string; copy: string }[] };

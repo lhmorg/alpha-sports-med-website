@@ -5,14 +5,17 @@
   },
   "breadcrumb": "Paediatric Osteopathy",
   "hero": {
+    "background": "/assets/images/services/banners/paediatric-osteopathy.webp",
     "eyebrow": "Osteopathy for children",
     "heading": "Paediatric osteopathy: understand your options",
     "subheading": "A conversation about your child’s movement and musculoskeletal concerns, with a clear explanation of the limits of osteopathic care.",
     "practitioner": {
       "name": "Lara Trevorrow",
       "role": "Osteopath with additional paediatric training",
-      "image": "/assets/images/team/lara-trevorrow.jpg",
-      "imageAlt": "Lara Trevorrow, osteopath at Alpha Sports Medicine"
+      "image": "/assets/images/team/heroes/lara-trevorrow.webp",
+      "imageAlt": "Lara Trevorrow, osteopath at Alpha Sports Medicine",
+      "cutout": true,
+      "videoPending": true
     }
   },
   "intro": {

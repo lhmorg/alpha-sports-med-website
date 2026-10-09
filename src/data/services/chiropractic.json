@@ -5,9 +5,11 @@
   },
   "breadcrumb": "Chiropractic",
   "hero": {
+    "background": "/assets/images/services/banners/chiropractic.webp",
     "eyebrow": "Alpha Sports Medicine · Chiropractic",
     "heading": "Chiropractic care in Melbourne",
-    "subheading": "Assessment-led chiropractic for back, neck and joint pain, inside a multidisciplinary team with rehab on hand. Nothing happens that you haven't agreed to."
+    "subheading": "Assessment-led chiropractic for back, neck and joint pain, inside a multidisciplinary team with rehab on hand. Nothing happens that you haven't agreed to.",
+    "practitioner": {"name": "Dr Nick Naimo", "role": "Chiropractor", "image": "/assets/images/team/heroes/nick-naimo-sporty.webp", "imageAlt": "Dr Nick Naimo, chiropractor at Alpha Sports Medicine", "cutout": true, "videoId": "yGAPyxhYvyc"}
   },
   "intro": {
     "eyebrow": "Why people come in",

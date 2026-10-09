@@ -4,6 +4,7 @@
 // Osteopathy and Shockwave Therapy keep their own hand-built files.
 import home from '../data/home.json';
 import FeaturedPractitioner from '../components/FeaturedPractitioner.astro';
+import PractitionerHero from './PractitionerHero.astro';
 import SiteNavigation from '../components/SiteNavigation.astro';
 import type { ServicePage, ClinicSlug } from '../data/services/types';
 
@@ -47,7 +48,7 @@ const clinics = page.clinics.map((key) => ({ key, ...allClinics[key], href: page
     <SiteNavigation variant="mobile" />
   </header>
   <main>
-    <section class:list={["service-hero", {"service-hero--portrait": !!(page.hero.practitioner || page.hero.media)}]}><div class="service-hero__inner"><div><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/#services">Services</a><span>/</span><span>{page.breadcrumb}</span></nav><p class="eyebrow eyebrow--left">{page.hero.eyebrow}</p><h1>{page.hero.heading}</h1><p class="service-hero__subhead">{page.hero.subheading}</p><div class="btn-group"><a href={bookingUrl} class="btn btn--primary">Book an appointment <i class="fas fa-arrow-right" aria-hidden="true"></i></a><a href={home.site.phoneHref} class="btn btn--outline"><i class="fas fa-phone-alt" aria-hidden="true"></i> Call {home.site.phoneDisplay}</a></div></div>{page.hero.practitioner ? <figure class="service-portrait"><img src={page.hero.practitioner.image} alt={page.hero.practitioner.imageAlt} fetchpriority="high" /><figcaption><strong>{page.hero.practitioner.name}</strong><span>{page.hero.practitioner.role}</span></figcaption></figure> : page.hero.media ? <figure class="service-portrait service-portrait--clinic"><img src={page.hero.media.image} alt={page.hero.media.imageAlt} fetchpriority="high" /><figcaption>{page.hero.media.caption}</figcaption></figure> : <FeaturedPractitioner context="service" slug={slug} variant="hero" />}</div></section>
+    <section class:list={["service-hero", {"service-hero--portrait": !!(page.hero.practitioner || page.hero.media) && !page.hero.background}]} style={page.hero.background ? `background-image: linear-gradient(90deg, rgba(23,43,55,.97), rgba(23,43,55,.88) 55%, rgba(23,43,55,.65)), url('${page.hero.background}'); background-position: center center; background-size: cover;` : undefined}><div class="service-hero__inner"><div><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/#services">Services</a><span>/</span><span>{page.breadcrumb}</span></nav><p class="eyebrow eyebrow--left">{page.hero.eyebrow}</p><h1>{page.hero.heading}</h1><p class="service-hero__subhead">{page.hero.subheading}</p><div class="btn-group"><a href={bookingUrl} class="btn btn--primary">Book an appointment <i class="fas fa-arrow-right" aria-hidden="true"></i></a><a href={home.site.phoneHref} class="btn btn--outline"><i class="fas fa-phone-alt" aria-hidden="true"></i> Call {home.site.phoneDisplay}</a></div></div>{page.hero.practitioner ? <PractitionerHero practitioner={page.hero.practitioner} /> : page.hero.media ? <figure class="service-portrait service-portrait--clinic"><img src={page.hero.media.image} alt={page.hero.media.imageAlt} fetchpriority="high" /><figcaption>{page.hero.media.caption}</figcaption></figure> : <FeaturedPractitioner context="service" slug={slug} variant="hero" />}</div></section>
 
     <section class="section service-intro"><div><div class="section-head section-head--left"><span class="section-head__ghost">MOVE</span><p class="eyebrow eyebrow--left">{page.intro.eyebrow}</p><h2>{page.intro.heading}</h2></div>{page.intro.paragraphs.map((p) => <p set:html={p} />)}</div><figure><img src={page.intro.image || '/assets/images/locations/hawthorn-clinic.jpg'} alt={page.intro.imageAlt || 'Alpha Sports Medicine practitioner providing treatment'} loading="lazy" /><figcaption><i class="fas fa-check-circle"></i> {page.intro.caption}</figcaption></figure></section>
 
@@ -59,7 +60,7 @@ const clinics = page.clinics.map((key) => ({ key, ...allClinics[key], href: page
 
     <section class="section section--alt"><div class="section-head"><span class="section-head__ghost">VISIT</span><p class="eyebrow">What to expect</p><h2>{page.visit.heading}</h2><p>{page.visit.intro}</p></div><ol class="visit-steps">{page.visit.steps.map((step, i) => <li><span>{String(i + 1).padStart(2, '0')}</span><h3>{step.title}</h3><p>{step.copy}</p></li>)}</ol>{page.visit.notes && page.visit.notes.length > 0 && <div class="visit-notes">{page.visit.notes.map((n) => <article><i class={`fas ${iconClass(n.icon)}`} aria-hidden="true"></i><div><h3>{n.title}</h3><p set:html={inlineCopy(n.copy)} /></div></article>)}</div>}</section>
 
-    <section class:list={["section", "service-team", {"service-team--portrait": !!(page.hero.practitioner || page.hero.media)}]}><img src={page.team.image || '/assets/images/team/ashton-wilson.jpg'} alt={page.team.imageAlt || 'Alpha Sports Medicine practitioner'} loading="lazy" /><div class="service-team__copy"><p class="eyebrow eyebrow--left">{page.team.eyebrow}</p><h2>{page.team.heading}</h2><p class="service-team__description">{page.team.copy}</p><div class="btn-group">{teamLinks.map((link, i) => <a href={link.href} class={`btn ${i === 0 ? "btn--primary" : "btn--outline-navy"}`}>{link.label} <i class="fas fa-arrow-right" aria-hidden="true"></i></a>)}</div></div></section>
+    <section class:list={["section", "service-team", {"service-team--portrait": !!(page.hero.practitioner || page.hero.media)}]}><img src={page.team.image || '/assets/images/team/alpha-team-2026.webp'} alt={page.team.imageAlt || 'The Alpha Sports Medicine team at the Ascot Vale clinic'} loading="lazy" /><div class="service-team__copy"><p class="eyebrow eyebrow--left">{page.team.eyebrow}</p><h2>{page.team.heading}</h2><p class="service-team__description">{page.team.copy}</p><div class="btn-group">{teamLinks.map((link, i) => <a href={link.href} class={`btn ${i === 0 ? "btn--primary" : "btn--outline-navy"}`}>{link.label} <i class="fas fa-arrow-right" aria-hidden="true"></i></a>)}</div></div></section>
 
     <section id="locations" class="section section--alt">
       <div class="section-head"><span class="section-head__ghost" aria-hidden="true">LOCATIONS</span><p class="eyebrow">Where to see us</p><h2>{page.locationsHeading}</h2>{page.locationsCopy && <p>{page.locationsCopy}</p>}</div>
@@ -83,9 +84,9 @@ const clinics = page.clinics.map((key) => ({ key, ...allClinics[key], href: page
 .service-portrait figcaption { position: absolute; inset: auto 0 0; display: flex; flex-direction: column; gap: 2px; padding: 50px 20px 24px; background: linear-gradient(transparent, rgba(23,43,55,.95)); }
 .service-portrait strong { color: var(--color-primary); font: 700 1.4rem var(--font-heading); }
 .service-portrait span { color: white; font-size: .8rem; font-weight: 600; }
-.service-team--portrait > img { object-position: center 25%; }
 @media (max-width: 1023px) { .service-portrait { height: 400px; } }
 
 .location-grid--pair { max-width: 1000px; margin-inline: auto; }
 @media(min-width:768px) { .location-grid--pair { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 </style>
+

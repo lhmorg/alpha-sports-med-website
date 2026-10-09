@@ -5,9 +5,18 @@
   },
   "breadcrumb": "Myotherapy",
   "hero": {
+    "background": "/assets/images/services/banners/myotherapy.webp",
     "eyebrow": "Alpha Sports Medicine · Myotherapy",
     "heading": "Myotherapy in Melbourne",
-    "subheading": "Hands-on treatment for tight, sore muscles and soft tissue, with a proper assessment behind it—so you find out why it keeps tightening, not just that it does."
+    "subheading": "Hands-on treatment for tight, sore muscles and soft tissue, with a proper assessment behind it—so you find out why it keeps tightening, not just that it does.",
+    "practitioner": {
+      "name": "Wei Song",
+      "role": "Myotherapist",
+      "image": "/assets/images/team/heroes/wei-song-studio.webp",
+      "imageAlt": "Wei Song, myotherapist at Alpha Sports Medicine",
+      "cutout": true,
+      "videoPending": true
+    }
   },
   "intro": {
     "eyebrow": "Sound familiar?",

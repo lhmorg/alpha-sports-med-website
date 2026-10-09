@@ -1,0 +1,63 @@
+---
+// Practitioner portrait for service and condition heroes. With `cutout`, shows a
+// background-removed photo styled like the osteopathy FeaturedPractitioner hero;
+// with `videoId` (or `videoPending`), adds a play button that opens a video pop-up.
+interface Props { practitioner: { name: string; role: string; image: string; imageAlt: string; cutout?: boolean; videoId?: string; videoPending?: boolean } }
+const { practitioner } = Astro.props;
+---
+<figure class:list={["service-portrait", {"service-portrait--cutout": practitioner.cutout}]}><img src={practitioner.image} alt={practitioner.imageAlt} fetchpriority="high" /><figcaption><strong>{practitioner.cutout ? `Meet ${practitioner.name.replace(/^Dr\s+/, '')}` : practitioner.name}</strong><span>{practitioner.role}</span></figcaption>{(practitioner.videoId || practitioner.videoPending) && <button type="button" class="service-portrait__play" data-hero-video-open aria-haspopup="dialog" aria-label={`Play introduction from ${practitioner.name}`}><i class="fas fa-play" aria-hidden="true"></i></button>}</figure>
+{practitioner && (practitioner.videoId || practitioner.videoPending) && <dialog class="hero-video" data-hero-video data-video-id={practitioner.videoId || ''} data-video-name={practitioner.name} aria-label={`Introduction from ${practitioner.name}`}><div class="hero-video__panel"><button type="button" class="hero-video__close" data-hero-video-close aria-label="Close video"><i class="fas fa-times" aria-hidden="true"></i></button><div class="hero-video__frame">{!practitioner.videoId && <p class="hero-video__pending"><strong>{`Meet ${practitioner.name.replace(/^Dr\s+/, '')}`}</strong><span>Introduction video coming soon.</span></p>}</div></div></dialog>}
+
+<style>
+.service-portrait { position: relative; width: 100%; max-width: 420px; height: 460px; margin: 0 auto; overflow: hidden; border: 1px solid rgba(255,255,255,.12); border-radius: 28px; background: #172b37; }
+.service-portrait img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+.service-portrait figcaption { position: absolute; inset: auto 0 0; display: flex; flex-direction: column; gap: 2px; padding: 50px 20px 24px; background: linear-gradient(transparent, rgba(23,43,55,.95)); }
+.service-portrait strong { color: var(--color-primary); font: 700 1.4rem var(--font-heading); }
+.service-portrait span { color: white; font-size: .8rem; font-weight: 600; }
+@media (max-width: 1023px) { .service-portrait { height: 400px; } }
+/* Background-removed practitioner (2026 shoot), styled like the osteopathy FeaturedPractitioner hero */
+.service-portrait--cutout { overflow: visible; background: linear-gradient(160deg, rgba(242,95,45,.14), rgba(255,255,255,.05)); }
+.service-portrait--cutout img { position: absolute; right: 0; bottom: 0; width: auto; max-width: 100%; height: 112%; object-fit: contain; object-position: right bottom; filter: drop-shadow(0 24px 32px rgba(0,0,0,.35)); }
+.service-portrait--cutout figcaption { z-index: 2; inset: auto 0 0 0; padding: 70px 20px 24px; background: linear-gradient(rgba(23,43,55,0), rgba(23,43,55,.78) 55%, rgba(23,43,55,.92)); border-radius: 0 0 28px 28px; }
+.service-portrait--cutout strong { letter-spacing: .01em; text-shadow: 0 2px 10px rgba(0,0,0,.55), 0 1px 2px rgba(0,0,0,.6); }
+.service-portrait--cutout span { letter-spacing: .02em; text-shadow: 0 2px 8px rgba(0,0,0,.55), 0 1px 2px rgba(0,0,0,.6); }
+.service-portrait__play { position: absolute; right: 20px; bottom: 20px; z-index: 3; width: 64px; height: 64px; padding: 0; display: flex; align-items: center; justify-content: center; color: #fff; background: var(--color-primary); border: 3px solid rgba(255,255,255,.9); border-radius: 50%; box-shadow: 0 12px 28px rgba(242,95,45,.55), 0 0 0 6px rgba(242,95,45,.18); font-size: 1.15rem; cursor: pointer; transition: transform .2s ease; }
+.service-portrait__play:hover { transform: scale(1.06); }
+.service-portrait__play:focus-visible { outline: 3px solid #fff; outline-offset: 4px; }
+.service-portrait--cutout:has(.service-portrait__play) figcaption { padding-right: 110px; }
+.hero-video { position: fixed; inset: 0; margin: auto; height: fit-content; max-height: calc(100vh - 16px); width: min(420px, calc(100vw - 32px), calc((100vh - 96px) * 9 / 16)); max-width: none; padding: 60px 0 0; border: 0; background: transparent; overflow: visible; }
+.hero-video::backdrop { background: rgba(10,20,28,.82); }
+.hero-video__panel { position: relative; }
+.hero-video__frame { aspect-ratio: 9 / 16; overflow: hidden; border-radius: 16px; background: #172b37; box-shadow: 0 30px 80px rgba(0,0,0,.5); }
+.hero-video__frame :global(iframe) { display: block; width: 100%; height: 100%; border: 0; }
+.hero-video__pending { height: 100%; margin: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; color: #fff; text-align: center; }
+.hero-video__pending strong { color: var(--color-primary); font: 700 1.6rem var(--font-heading); }
+.hero-video__close { position: absolute; top: -56px; right: 0; width: 44px; height: 44px; border: 0; border-radius: 50%; color: #fff; background: rgba(255,255,255,.15); font-size: 1.1rem; cursor: pointer; }
+.hero-video__close:focus-visible { outline: 3px solid var(--color-primary); outline-offset: 2px; }
+@media (max-width: 1023px) { .service-portrait--cutout { overflow: hidden; } .service-portrait--cutout img { height: 100%; width: 100%; object-fit: cover; object-position: center top; } }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>('[data-hero-video-open]').forEach((button) => {
+    const dialog = document.querySelector<HTMLDialogElement>('[data-hero-video]');
+    if (!dialog) return;
+    const frame = dialog.querySelector<HTMLElement>('.hero-video__frame');
+    const videoId = dialog.dataset.videoId;
+    const close = () => dialog.close();
+    button.addEventListener('click', () => {
+      if (videoId && frame) {
+        const iframe = document.createElement('iframe');
+        iframe.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&playsinline=1&rel=0`;
+        iframe.title = `Introduction from ${dialog.dataset.videoName}`;
+        iframe.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+        iframe.allowFullscreen = true;
+        iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+        frame.replaceChildren(iframe);
+      }
+      dialog.showModal();
+    });
+    dialog.querySelector('[data-hero-video-close]')?.addEventListener('click', close);
+    dialog.addEventListener('click', (event) => { if (event.target === dialog) close(); });
+    dialog.addEventListener('close', () => { if (videoId) frame?.replaceChildren(); button.focus(); });
+  });
+</script>

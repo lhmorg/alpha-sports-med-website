@@ -5,6 +5,7 @@
   },
   "breadcrumb": "Hypermobility",
   "hero": {
+    "background": "/assets/images/services/banners/hypermobility.webp",
     "eyebrow": "Hypermobility support",
     "heading": "Hypermobility and the movements that matter to you",
     "subheading": "Individual musculoskeletal assessment and movement support, alongside advice from your GP or specialist.",
@@ -12,8 +13,10 @@
     "practitioner": {
       "name": "Dr Ashton Wilson",
       "role": "Osteopath",
-      "image": "/assets/images/team/ashton-wilson.jpg",
-      "imageAlt": "Dr Ashton Wilson, osteopath at Alpha Sports Medicine"
+      "image": "/assets/images/team/heroes/ashton-wilson-original.webp",
+      "imageAlt": "Dr Ashton Wilson, osteopath at Alpha Sports Medicine",
+      "cutout": true,
+      "videoPending": true
     }
   },
   "urgent": {

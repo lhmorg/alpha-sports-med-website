@@ -5,6 +5,7 @@
   },
   "breadcrumb": "Pregnancy-Related Pain",
   "hero": {
+    "background": "/assets/images/services/banners/pregnancy-pain.webp",
     "eyebrow": "Pregnancy-related musculoskeletal care",
     "heading": "Pregnancy-related pain and everyday movement",
     "subheading": "Discuss back or pelvic discomfort that affects your day, with care considered around your pregnancy and maternity team’s advice.",
@@ -12,8 +13,10 @@
     "practitioner": {
       "name": "Lara Trevorrow",
       "role": "Osteopath",
-      "image": "/assets/images/team/lara-trevorrow.jpg",
-      "imageAlt": "Lara Trevorrow, osteopath with an interest in pregnancy care"
+      "image": "/assets/images/team/heroes/lara-trevorrow.webp",
+      "imageAlt": "Lara Trevorrow, osteopath with an interest in pregnancy care",
+      "cutout": true,
+      "videoPending": true
     }
   },
   "urgent": {

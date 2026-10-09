@@ -5,14 +5,17 @@
   },
   "breadcrumb": "Clinical Pilates",
   "hero": {
+    "background": "/assets/images/services/banners/clinical-pilates.webp",
     "eyebrow": "One-to-one in Newport",
     "heading": "Clinical Pilates at your pace",
     "subheading": "Individual reformer sessions with exercises adapted to your needs, following a discussion about your health and movement goals.",
     "practitioner": {
       "name": "Lara Trevorrow",
       "role": "Osteopath with Pilates training",
-      "image": "/assets/images/team/lara-trevorrow.jpg",
-      "imageAlt": "Lara Trevorrow, osteopath with Pilates training"
+      "image": "/assets/images/team/heroes/lara-trevorrow.webp",
+      "imageAlt": "Lara Trevorrow, osteopath with Pilates training",
+      "cutout": true,
+      "videoPending": true
     }
   },
   "intro": {

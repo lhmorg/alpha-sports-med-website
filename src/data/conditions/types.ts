@@ -9,7 +9,7 @@ export interface Step { title: string; copy: string }
 export interface ConditionPage {
   seo: { title: string; description: string };
   breadcrumb: string;
-  hero: { eyebrow: string; heading: string; subheading: string; trust?: string[]; media?: { image: string; imageAlt: string; caption: string }; practitioner?: { name: string; role: string; image: string; imageAlt: string } };
+  hero: { eyebrow: string; heading: string; subheading: string; background?: string; trust?: string[]; media?: { image: string; imageAlt: string; caption: string }; practitioner?: { name: string; role: string; image: string; imageAlt: string; cutout?: boolean; videoId?: string; videoPending?: boolean } };
   urgent: { eyebrow: string; heading: string; paragraphs?: string[]; copy?: string; linkLabel?: string; linkUrl?: string };
   pattern?: { ghost?: string; eyebrow: string; heading: string; intro?: string; items: { title: string; kicker?: string; copy: string; link?: Link }[] };
   explainer?: { ghost?: string; eyebrow: string; heading: string; paragraphs: string[]; link?: Link };

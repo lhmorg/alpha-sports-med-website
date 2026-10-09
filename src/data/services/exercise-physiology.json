@@ -1,14 +1,17 @@
 {
   "breadcrumb": "Exercise physiology",
   "hero": {
+    "background": "/assets/images/services/banners/exercise-physiology.webp",
     "eyebrow": "Exercise physiology at Newport",
     "heading": "Exercise physiology in Melbourne",
     "subheading": "Work out where to start with exercise, or how to return to it, with Jordan Tripodi, Exercise Physiologist at our Newport clinic.",
     "practitioner": {
       "name": "Jordan Tripodi",
       "role": "Exercise Physiologist",
-      "image": "/assets/images/team/jordan-tripodi.jpg",
-      "imageAlt": "Jordan Tripodi, Exercise Physiologist at Alpha Sports Medicine"
+      "image": "/assets/images/team/heroes/jordan-tripodi-studio.webp",
+      "imageAlt": "Jordan Tripodi, Exercise Physiologist at Alpha Sports Medicine",
+      "cutout": true,
+      "videoPending": true
     }
   },
   "intro": {
